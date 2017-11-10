@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="翻译," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="index java的泛型通配符">
+<meta name="keywords" content="翻译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java 泛型指导手册(下）">
+<meta property="og:url" content="http://yoursite.com/2017/07/27/035JavaGenericPart3/index.html">
+<meta property="og:site_name" content="Paul">
+<meta property="og:description" content="index java的泛型通配符">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-07-27T05:41:09.403Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="java 泛型指导手册(下）">
+<meta name="twitter:description" content="index java的泛型通配符">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/07/27/035JavaGenericPart3/"/>
+
+
+
+
+
+  <title>java 泛型指导手册(下） | Paul</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Paul</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No choice for Now</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/27/035JavaGenericPart3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paul">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Paul">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">java 泛型指导手册(下）</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-27T11:38:03+08:00">
+                2017-07-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index">
+                    <span itemprop="name">java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="index"><a href="#index" class="headerlink" title="index"></a>index</h1><ol>
+<li>java的泛型通配符</li>
+</ol>
+<a id="more"></a>
+<h1 id="1-java的泛型通配符"><a href="#1-java的泛型通配符" class="headerlink" title="1. java的泛型通配符"></a>1. java的泛型通配符</h1><p><strong>Java Generic’s Wildcards</strong></p>
+<h2 id="基本的泛型集合赋值问题"><a href="#基本的泛型集合赋值问题" class="headerlink" title="基本的泛型集合赋值问题"></a>基本的泛型集合赋值问题</h2><p>想像一下你有如下的类型继承结构：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">public class A &#123; &#125;</span><br><span class="line">public class B extends A &#123; &#125;</span><br><span class="line">public class C extends A &#123; &#125;</span><br></pre></td></tr></table></figure>
+<p>类B和C是继承自A的</p>
+<p>然后请你看一看这两个List变量：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">List&lt;A&gt; listA = new ArrayList&lt;A&gt;();</span><br><span class="line">List&lt;B&gt; listB = new ArrayList&lt;B&gt;();</span><br></pre></td></tr></table></figure>
+<p>你能把listA指向listB吗？或者把listB指向listA？或者说明白点，这下面两行可以吗？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">listA = listB;</span><br><span class="line"></span><br><span class="line">listB = listA;</span><br></pre></td></tr></table></figure>
+<p>答案是不可以，两种情况都不可以，原因是：</p>
+<ul>
+<li>在listA中你能插入A的实例，或者其子类的实例（即B,C）。</li>
+</ul>
+<p>然后如果你再这样做：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">list&lt;B&gt; listB = listA;</span><br></pre></td></tr></table></figure>
+<p>然后你就开始冒险了，因为你想想，listA中很有可能包含非B类的实例。当你试着从listB中拿出对象，你冒险了，你有可能拿出一个不是B的对象（即：A或者C）。这就打破了之前的约定：在listB里我声明了，我只包含B类型的对象。</p>
+<ul>
+<li>将listB赋值给listA也会造成问题。</li>
+</ul>
+<p>详细地说：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">listA = listB；</span><br></pre></td></tr></table></figure>
+<p>如果你能做这样的赋值操作，这就意味着你也可以把A和C的实例插入listB中。你这样做的方法是通过listA的reference（引用），记住，listA之前就被声明为<code>List&lt;A&gt;</code>了。</p>
+<p>因此，你的动作约等于向类型是<code>list&lt;B&gt;</code>的listB中插入非B的实例。</p>
+<h2 id="什么时候我们不得不做这样古怪的赋值？"><a href="#什么时候我们不得不做这样古怪的赋值？" class="headerlink" title="什么时候我们不得不做这样古怪的赋值？"></a>什么时候我们不得不做这样古怪的赋值？</h2><p>上述的古怪的乱七八糟的赋值在你想制造一个可复用的方法时能用得到，特别是你在一些特定类型的集合间的操作时。</p>
+<p>想象你有一个方法来处理List里的元素，比如打印其中的元素吧。这大概看起来如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public void processElements(List&lt;A&gt; elements)&#123;</span><br><span class="line">   for(A o : elements)&#123;</span><br><span class="line">      System.out.println(o.getValue());</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个方法遍历A实例的list，然后调用<code>getValue()</code>（假设A类有这个方法）；</p>
+<p>正如我们在上述段落里看到的，你不能对listB和listC使用此方法。</p>
+<h2 id="泛型通配符"><a href="#泛型通配符" class="headerlink" title="泛型通配符"></a>泛型通配符</h2><p>泛型通配符就是为了解决上述问题。其目的有两个：</p>
+<ol>
+<li><p>读一个泛型集合</p>
+</li>
+<li><p>写入一个泛型集合</p>
+</li>
+</ol>
+<p>以下是用泛型通配符定义一个集合的方式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">List&lt;?&gt;           listUknown = new ArrayList&lt;A&gt;();</span><br><span class="line">List&lt;? extends A&gt; listUknown = new ArrayList&lt;A&gt;();</span><br><span class="line">List&lt;? super   A&gt; listUknown = new ArrayList&lt;A&gt;();</span><br></pre></td></tr></table></figure>
+<p>下面来解释一下这些奇怪的通配符是啥意思</p>
+<h2 id="未知通配符"><a href="#未知通配符" class="headerlink" title="未知通配符"></a>未知通配符</h2><p><code>List&lt;?&gt;</code>意指一个不知道类型的list。可能是<code>List&lt;A&gt;</code>,<code>List&lt;B&gt;</code>,<code>List&lt;C&gt;</code>,或者<code>List&lt;String&gt;</code>等等。</p>
+<p>既然你不知道其类型，你就不能贸然写入一个对象进去，你只能从中读。读出来你也要小心地把它当作最基本的Object类来对待。给你一个例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public void processElements(List&lt;?&gt; elements)&#123;</span><br><span class="line">   for(Object o : elements)&#123;</span><br><span class="line">      System.out.println(o);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>现在<code>processElements(p)</code>能被各种泛型列表被当作参数p传入后，进行调用。比如<code>List&lt;A&gt;</code>,<code>List&lt;B&gt;</code>,<code>List&lt;C&gt;</code>,或者<code>List&lt;String&gt;</code>等。给你一个可行的例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">List&lt;A&gt; listA = new ArrayList&lt;A&gt;();</span><br><span class="line"></span><br><span class="line">processElements(listA);</span><br></pre></td></tr></table></figure>
+<h2 id="扩展通配符边界"><a href="#扩展通配符边界" class="headerlink" title="扩展通配符边界"></a>扩展通配符边界</h2><p><code>List&lt;? extends A&gt;</code>意味着这是一个其容纳对象是A的实例，或者其子类实例（即B和C）的列表。</p>
+<p>当你知道其类型在A或者其子类范围内，你就可以安全地调用本来属于A的方法，至于对象是子类时，这时候会把子类自动转型为父类。例子如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public void processElements(List&lt;? extends A&gt; elements)&#123;</span><br><span class="line">   for(A a : elements)&#123;</span><br><span class="line">      System.out.println(a.getValue());</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>你现在可以调用<code>processElements()</code>,无论对象是A还是B，还是C，因此，以下所有的例子都是可行的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">List&lt;A&gt; listA = new ArrayList&lt;A&gt;();</span><br><span class="line">processElements(listA);</span><br><span class="line"></span><br><span class="line">List&lt;B&gt; listB = new ArrayList&lt;B&gt;();</span><br><span class="line">processElements(listB);</span><br><span class="line"></span><br><span class="line">List&lt;C&gt; listC = new ArrayList&lt;C&gt;();</span><br><span class="line">processElements(listC);</span><br></pre></td></tr></table></figure>
+<p>但是请记住，现在，（通过使用继承通配符时），你不能调用任何插入方法。因为你不知道他是A类，还是A的子类（即B，C），你不能把一个低完善程度的父类，放入具有更高完善度的子类列表中。低完善程度的父类（A）不会是高完善度子类（B和C）的实例，反过来是对的，即：A和A的子类（B和C）都是A或者A超类的实例</p>
+<h2 id="超类通配符边界"><a href="#超类通配符边界" class="headerlink" title="超类通配符边界"></a>超类通配符边界</h2><p><code>List&lt;? super A&gt;</code>意指列表类型可以是A或者A的超类（父类）</p>
+<p>当出现这种列表时，你能进行插入操作。不管是插入A类还是A的子类（即B和C）都是可以的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public static void insertElements(List&lt;? super A&gt; list)&#123;</span><br><span class="line">    list.add(new A());</span><br><span class="line">    list.add(new B());</span><br><span class="line">    list.add(new C());</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>记住，A和A的子类都是A或者A超类的实例。所以你能对<code>List&lt;? super A&gt;</code>的集合对象进行插入A或者A子类的操作。</p>
+<p>这样一来，你就可以对泛型为A或者A的超类的列表进行插入操作，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;A&gt;      listA      = new ArrayList&lt;A&gt;();</span><br><span class="line">insertElements(listA);</span><br><span class="line"></span><br><span class="line">List&lt;Object&gt; listObject = new ArrayList&lt;Object&gt;();</span><br><span class="line">insertElements(listObject);</span><br></pre></td></tr></table></figure>
+<p>这个<code>insertElements()</code>方法不可以进行任何读取操作，除非将读取的对象转型为Object类型。</p>
+<p>原因在于，储存在List里的对象是A或者A的超类，但是你就是不知道他超到哪个程度，所以你不可以贸然调用任何读取方法（当你写出对象名字时，你大概会调用其<code>toString()</code>,但是，因为超类对这个方法可能有修改，所以，任何出现对象名字的代码都是像在读取，而读取是有风险的）。但是向上转型是有极限的，所有类都继承自Object。当你转型为Object后，调用是安全的，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Object object = list.get(0);</span><br></pre></td></tr></table></figure>
+<p>但是以下是错的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">A object = list.get(0);</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/翻译/" rel="tag"># 翻译</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/24/035javaGenericPart2/" rel="next" title="java 泛型指导手册(中)">
+                <i class="fa fa-chevron-left"></i> java 泛型指导手册(中)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/30/036Android-Interview/" rel="prev" title="Android面试（Stormzhang的github工程）">
+                Android面试（Stormzhang的github工程） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paul</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#index"><span class="nav-number">1.</span> <span class="nav-text">index</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-java的泛型通配符"><span class="nav-number">2.</span> <span class="nav-text">1. java的泛型通配符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本的泛型集合赋值问题"><span class="nav-number">2.1.</span> <span class="nav-text">基本的泛型集合赋值问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么时候我们不得不做这样古怪的赋值？"><span class="nav-number">2.2.</span> <span class="nav-text">什么时候我们不得不做这样古怪的赋值？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#泛型通配符"><span class="nav-number">2.3.</span> <span class="nav-text">泛型通配符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#未知通配符"><span class="nav-number">2.4.</span> <span class="nav-text">未知通配符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#扩展通配符边界"><span class="nav-number">2.5.</span> <span class="nav-text">扩展通配符边界</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#超类通配符边界"><span class="nav-number">2.6.</span> <span class="nav-text">超类通配符边界</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paul</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

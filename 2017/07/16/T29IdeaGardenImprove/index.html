@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="design," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="index 一些UI优化的记录   回忆当时的依赖导致的问题">
+<meta name="keywords" content="design">
+<meta property="og:type" content="article">
+<meta property="og:title" content="思想花园提升记录">
+<meta property="og:url" content="http://yoursite.com/2017/07/16/T29IdeaGardenImprove/index.html">
+<meta property="og:site_name" content="Paul">
+<meta property="og:description" content="index 一些UI优化的记录   回忆当时的依赖导致的问题">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-07-28T14:34:01.440Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="思想花园提升记录">
+<meta name="twitter:description" content="index 一些UI优化的记录   回忆当时的依赖导致的问题">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/07/16/T29IdeaGardenImprove/"/>
+
+
+
+
+
+  <title>思想花园提升记录 | Paul</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Paul</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No choice for Now</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/16/T29IdeaGardenImprove/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paul">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Paul">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">思想花园提升记录</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-16T10:29:13+08:00">
+                2017-07-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="index"><a href="#index" class="headerlink" title="index"></a>index</h1><ol>
+<li>一些UI优化的记录</li>
+</ol>
+<ol>
+<li>回忆当时的依赖导致的问题</li>
+</ol>
+<a id="more"></a>
+<h1 id="1-一些UI优化的记录"><a href="#1-一些UI优化的记录" class="headerlink" title="1. 一些UI优化的记录"></a>1. 一些UI优化的记录</h1><ul>
+<li>nav_view中的颜色更改（见T29UI优化1.png)</li>
+</ul>
+<ul>
+<li>按钮（见T29UI优化2按钮部分.png）</li>
+</ul>
+<p>这个按钮优化，使用了shape.xml作为其背景，即可达到圆角。但是关于按钮透明度，已证实，不能用shape.xml的solid颜色的alpha值来指定，非常难看。</p>
+<h2 id="关于shape的一些要点"><a href="#关于shape的一些要点" class="headerlink" title="关于shape的一些要点"></a>关于shape的一些要点</h2><p><code>Shape的属性：
+ solid
+       描述：内部填充
+       属性：android:color 填充颜色
+  size
+       描述：大小
+       属性：
+                 android:width 宽
+                 android:height 高
+ gradient
+        描述：渐变色
+        属性：
+                   android:startColor渐变起始颜色
+                   android:endColor渐变结束颜色
+                   android:centerColor渐变中间颜色
+                   android:angle 渐变的角度，angle=0时，渐变色是从左向右，然后逆时针方向转；当angle=90时，渐变色从上往下。angle必然是45的倍数
+                   android:type 渐变类型：linear(线性)、radial(放射性，以开始色为中心)、sweep(扫描线式渐变)
+                   android:userLevel如果要使用LevelListDrawable对象，就要设置为true。设置true无渐变色，false有渐变色
+                   android:grdientRadial渐变半径，只有设置type为radial时，此值才生效
+                   android:centerX 渐变中心X点坐标的相对位置
+                   android:centerY 渐变中心Y点坐标的相对位置 
+stroke
+        描述：描边
+        属性： 
+                   android:width 描边宽度
+                   android:color 描边颜色
+                   android:dashwidth描边样式为虚线时的宽度，值为0时为实线，值大于0时为虚线
+                   android:dashGap 描边为虚线时，虚线之间的间隔
+corners
+        描述：圆角
+        属性：
+                   android:radius 四个角半径值
+                   android:topLeftRadius左上角半径值
+                   android:topRightRadius右上角半径值
+                   android:bottomLeftRadius右下角半径值
+                   android:bottomRightRadius左下角半径值
+padding
+        描述：内边距
+        属性：
+                   android:left 左内边距
+                   android:right 右内边距
+                   android:top 上内边距
+                   android:bottom 下内边距</code></p>
+<h1 id="2-回忆当时的依赖导致的问题"><a href="#2-回忆当时的依赖导致的问题" class="headerlink" title="2. 回忆当时的依赖导致的问题"></a>2. 回忆当时的依赖导致的问题</h1><h2 id="之前文章（开发思想花园的杂乱记录）中的记录"><a href="#之前文章（开发思想花园的杂乱记录）中的记录" class="headerlink" title="之前文章（开发思想花园的杂乱记录）中的记录"></a>之前文章（开发思想花园的杂乱记录）中的记录</h2><p>041320172151, 冲突!RichTExt和Bmob。而且添加Marker也好像内存不够了。</p>
+<p>已解决，这可能是关于gradle依赖管理的事情，我在StackOverFlow上面找到了一个解决方案：</p>
+<p><code>android {
+    compileSdkVersion 24
+    buildToolsVersion &quot;25.0.0&quot;
+    defaultConfig {
+        applicationId &quot;com.paul.t29bmobuserdemo&quot;
+        minSdkVersion 17
+        targetSdkVersion 24
+        versionCode 1
+        versionName &quot;1.0&quot;
+        testInstrumentationRunner &quot;android.support.test.runner.AndroidJUnitRunner&quot;
+        multiDexEnabled true//就是这一行好像可以解决，总之这个app暂时没有runtimeException了。
+    }
+    buildTypes {</code></p>
+<p>而后来在编译apk的时候，我找到一种可能最正确的方案：</p>
+<p><code>compile (&#39;com.zzhoujay.richtext:richtext:2.4.6&#39;){
+        exclude group: &#39;com.squareup.okhttp3&#39;, module: &#39;okhttp&#39;
+    }</code></p>
+<h2 id="在google官网的阅读解答"><a href="#在google官网的阅读解答" class="headerlink" title="在google官网的阅读解答"></a>在google官网的阅读解答</h2><p>应用及其引用的库达到特定大小时，我遇到了构建错误，指明应用已达到 Android 应用构建架构的极限，其报错没有截图，大概如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Conversion to Dalvik format failed:</span><br><span class="line">Unable to execute dex: method ID not in [0, 0xffff]: 65536</span><br><span class="line"></span><br><span class="line">或者在新的平台上：</span><br><span class="line"></span><br><span class="line">trouble writing output:</span><br><span class="line">Too many field references: 131000; max is 65536.</span><br><span class="line">You may try using --multi-dex option.</span><br></pre></td></tr></table></figure>
+<p>这些错误状况都会显示下面这个数字：65,536。这个数字很重要，因为它代表的是单个 Dalvik Executable (DEX) 字节码文件内的代码可调用的引用总数</p>
+<h2 id="原理解释："><a href="#原理解释：" class="headerlink" title="原理解释："></a>原理解释：</h2><p>Android 应用 (APK) 文件包含 Dalvik Executable (DEX) 文件形式的可执行字节码文件，其中包含用来运行我们的应用的已编译代码</p>
+<p>单个 DEX 文件内可引用的方法总数限制在 65,536，其中包括 Android 框架方法、库方法以及您自己代码中的方法</p>
+<h2 id="规避64K限制的方法："><a href="#规避64K限制的方法：" class="headerlink" title="规避64K限制的方法："></a>规避64K限制的方法：</h2><ol>
+<li><p>检查您的应用的直接和传递依赖项 - 确保您在应用中使用任何庞大依赖库所带来的好处大于为应用添加大量代码所带来的弊端。一种常见的反面模式是，仅仅为了使用几个实用方法就在应用中加入非常庞大的库。减少您的应用代码依赖项往往能够帮助您规避 dex 引用限制。</p>
+</li>
+<li><p>通过 ProGuard 移除未使用的代码 - 为您的版本构建启用代码压缩以运行 ProGuard。启用压缩可确保您交付的 APK 不含有未使用的代码。</p>
+</li>
+</ol>
+<ul>
+<li>其中，1就是我当时犯下的错误</li>
+</ul>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/design/" rel="tag"># design</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/16/T34ChatProApp/" rel="prev" title="打造一款专业级的聊天App">
+                打造一款专业级的聊天App <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paul</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#index"><span class="nav-number">1.</span> <span class="nav-text">index</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-一些UI优化的记录"><span class="nav-number">2.</span> <span class="nav-text">1. 一些UI优化的记录</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于shape的一些要点"><span class="nav-number">2.1.</span> <span class="nav-text">关于shape的一些要点</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-回忆当时的依赖导致的问题"><span class="nav-number">3.</span> <span class="nav-text">2. 回忆当时的依赖导致的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#之前文章（开发思想花园的杂乱记录）中的记录"><span class="nav-number">3.1.</span> <span class="nav-text">之前文章（开发思想花园的杂乱记录）中的记录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在google官网的阅读解答"><span class="nav-number">3.2.</span> <span class="nav-text">在google官网的阅读解答</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原理解释："><span class="nav-number">3.3.</span> <span class="nav-text">原理解释：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#规避64K限制的方法："><span class="nav-number">3.4.</span> <span class="nav-text">规避64K限制的方法：</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paul</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

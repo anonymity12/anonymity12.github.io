@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="翻译," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="index java中的类的泛型化  java中方法的泛型化">
+<meta name="keywords" content="翻译">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java 泛型指导手册(中)">
+<meta property="og:url" content="http://yoursite.com/2017/07/24/035javaGenericPart2/index.html">
+<meta property="og:site_name" content="Paul">
+<meta property="og:description" content="index java中的类的泛型化  java中方法的泛型化">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-07-26T03:21:50.597Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="java 泛型指导手册(中)">
+<meta name="twitter:description" content="index java中的类的泛型化  java中方法的泛型化">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/07/24/035javaGenericPart2/"/>
+
+
+
+
+
+  <title>java 泛型指导手册(中) | Paul</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Paul</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No choice for Now</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/24/035javaGenericPart2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paul">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Paul">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">java 泛型指导手册(中)</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-24T11:28:21+08:00">
+                2017-07-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/java/" itemprop="url" rel="index">
+                    <span itemprop="name">java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="index"><a href="#index" class="headerlink" title="index"></a>index</h1><ol>
+<li><p>java中的类的泛型化</p>
+</li>
+<li><p>java中方法的泛型化</p>
+</li>
+</ol>
+<a id="more"></a>
+<h1 id="1-java中的类的泛型化"><a href="#1-java中的类的泛型化" class="headerlink" title="1.java中的类的泛型化"></a>1.java中的类的泛型化</h1><p>[原文]（<a href="http://tutorials.jenkov.com/java-generics/classes.html）" target="_blank" rel="external">http://tutorials.jenkov.com/java-generics/classes.html）</a></p>
+<p>去泛型化你的java类也是可能的。泛型不限于javaAPI预先提供的那些类们。这里是一个示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">public class GenericFactory&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">    Class theClass = null;</span><br><span class="line"></span><br><span class="line">    public GenericFactory(Class theClass) &#123;</span><br><span class="line">        this.theClass = theClass;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public T createInstance()</span><br><span class="line">    throws IllegalAccessException, InstantiationException &#123;</span><br><span class="line">        return (T) this.theClass.newInstance();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>那个<code>&lt;T&gt;</code>表示这个类初始化的时候，是有一个类型（type）的。这里是个例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">GenericFactory&lt;MyClass&gt; factory =</span><br><span class="line">    new GenericFactory&lt;MyClass&gt;(MyClass.class);</span><br><span class="line"></span><br><span class="line">MyClass myClassInstance = factory.createInstance();</span><br></pre></td></tr></table></figure>
+<p>请注意，在使用<code>factory.createInstance()</code>的时候， 没有必要去转型，编译器会自动演算出<code>GenerateFactory</code>的泛型类型所指代的object的type</p>
+<p>每一个<code>GenericFactory</code>的实例都能被泛型化为不同的类型。这里有两个例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">GenericFactory&lt;MyClass&gt; factory =</span><br><span class="line">    new GenericFactory&lt;MyClass&gt;(MyClass.class);</span><br><span class="line"></span><br><span class="line">MyClass myClassInstance = factory.createInstance();</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">GenericFactory&lt;SomeObject&gt; factory =</span><br><span class="line">    new GenericFactory&lt;SomeObject&gt;(SomeObject.class);</span><br><span class="line"></span><br><span class="line">SomeObject someObjectInstance = factory.createInstance();</span><br></pre></td></tr></table></figure>
+<h1 id="2-java中方法的泛型化"><a href="#2-java中方法的泛型化" class="headerlink" title="2. java中方法的泛型化"></a>2. java中方法的泛型化</h1><p>在java中，去泛型化一个方法也是可以的。如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">public static &lt;T&gt; T addAndReturn(T element, Collection&lt;T&gt; collection)&#123;</span><br><span class="line">    collection.add(element);</span><br><span class="line">    return element;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这个方法同时指定了<code>element</code>和已经有泛型类型的<code>Collection</code>的类型（type）。<br>所以在上述的情况下，你可以在<code>collecion</code>里添加<code>element</code>。<br>然而，你用一个通配符来指定<code>collection</code>的泛型类型，再添加<code>element</code>进去，这就不行了。</p>
+<p>那么，编译器如何知道T的类型呢？</p>
+<p>答案就是：编译器在你使用这个方法时推断了出来。给你一个例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">String stringElement = &quot;stringElement&quot;;</span><br><span class="line">List&lt;String&gt; stringList = new ArrayList&lt;String&gt;();</span><br><span class="line"></span><br><span class="line">String theElement = addAndReturn(stringElement, stringList);    </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Integer integerElement = new Integer(123);</span><br><span class="line">List&lt;Integer&gt; integerList = new ArrayList&lt;Integer&gt;();</span><br><span class="line"></span><br><span class="line">Integer theElement = addAndReturn(integerElement, integerList);</span><br></pre></td></tr></table></figure>
+<p>请注意，我们是如何能用<code>String</code>和<code>Integer</code>还有他们对应的<code>collection</code>的。<br>编译器在你使用这些方法时（runtime）深深地知道，<code>T element</code>和<code>Collection&lt;T&gt; collection</code>的参数定义。</p>
+<p>编译器能完成更加牛逼的类型猜测。如下的调用是合法的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">String stringElement = &quot;stringElement&quot;;</span><br><span class="line">List&lt;Object&gt; objectList = new ArrayList&lt;Object&gt;();</span><br><span class="line"></span><br><span class="line">Object theElement = addAndReturn(stringElement, objectList);</span><br></pre></td></tr></table></figure>
+<p>这个例子中我们使用了两种不同的类型给<code>addAndReturn()</code>中的T：String和Object。<br>编译器会自动使用最合适的类型参数，以此让这个方法调用尽量正确。这里，它会猜测，T是<code>Object</code>（译者注：将String向上转型为Object是极为安全的）</p>
+<p>下面给出一个很不合法的例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Object objectElement = new Object();</span><br><span class="line">List&lt;String&gt; stringList = new ArrayList&lt;String&gt;();</span><br><span class="line"></span><br><span class="line">Object theElement = addAndReturn(objectElement, stringList);</span><br></pre></td></tr></table></figure>
+<p>这种情况下，为了方法调用是安全的，编译器会猜测T应该是个String类型。传到第一个位置的参数（T element）这里对应的<code>objectElement</code>应该为一个String，但是objectElement真的不是String啊，所以呢，编译器这个时候就会报错。</p>
+<h1 id="3-java泛型-类对象作为类型字面值"><a href="#3-java泛型-类对象作为类型字面值" class="headerlink" title="3. java泛型-类对象作为类型字面值"></a>3. java泛型-类对象作为类型字面值</h1><p>类对象也可以作为类型指定符，在runtime。举例，你可以个创建一个泛型化的方法如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public static &lt;T&gt; T getInstance(Class&lt;T&gt; theClass)</span><br><span class="line">    throws IllegalAccessException, InstantiationException &#123;</span><br><span class="line"></span><br><span class="line">    return theClass.newInstance();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这里是一些使用<code>getInstance()</code>的例子：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String string   = getInstance(String.class);</span><br><span class="line"></span><br><span class="line">MyClass myClass = getInstance(MyClass.class);</span><br></pre></td></tr></table></figure>
+<p>正如你所见，返回值类型随着你传什么类型的类对象进去。在应付数据库的很多API的时候这种手段很好用。如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">public static &lt;T&gt; T read(Class&lt;T&gt; theClass, String sql)</span><br><span class="line">    throws IllegalAccessException, InstantiationException &#123;</span><br><span class="line"></span><br><span class="line">    //execute SQL.</span><br><span class="line"></span><br><span class="line">    T o = theClass.newInstance();</span><br><span class="line">    //set properties via reflection.</span><br><span class="line"></span><br><span class="line">    return o;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>你能像下面一样，来调用call（）方法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Driver employee   = read(Driver.class, &quot;select * from drivers where id=1&quot;);</span><br><span class="line"></span><br><span class="line">Vehicle vehicle   = read(Vehicle.class, &quot;select * from vehicles where id=1&quot;);</span><br></pre></td></tr></table></figure>
+<p>java很聪明，不是吗？</p>
+<h1 id="4-java泛型-完善Iterable接口"><a href="#4-java泛型-完善Iterable接口" class="headerlink" title="4.java泛型-完善Iterable接口"></a>4.java泛型-完善Iterable接口</h1><p>（译者注：我跳过了for-each循环的翻译）</p>
+<p>你也可以对你自己的类使用for-each循环。为了能这样做，你要把自己的类完善<code>java.lang.Iterable&lt;E&gt;</code>接口。</p>
+<p>这里是基础示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">public class MyCollection&lt;E&gt; implements Iterable&lt;E&gt;&#123;</span><br><span class="line"></span><br><span class="line">    public Iterator&lt;E&gt; iterator() &#123;</span><br><span class="line">        return new MyIterator&lt;E&gt;();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>对应的<code>MyIterator</code>的骨架如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">public class MyIterator &lt;T&gt; implements Iterator&lt;T&gt; &#123;</span><br><span class="line"></span><br><span class="line">    public boolean hasNext() &#123;</span><br><span class="line">    </span><br><span class="line">        //implement...</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public T next() &#123;</span><br><span class="line">        //implement...;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    public void remove() &#123;</span><br><span class="line">        //implement... if supported.</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>然后你就能用for-each循环了：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">public static void main(String[] args) &#123;</span><br><span class="line">    MyCollection&lt;String&gt; stringCollection = new MyCollection&lt;String&gt;();</span><br><span class="line"></span><br><span class="line">    for(String string : stringCollection)&#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/翻译/" rel="tag"># 翻译</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/24/035javaGeneric-CSDN/" rel="next" title="java 泛型指导手册(上)">
+                <i class="fa fa-chevron-left"></i> java 泛型指导手册(上)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/27/035JavaGenericPart3/" rel="prev" title="java 泛型指导手册(下）">
+                java 泛型指导手册(下） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paul</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#index"><span class="nav-number">1.</span> <span class="nav-text">index</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-java中的类的泛型化"><span class="nav-number">2.</span> <span class="nav-text">1.java中的类的泛型化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-java中方法的泛型化"><span class="nav-number">3.</span> <span class="nav-text">2. java中方法的泛型化</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-java泛型-类对象作为类型字面值"><span class="nav-number">4.</span> <span class="nav-text">3. java泛型-类对象作为类型字面值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-java泛型-完善Iterable接口"><span class="nav-number">5.</span> <span class="nav-text">4.java泛型-完善Iterable接口</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paul</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="chat," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="index 节点，要点记录  优化，未来设想">
+<meta name="keywords" content="chat">
+<meta property="og:type" content="article">
+<meta property="og:title" content="打造一款专业级的聊天App">
+<meta property="og:url" content="http://yoursite.com/2017/07/16/T34ChatProApp/index.html">
+<meta property="og:site_name" content="Paul">
+<meta property="og:description" content="index 节点，要点记录  优化，未来设想">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-16T14:44:48.275Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="打造一款专业级的聊天App">
+<meta name="twitter:description" content="index 节点，要点记录  优化，未来设想">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/07/16/T34ChatProApp/"/>
+
+
+
+
+
+  <title>打造一款专业级的聊天App | Paul</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Paul</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No choice for Now</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/16/T34ChatProApp/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paul">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Paul">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">打造一款专业级的聊天App</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-16T16:39:10+08:00">
+                2017-07-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="index"><a href="#index" class="headerlink" title="index"></a>index</h1><ol>
+<li><p>节点，要点记录</p>
+</li>
+<li><p>优化，未来设想</p>
+</li>
+</ol>
+<a id="more"></a>
+<h1 id="1-节点，要点记录"><a href="#1-节点，要点记录" class="headerlink" title="1. 节点，要点记录"></a>1. 节点，要点记录</h1><p>07162017 添加activity_chat_dialogs.xml</p>
+<ul>
+<li>使用了android.support.design.widget.CoordinatorLayout.</li>
+</ul>
+<p>接着，为这个布局对应的Activity添加java代码：ChatDialogActivity.java</p>
+<h2 id="ChatDialogActivity-java"><a href="#ChatDialogActivity-java" class="headerlink" title="ChatDialogActivity.java"></a>ChatDialogActivity.java</h2><p>请记得在复写onResume()时，再次调用loadChatDialogs(); </p>
+<h3 id="说明一下这个ChatDialogActivity-java代码的两个函数："><a href="#说明一下这个ChatDialogActivity-java代码的两个函数：" class="headerlink" title="说明一下这个ChatDialogActivity.java代码的两个函数："></a>说明一下这个ChatDialogActivity.java代码的两个函数：</h3><ol>
+<li><p>createSessionForChat():正如其名，内部使用了SDK的某些我不知道的创建会话和同步的操作</p>
+</li>
+<li><p>loadChatDialogs():如名字，请求聊天消息，</p>
+</li>
+</ol>
+<h3 id="在loadChatDialogs-中"><a href="#在loadChatDialogs-中" class="headerlink" title="在loadChatDialogs()中"></a>在loadChatDialogs()中</h3><p>接着，在loadChatDialogs()中我们需要一个Adapter来加载消息，我们去做这个Adapter：ChatDialogAdapter.java: 它是一个典型的，优化过的，扩展自BaseAdapter的，为ListView设计的Adapter。</p>
+<p>值得注意的是：在Adapter 的getView（）中，使用了ColorGenerator和 TextDrawable.IBuilder（来自com.amulyakhare.textdrawable;），它们使得界面美观简洁。</p>
+<p>另外，这个Adapter加载的布局是:list_chat_dialog.xml:横向排列的一个imageView和两个TextView，组成了LinearLayout.</p>
+<h3 id="ChatDialogActivity-java代码的FloatingActionButton"><a href="#ChatDialogActivity-java代码的FloatingActionButton" class="headerlink" title="ChatDialogActivity.java代码的FloatingActionButton"></a>ChatDialogActivity.java代码的FloatingActionButton</h3><p>它目的是开启新的Activity：ListUserAcitivity.java</p>
+<h2 id="ListUserAcitivity-java"><a href="#ListUserAcitivity-java" class="headerlink" title="ListUserAcitivity.java"></a>ListUserAcitivity.java</h2><ol>
+<li><p>设计布局：列表加上一个添加新对话的按钮</p>
+</li>
+<li><p>retrieveAllUser()函数</p>
+</li>
+<li><p>设置按钮的监听事件，当选择多人时，自动为群聊：<code>createGroupChat()</code>;单人时：<code>createPrivateChat()</code>  </p>
+</li>
+<li><p>新建Common包和Common类。作用是：利用<code>createChatDialogName(List&lt;Integer&gt; qbUsers)</code>方法形成对话的标题</p>
+</li>
+<li><p>新建Holder包和QBUserHolder类，作用是：hold一些QB用户，另外观察其几个方法，可以得知，是容纳用户，形成列表，以及读取列表，其<code>getUserByIds(List&lt;Integer&gt; ids)</code>方法在XX类中被调用。</p>
+</li>
+</ol>
+<h2 id="待整理的部分"><a href="#待整理的部分" class="headerlink" title="待整理的部分"></a>待整理的部分</h2><ol>
+<li>在哪个构造方法中初始化某个SparseArray？</li>
+</ol>
+<p>A: 在<code>QBUsersHolder()</code>中，我需要更多知识，关于SparseArray（）</p>
+<ol>
+<li><p>关于listView的Adapter的getView（），请记得<code>return view</code>,而不是<code>return null</code>;</p>
+</li>
+<li><p>在API21上才有<code>backgroundTint</code>,所以导致在杨波手机以及4.4（API19）的手机上不能运行。要多多使用Lint。</p>
+</li>
+</ol>
+<h2 id="Part3-接受和发送消息"><a href="#Part3-接受和发送消息" class="headerlink" title="Part3,接受和发送消息"></a>Part3,接受和发送消息</h2><ol>
+<li><p>添加了新的maven仓库：jitpack.io和依赖<code>compile &#39;com.github.lguipeng:BubbleView:1.0.1&#39;</code></p>
+</li>
+<li><p>为ChatDialogActivity中的listView添加监听，用以打开新的聊天Activity</p>
+</li>
+<li><p>新建了上述的新的聊天Activity:ChatMessageActivity.java</p>
+</li>
+<li><p>新建了接收，发送消息的xml,其中使用了<code>com.github.library.bubbleview.BubbleTextView</code></p>
+</li>
+<li><p>新建MessageHolder,用以缓存消息。</p>
+</li>
+<li><p>新建MessageAdapter.java</p>
+</li>
+<li><p>ChatMessageActivity.java</p>
+</li>
+</ol>
+<h2 id="part4-part3-in-video，应该是视频typo-公开群聊"><a href="#part4-part3-in-video，应该是视频typo-公开群聊" class="headerlink" title="part4 (part3 in video，应该是视频typo)公开群聊"></a>part4 (part3 in video，应该是视频typo)公开群聊</h2><p>能够实现群聊的代码仅仅是:不知道。没有三台机子来测试群聊</p>
+<p>后来增加了一个系统通知的功能。在createSessionForChat()的login();</p>
+<p>x1. 添加了一个QBChatDialogHolder.java(单例模式的一个Holder，它在容纳对话框)</p>
+<ol>
+<li><p>返回ChatDialogActivity.java.完善processMessage();(缓存对话消息，具体行为是在QBChatDialogHolder.java补充<code>getAllChatDialogs()</code>);</p>
+</li>
+<li><p>为 <code>createSessionForChat()</code>添加<code>QBSystemMessageManager</code>,ChatDialogsActivity.java本身完善了<code>SystemMessageListener</code>接口。</p>
+</li>
+<li><p>在<code>loadChatDialogs()</code>,当从服务器得到数据时，尽快缓存所有对话</p>
+</li>
+</ol>
+<h1 id="part5（07262017）消息红点"><a href="#part5（07262017）消息红点" class="headerlink" title="part5（07262017）消息红点"></a>part5（07262017）消息红点</h1><ol>
+<li><p>修改<code>list_chat_dialog.xml</code>，以RelativeLayout的布局。</p>
+</li>
+<li><p>创建<code>QBUnreadMessageHolder</code>（又是一个单例模式）</p>
+</li>
+<li><p>修改<code>ChatDialogAdapters</code>的<code>getView（）</code>，像之前做用户首字母一样，用一个<code>TextDrawable</code>来做一个小红点（<code>image_unread</code>）</p>
+</li>
+</ol>
+<ol>
+<li>修改<code>ChatDialogsActivity.java</code>,得到未读消息返回的时候调用了<code>QBUnreadMessageHolder.getInstance().setBundle(bundle);</code></li>
+</ol>
+<p>5.在<code>createSessionForChat()</code>中，修改登录部分的代码，添加<code>IncomingMessageListener</code></p>
+<h1 id="part6-07282017-升级用户信息，退出"><a href="#part6-07282017-升级用户信息，退出" class="headerlink" title="part6(07282017)升级用户信息，退出"></a>part6(07282017)升级用户信息，退出</h1><p>审视：</p>
+<p>主要是完成了<code>UserProfile.java</code>；这个Activity 包含一系列EditText用于存储用户需要更新的信息。</p>
+<p>另外加上了一个菜单，用于退出。</p>
+<p>具体如何行动可以看代码，参考一下思路：</p>
+<p>获取当前用户的信息，并用输入EditText的信息进行更新，无非是绑定视图，获取文本，然后使用其API中的<code>QBUsers.updateUser(user).performAsync(new QBEntityCallback&lt;&gt;(){...});</code></p>
+<p>x。userprofile aty 添加 logout，不止为何，添加重新载入用户信息函数，</p>
+<p><em>这个我已经知道了，重载用户信息与logout并无关系，它是在initView后调用的，供用户看他们以前填的邮箱，手机，全名之类的信息。</em></p>
+<p>x+1. 在内部类中访问的Dialog应该被声明为final类型，这是为什么？</p>
+<p><em>这大概是inner class的一些特性，待求知。</em></p>
+<h1 id="part7-08162017-升级和删除信息"><a href="#part7-08162017-升级和删除信息" class="headerlink" title="part7(08162017)升级和删除信息"></a>part7(08162017)升级和删除信息</h1><ol>
+<li><p>add new menu file called “chat_message_context_menu”</p>
+</li>
+<li><p>inside <code>ChatMessageActivity</code>, we add 3 variables:</p>
+<p> int contextMenuIndexClicked = -1;<br> boolean isEditMode = false;<br> QBChatMessage editMessage;</p>
+</li>
+<li><p>register for Context Menu inside <code>initViews()</code></p>
+</li>
+<li><p>Override the <code>onCreateContextMenu()</code></p>
+</li>
+<li><p>Override the <code>onContextMenuItemSeleted()</code></p>
+</li>
+<li><p>将被点击的context menu的索引保存到一个全局变量里面</p>
+</li>
+<li><p>现在btnSend有两种状态：新状态，编辑状态</p>
+</li>
+<li><p>再添加升级和删除的实际实现，它们调用的是quickblox的api。</p>
+</li>
+</ol>
+<p>总结一下现在（08162017）有的bug：</p>
+<ol>
+<li>进行删除操作后，可能在列表里出现重复消息。</li>
+<li><p>在一个机子上更换用户登录，前一个用户扔有残留的迹象：（1）前人的对话列表可在后来者中出现。</p>
+</li>
+<li><p>我们能删除自己和别人的对话，但不能改变别人的消息，我们可以升级自己的消息</p>
+</li>
+</ol>
+<h1 id="2-优化，未来设想"><a href="#2-优化，未来设想" class="headerlink" title="2. 优化，未来设想"></a>2. 优化，未来设想</h1><ol>
+<li>将listView换成recyclerView，更加可爱和丰富的，紧凑的聊天界面：一字千金感。</li>
+</ol>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/chat/" rel="tag"># chat</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/16/T29IdeaGardenImprove/" rel="next" title="思想花园提升记录">
+                <i class="fa fa-chevron-left"></i> 思想花园提升记录
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/20/T34Localization/" rel="prev" title="T34Localization">
+                T34Localization <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paul</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#index"><span class="nav-number">1.</span> <span class="nav-text">index</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1-节点，要点记录"><span class="nav-number">2.</span> <span class="nav-text">1. 节点，要点记录</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ChatDialogActivity-java"><span class="nav-number">2.1.</span> <span class="nav-text">ChatDialogActivity.java</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#说明一下这个ChatDialogActivity-java代码的两个函数："><span class="nav-number">2.1.1.</span> <span class="nav-text">说明一下这个ChatDialogActivity.java代码的两个函数：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#在loadChatDialogs-中"><span class="nav-number">2.1.2.</span> <span class="nav-text">在loadChatDialogs()中</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ChatDialogActivity-java代码的FloatingActionButton"><span class="nav-number">2.1.3.</span> <span class="nav-text">ChatDialogActivity.java代码的FloatingActionButton</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ListUserAcitivity-java"><span class="nav-number">2.2.</span> <span class="nav-text">ListUserAcitivity.java</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#待整理的部分"><span class="nav-number">2.3.</span> <span class="nav-text">待整理的部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Part3-接受和发送消息"><span class="nav-number">2.4.</span> <span class="nav-text">Part3,接受和发送消息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#part4-part3-in-video，应该是视频typo-公开群聊"><span class="nav-number">2.5.</span> <span class="nav-text">part4 (part3 in video，应该是视频typo)公开群聊</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part5（07262017）消息红点"><span class="nav-number">3.</span> <span class="nav-text">part5（07262017）消息红点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part6-07282017-升级用户信息，退出"><span class="nav-number">4.</span> <span class="nav-text">part6(07282017)升级用户信息，退出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part7-08162017-升级和删除信息"><span class="nav-number">5.</span> <span class="nav-text">part7(08162017)升级和删除信息</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-优化，未来设想"><span class="nav-number">6.</span> <span class="nav-text">2. 优化，未来设想</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paul</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

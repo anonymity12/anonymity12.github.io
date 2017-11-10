@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="android," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="T41PopMovie 抄袭解析，来自lancer的github 阶段二，自己动手，丰衣足食2017-11-05 [TOC]">
+<meta name="keywords" content="android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="041PopMovie">
+<meta property="og:url" content="http://yoursite.com/2017/10/10/041PopMovie/index.html">
+<meta property="og:site_name" content="Paul">
+<meta property="og:description" content="T41PopMovie 抄袭解析，来自lancer的github 阶段二，自己动手，丰衣足食2017-11-05 [TOC]">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-11-10T02:37:16.957Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="041PopMovie">
+<meta name="twitter:description" content="T41PopMovie 抄袭解析，来自lancer的github 阶段二，自己动手，丰衣足食2017-11-05 [TOC]">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/10/10/041PopMovie/"/>
+
+
+
+
+
+  <title>041PopMovie | Paul</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Paul</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No choice for Now</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/10/041PopMovie/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paul">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Paul">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">041PopMovie</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-10T16:02:34+08:00">
+                2017-10-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/code/" itemprop="url" rel="index">
+                    <span itemprop="name">code</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>T41PopMovie</p>
+<p>抄袭解析，来自lancer的github</p>
+<p>阶段二，自己动手，丰衣足食2017-11-05</p>
+<p>[TOC]</p>
+<a id="more"></a>
+<h1 id="一，从依赖入手"><a href="#一，从依赖入手" class="headerlink" title="一，从依赖入手"></a>一，从依赖入手</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">compile &apos;com.android.support:design:25.3.1&apos;</span><br><span class="line">compile &apos;com.squareup.picasso:picasso:2.5.2&apos;</span><br><span class="line">compile &apos;com.squareup.retrofit2:retrofit:2.3.0&apos;</span><br><span class="line">compile &apos;com.squareup.retrofit2:adapter-rxjava2:2.3.0&apos;</span><br><span class="line">compile &apos;com.squareup.retrofit2:converter-gson:2.3.0&apos;</span><br><span class="line">compile &apos;com.squareup.okhttp3:okhttp:3.9.0&apos;</span><br><span class="line">compile &apos;io.reactivex.rxjava2:rxjava:2.1.3&apos;</span><br><span class="line">compile &apos;io.reactivex.rxjava2:rxandroid:2.0.1&apos;</span><br></pre></td></tr></table></figure>
+<p>可以看到几个有名的依赖：</p>
+<p>picasso, retrofit2, okhttp3, rxjava2</p>
+<p>其使用的地方分别是图片加载，网络，以及有关于异步处理的方面</p>
+<h1 id="二，从看得见的入手"><a href="#二，从看得见的入手" class="headerlink" title="二，从看得见的入手"></a>二，从看得见的入手</h1><h2 id="MainActivity"><a href="#MainActivity" class="headerlink" title="MainActivity"></a>MainActivity</h2><p>这个工程里一般都采用使用一个Activity托管一个fragment的方式，所以MainActivity在继承<code>SingleFragmentActivity</code><br>后，按照<code>SingleFragmentActivity</code>的要求，实现了<code>abstract Fragment createFragment();</code>方法。</p>
+<p>然后在给定的<code>activity_fragment</code>布局里创建了对应位置（仅有一个FrameLayout的那个位置）上的fragment：MainFragment</p>
+<h2 id="MainFragment"><a href="#MainFragment" class="headerlink" title="MainFragment"></a>MainFragment</h2><p>这是个需要细细讲解的fragment</p>
+<h3 id="先从布局来看："><a href="#先从布局来看：" class="headerlink" title="先从布局来看："></a>先从布局来看：</h3><p><code>FrameLayout</code>里包含一个<code>SwipeRefreshLayout</code>（SwipeRefreshLayout里面又有个很主要的<code>RecyclerView</code>）</p>
+<p>一个textView和一个<code>ContentLoadingProgressBar</code></p>
+<h3 id="再从代码角度看："><a href="#再从代码角度看：" class="headerlink" title="再从代码角度看："></a>再从代码角度看：</h3><p>190行代码里</p>
+<h4 id="首先从其实现的接口看看："><a href="#首先从其实现的接口看看：" class="headerlink" title="首先从其实现的接口看看："></a>首先从其实现的接口看看：</h4><p><code>LoaderManager.LoaderCallbacks&lt;Void&gt;, MainAdapter.ListItemClickListener, SwipeRefreshLayout.OnRefreshListener</code></p>
+<p>一个关于Loader的callback，一个适配器的项目点击处理的监听器，一个滑动刷新的监听器</p>
+<h4 id="然后看看类内部的："><a href="#然后看看类内部的：" class="headerlink" title="然后看看类内部的："></a>然后看看类内部的：</h4><p>首先是一些控件对象的变量声明</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">private RecyclerView mMainRecyclerView;</span><br><span class="line">private MainAdapter mMainAdapter;</span><br><span class="line">private List&lt;Movie&gt; mMovieList;</span><br><span class="line"></span><br><span class="line">private SwipeRefreshLayout mMainRefresh;</span><br><span class="line">private TextView mMainErrorTextView;</span><br><span class="line">private ContentLoadingProgressBar mMainLoading;</span><br></pre></td></tr></table></figure>
+<p>然后可以看到一般的fragment的声明周期的前面两个事件：</p>
+<p><code>onCreate</code>和<code>onCreateView</code></p>
+<p>在<code>onCreate()</code>里，就只有一下两行，其目的大概是在设备方向改变是保持fragment状态，和他注释里说的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">setRetainInstance(true);</span><br><span class="line">//想让Fragment中的onCreateOptionsMenu生效必须先调用setHasOptionsMenu方法</span><br><span class="line">setHasOptionsMenu(true);</span><br></pre></td></tr></table></figure>
+<p>在<code>onCreateView（）</code>里是对视图的初始化：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">View view = inflater.inflate(R.layout.fragment_main, container, false);</span><br><span class="line">mMainErrorTextView = (TextView) view.findViewById(R.id.tv_main_error);</span><br><span class="line">mMainLoading = (ContentLoadingProgressBar) view.findViewById(R.id.pb_main_loading);</span><br><span class="line">mMainRefresh = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh);</span><br><span class="line"></span><br><span class="line">mMainRefresh.setColorSchemeResources(R.color.colorPrimary);</span><br><span class="line">mMainRefresh.setOnRefreshListener(this);</span><br><span class="line"></span><br><span class="line">mMainRecyclerView = (RecyclerView) view.findViewById(R.id.rcv_main);</span><br><span class="line">LinearLayoutManager layoutManager = new GridLayoutManager(getContext(), 2);</span><br><span class="line">mMainRecyclerView.setLayoutManager(layoutManager);</span><br><span class="line">mMainRecyclerView.setHasFixedSize(true);</span><br><span class="line">mMainAdapter = new MainAdapter(view.getContext(), this);</span><br><span class="line">mMainRecyclerView.setAdapter(mMainAdapter);</span><br><span class="line"></span><br><span class="line">initData();</span><br><span class="line">return view;</span><br></pre></td></tr></table></figure>
+<p>再说<code>onCreateView（）</code>里面调用到的<code>initData()</code></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (NetworkUtil.isNetworkAvailableAndConnected(getContext())) &#123;</span><br><span class="line">           showSuccessView();</span><br><span class="line">           getLoaderManager().initLoader(<span class="number">0</span>, <span class="keyword">null</span>, <span class="keyword">this</span>);<span class="comment">//?</span></span><br><span class="line">       &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">           showErrorView();</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure>
+<p>除去initData（）里的简单UI代码，我们要好好了解<code>getLoaderManager().initLoader(0, null, this);</code>的使用</p>
+<p>然后这里给出<code>initLoader</code>的声明源码（来自LoaderManager）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> &lt;D&gt; <span class="function">Loader&lt;D&gt; <span class="title">initLoader</span><span class="params">(<span class="keyword">int</span> id, Bundle args,</span></span></span><br><span class="line"><span class="function"><span class="params">            LoaderManager.LoaderCallbacks&lt;D&gt; callback)</span></span>;</span><br></pre></td></tr></table></figure>
+<p>一旦开始了<code>initData（）</code>Loader就会被调用（调用的方式就是<code>getLoaderManager().initLoader(0, null, this);</code>），这里将被调用的是我们之后会提及的MainLoader.java</p>
+<p>如果你需要知道详细的调用以及Loader的工作流程，你应该去查看LoaderManager的源码。</p>
+<p>总之，我们需要知道的是，在我们当前讨论的MainFragment里，fragment会调用Loader来进行后台任务（任务在这里提前说一下：1.实例化<code>MovieLab</code>，2.解析从网络util包的一个工具类发来的<code>responseData</code>，从Json解析到moviewList实例里的每一个movie实例里）</p>
+<p>一旦loader好了，就会调用<code>onLoadFinished（）</code>，这里面，我们用得到的MovieList数据，采用adapter来控制view的显示（by：<code>mMainAdapter.refreshMovieList(mMovieList);</code>）</p>
+<p>好了，关于MainFragment我们就说这么多</p>
+<h2 id="DetailPagerActivity"><a href="#DetailPagerActivity" class="headerlink" title="DetailPagerActivity"></a>DetailPagerActivity</h2><p>在MainFragment里点击一个gridView般的RecyclerView里的一个item，就会跳转到这里。所以现在来讲讲它。</p>
+<h3 id="从布局开始说起"><a href="#从布局开始说起" class="headerlink" title="从布局开始说起"></a>从布局开始说起</h3><p>我们需要的是<code>CollapsingToolbarLayout</code>，使用这个能达到像bilibili播放视频时的那种页面。</p>
+<p>我们在看到实际的app后，就请把这个布局分成两部分：1：电影图片（对应<code>AppBarLayout</code>里的<code>CollapsingToolbarLayout</code>的<code>ImageView</code>），2：电影的细节的fragment（对应ViewPager）</p>
+<p>具体关于<code>CollapsingToolbarLayout</code>解释你可以参考一下几篇博客：</p>
+<p><a href="http://blog.csdn.net/u010687392/article/details/46906657" target="_blank" rel="external">http://blog.csdn.net/u010687392/article/details/46906657</a></p>
+<p><a href="http://www.jianshu.com/p/06c0ae8d9a96" target="_blank" rel="external">http://www.jianshu.com/p/06c0ae8d9a96</a></p>
+<p><a href="http://blog.csdn.net/baidu_31093133/article/details/52807465" target="_blank" rel="external">http://blog.csdn.net/baidu_31093133/article/details/52807465</a></p>
+<hr>
+<p>如果你自己复制原工程的代码，如果没有好好看看原来的<code>AndroidManifest.xml</code>，就会导致一些对<code>DetailPagerActivity</code>布局的设置冲突问题</p>
+<p>（比如，关于toolbar和窗口本身提供ActionBar冲突问题，如下：</p>
+<p><code>This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.</code>）</p>
+<p>（如果你看不懂了，我来解释一下：原因是我没有为设置DetailPagerActivity设置合适的theme，合适的theme如下（标注  注意这个设置 的是我最开始没有设置的）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;style name=&quot;DetailTheme&quot; parent=&quot;AppTheme&quot;&gt;</span><br><span class="line">        &lt;item name=&quot;windowActionBar&quot;&gt;false&lt;/item&gt;注意这个设置</span><br><span class="line">        &lt;item name=&quot;windowNoTitle&quot;&gt;true&lt;/item&gt;注意这个设置</span><br><span class="line">        &lt;item name=&quot;android:windowIsTranslucent&quot;&gt;true&lt;/item&gt;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<p>一旦你对布局熟悉一下了，那么就再从代码说起</p>
+<h3 id="从代码说起"><a href="#从代码说起" class="headerlink" title="从代码说起"></a>从代码说起</h3><p>首先说<code>Intent newIntent（Context context, Movie movie）</code>这个静态方法</p>
+<p>这是一个很好的开启第二个Activity的习惯，你只要多用这种方式开启一个Activity就好，反正就是好。</p>
+<p>然后就是初始化<code>onCreate（）</code>，这里面会调用<code>initViewPager()</code>和<code>initCollapsingToolBar()</code></p>
+<p>最后就是对菜单的一些动作，让菜单中包含一个分享按钮</p>
+<ul>
+<li>简单说一下<code>initViewPager()</code>：</li>
+</ul>
+<p>ViewPager这个控件会装载上一个<code>FragmentStatePagerAdapter(fragmentManager)</code>，简单地说，这个<code>FragmentStatePagerAdapter(fragmentManager)</code>能支持大量的fragment的替换动作，每次我们对ViewPager滑动，就会生成新的页面，总结就是：它只保留当前页面，当页面离开视线后，就会被消除，释放其资源；而在页面需要显示时，生成新的页面</p>
+<p>在对ViewPager设置监听器<code>mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener()</code>，并重写<code>onPageSelected()</code>方法，在<code>onPageSelected()</code>方法里，会使用<code>Picasso</code>来加载图片。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Picasso.with(DetailPagerActivity.this)</span><br><span class="line">                        .load(&quot;http://image.tmdb.org/t/p/w780/&quot; + mMovieList.get(position).getBackdrop_path())</span><br><span class="line">                        .into(mBackdropImageView);</span><br></pre></td></tr></table></figure>
+<p>还有一点注意：ViewPager默认值显示PageAdapter中的第一个列表项，要显示列表项，可设置ViewPager当前要显示的列表项为movie数组中指定位置的列表项，这里用一个for循环即可：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">for (int i = 0; i &lt; mMovieList.size(); i++) &#123;</span><br><span class="line">            if (mMovieList.get(i).getId() == mMovie.getId()) &#123;</span><br><span class="line">                mViewPager.setCurrentItem(i);//i是一个指示器吗?恩，指示我们应该把当前item设置到哪个位置</span><br><span class="line">                break;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>简单说一下<code>initCollapsingToolBar()</code></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">private void initCollapsingToolBar() &#123;</span><br><span class="line">    setSupportActionBar(mToolbar);</span><br><span class="line">    ActionBar actionBar = getSupportActionBar();</span><br><span class="line">    if (actionBar != null) &#123;</span><br><span class="line">        actionBar.setDisplayHomeAsUpEnabled(true);</span><br><span class="line">    &#125;</span><br><span class="line">    mCollapsingToolbarLayout.setTitleEnabled(true);</span><br><span class="line">    Picasso.with(this)</span><br><span class="line">            .load(&quot;http://image.tmdb.org/t/p/w780/&quot; + mMovie.getBackdrop_path())</span><br><span class="line">            .into(mBackdropImageView);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>内容不多，就是初始化我们的toolBar，装载图片</p>
+<h1 id="三，从看不见的再深入剖析这个工程"><a href="#三，从看不见的再深入剖析这个工程" class="headerlink" title="三，从看不见的再深入剖析这个工程"></a>三，从看不见的再深入剖析这个工程</h1><h2 id="由DetailPagerActivity带出的其他议题"><a href="#由DetailPagerActivity带出的其他议题" class="headerlink" title="由DetailPagerActivity带出的其他议题"></a>由DetailPagerActivity带出的其他议题</h2><p>至此我们把能看到的东西都走了一遍，在DetailFragment加载的地方，你大概会注意到一个LazyLoad的地方，这个就是懒加载了。关于懒加载，你可以参考这篇文章：</p>
+<p><a href="http://blog.csdn.net/maosidiaoxian/article/details/38300627" target="_blank" rel="external">http://blog.csdn.net/maosidiaoxian/article/details/38300627</a></p>
+<p>讲解了为何我们使用懒加载：一个Activity里面可能会以viewpager（或其他容器）与多个Fragment来组合使用，而如果每个fragment都需要去加载数据，或从本地加载，或从网络加载，那么在这个activity刚创建的时候就变成需要初始化大量资源。这样的结果，我们当然不会满意。那么，能不能做到当切换到这个fragment的时候，它才去初始化呢？答案就在Fragment里的setUserVisibleHint这个方法里。该方法用于告诉系统，这个Fragment的UI是否是可见的。所以我们只需要继承Fragment并重写该方法，即可实现在fragment可见时才进行数据加载操作，即Fragment的懒加载。</p>
+<p>另外值得注意的一个知识点就是parcelable了：</p>
+<p>我们在db这个包里，Movie类就是实现parcelable接口的一个类，关于为何使用parcelable和使用它的效果，你可以参考这篇文章：</p>
+<p><a href="http://www.cnblogs.com/renqingping/archive/2012/10/25/Parcelable.html" target="_blank" rel="external">http://www.cnblogs.com/renqingping/archive/2012/10/25/Parcelable.html</a></p>
+<h1 id="阶段一结束语"><a href="#阶段一结束语" class="headerlink" title="阶段一结束语"></a>阶段一结束语</h1><p>这个精简的工程没有使用到数据库和retrofit。</p>
+<h1 id="阶段二笔记"><a href="#阶段二笔记" class="headerlink" title="阶段二笔记"></a>阶段二笔记</h1><h3 id="如果你请求一个预告片，用以下的url，但是如何实现播放呢？"><a href="#如果你请求一个预告片，用以下的url，但是如何实现播放呢？" class="headerlink" title="如果你请求一个预告片，用以下的url，但是如何实现播放呢？"></a>如果你请求一个预告片，用以下的url，但是如何实现播放呢？</h3><p><a href="https://api.themoviedb.org/3/movie/346364/videos?api_key=3ac64d01d1011b15e9f200670abe0b0d" target="_blank" rel="external">https://api.themoviedb.org/3/movie/346364/videos?api_key=3ac64d01d1011b15e9f200670abe0b0d</a></p>
+<h3 id="收藏一个电影，大概需要ContentProvider，如何用cp实现收藏"><a href="#收藏一个电影，大概需要ContentProvider，如何用cp实现收藏" class="headerlink" title="收藏一个电影，大概需要ContentProvider，如何用cp实现收藏"></a>收藏一个电影，大概需要ContentProvider，如何用cp实现收藏</h3><p>你需要借鉴一下S09。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/android/" rel="tag"># android</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/21/TecentInterview/" rel="next" title="腾讯初面试总结">
+                <i class="fa fa-chevron-left"></i> 腾讯初面试总结
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/11/10/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paul</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">21</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          <div class="links-of-author motion-element">
+            
+          </div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一，从依赖入手"><span class="nav-number">1.</span> <span class="nav-text">一，从依赖入手</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二，从看得见的入手"><span class="nav-number">2.</span> <span class="nav-text">二，从看得见的入手</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#MainActivity"><span class="nav-number">2.1.</span> <span class="nav-text">MainActivity</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#MainFragment"><span class="nav-number">2.2.</span> <span class="nav-text">MainFragment</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#先从布局来看："><span class="nav-number">2.2.1.</span> <span class="nav-text">先从布局来看：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#再从代码角度看："><span class="nav-number">2.2.2.</span> <span class="nav-text">再从代码角度看：</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#首先从其实现的接口看看："><span class="nav-number">2.2.2.1.</span> <span class="nav-text">首先从其实现的接口看看：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后看看类内部的："><span class="nav-number">2.2.2.2.</span> <span class="nav-text">然后看看类内部的：</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#DetailPagerActivity"><span class="nav-number">2.3.</span> <span class="nav-text">DetailPagerActivity</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#从布局开始说起"><span class="nav-number">2.3.1.</span> <span class="nav-text">从布局开始说起</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#从代码说起"><span class="nav-number">2.3.2.</span> <span class="nav-text">从代码说起</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三，从看不见的再深入剖析这个工程"><span class="nav-number">3.</span> <span class="nav-text">三，从看不见的再深入剖析这个工程</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#由DetailPagerActivity带出的其他议题"><span class="nav-number">3.1.</span> <span class="nav-text">由DetailPagerActivity带出的其他议题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#阶段一结束语"><span class="nav-number">4.</span> <span class="nav-text">阶段一结束语</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#阶段二笔记"><span class="nav-number">5.</span> <span class="nav-text">阶段二笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#如果你请求一个预告片，用以下的url，但是如何实现播放呢？"><span class="nav-number">5.0.1.</span> <span class="nav-text">如果你请求一个预告片，用以下的url，但是如何实现播放呢？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#收藏一个电影，大概需要ContentProvider，如何用cp实现收藏"><span class="nav-number">5.0.2.</span> <span class="nav-text">收藏一个电影，大概需要ContentProvider，如何用cp实现收藏</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paul</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.3</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.3"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
