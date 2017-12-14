@@ -92,7 +92,7 @@
 <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/250px-Data_stack.svg.png">
 <meta property="og:image" content="https://github.com/stormzhang/android-interview-questions-cn/blob/master/assets/overloading-vs-overriding.png">
 <meta property="og:image" content="https://www.techsfo.com/blog/wp-content/uploads/2014/08/complete_android_fragment_lifecycle.png">
-<meta property="og:updated_time" content="2017-11-26T03:52:56.129Z">
+<meta property="og:updated_time" content="2017-12-06T03:38:11.986Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android面试（Stormzhang的github工程）">
 <meta name="twitter:description" content="Android 面试指南这是我自己fork  Stormzhang的github工程来的翻译，填充一些问题的答案">
@@ -730,8 +730,10 @@
 <p>Dialog和PopupWindow，Toast，Snackbar一样，都是内置的Window对象，他们通过window显示封装好的显示控件。<br>而Window表示的是一个窗口的概念，它是一个抽象类，它的具体实现是PhoneWindow。<br>Dialog和Activity的显示逻辑都是一样的，都是内部管理着一个Window对象，用Window对象实现界面的加载和显示逻辑</p>
 </li>
 <li><p>解释下 Android 的 View 。</p>
+<p>Activity是一个工人，它来控制Window；Window是一面显示屏，用来显示信息；<br>View就是要显示在显示屏上的信息，这些View都是层层重叠在一起（通过infalte()和addView()）放到Window显示屏上的。<br>而LayoutInfalter就是用来生成View的一个工具，XML布局文件就是用来生成View的原料</p>
 </li>
 <li><p>你能创建自定义 View 吗？具体是如何创建的？</p>
+<p>可以通过三种方式，分别是：组合控件、自绘控件和继承控件。待完善</p>
 </li>
 <li><p>什么是 ViewGroup ，它与 View 的区别在哪里？</p>
 </li>
@@ -1109,7 +1111,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-count">24</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1131,7 +1133,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
