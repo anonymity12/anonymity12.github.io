@@ -1,3 +1,9 @@
+---
+title: SDE命令汇总
+date: 2019-02-17 13:12:02
+tags: sde
+---
+
 命令汇总
 
 [TOC]
@@ -16,6 +22,8 @@
 ## 进入switch 状态
 
 	./run_switchd.sh -p switch
+
+<!--more-->
 
 然后可以看到：
 
