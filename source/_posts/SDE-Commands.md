@@ -1,9 +1,3 @@
----
-title: SDE命令汇总
-date: 2019-02-17 13:12:02
-tags: sde
----
-
 命令汇总
 
 [TOC]
@@ -22,8 +16,6 @@ tags: sde
 ## 进入switch 状态
 
 	./run_switchd.sh -p switch
-
-<!--more-->
 
 然后可以看到：
 
@@ -69,6 +61,14 @@ tags: sde
 
 	o prbs-clnup <dev_id> <port_str>
 
-	//退出pm
-	
-	exit
+## 常见错误：
+
+Please load driver with bf_kdrv_mod_load script. Exiting.
+
+### 方法：
+
+参考：3.3内核模块驱动
+
+	cd $SDE
+	sudo install/bin/bf_kdrv_mod_load $SDE_INSTALL
+
