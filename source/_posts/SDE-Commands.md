@@ -68,3 +68,7 @@ tags: sde
 	o prbs-set <dev_id> <port_str> <prbs_speed (10G, 25G)> <prbs_mode (31, 23, 15, 13, 11, 9, 7)>
 
 	o prbs-clnup <dev_id> <port_str>
+
+	//退出pm
+	
+	exit
