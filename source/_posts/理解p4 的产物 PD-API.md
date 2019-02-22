@@ -35,3 +35,8 @@ tags: sde
 那么要立即bfshell 如何加载的如下文件（以myprog 为例）
 
 ![image](https://wx1.sinaimg.cn/large/005JrW9Kgy1g0cymj7of2j30ad0b9749.jpg)
+
+# thrift RPC 开放一些client 可用的api
+
+
+具体见  python的pd_thrift调用.md 
