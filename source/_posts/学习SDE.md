@@ -164,16 +164,6 @@ using namespace std;
 using boost::shared_ptr;
 
 
-    // boost::shared_ptr<TTransport> socket(new TSocket(LOCALHOST, THRIFT_PORT));
-    // boost::shared_ptr<TTransport> transport(new TBufferedTransport(socket));
-    // boost::shared_ptr<TProtocol> protocol(new TBinaryProtocol(transport));
-    // boost::shared_ptr<TProtocol> hostif_protocol(new TMultiplexedProtocol(protocol, HOSTIF_NAME));
-    // boost::shared_ptr<TProtocol> pal_protocol(new TMultiplexedProtocol(protocol, PAL_NAME));
-    
-    // hostifClient client(hostif_protocol);
-    // palClient palclient(pal_protocol);
-
-
 int main() {
     boost::shared_ptr<TSocket> socket(new TSocket("192.168.193.102", 9090));
     boost::shared_ptr<TTransport> transport(new TBufferedTransport(socket));
@@ -202,7 +192,7 @@ int main() {
 ```
 
 
-
+![image](https://wx2.sinaimg.cn/large/005JrW9Kgy1g0if95ca94j30fm035jr7.jpg)
 
 
 
