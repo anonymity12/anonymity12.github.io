@@ -10,6 +10,32 @@ bf 的 SDE命令汇总
 
 [TOC]
 
+# 故障性命令
+
+## 网络连接
+
+修改/etc/network/interfaces文件配置如下：
+	
+	$ vi /etc/network/interfaces
+	auto ma1
+	iface ma1 inet dhcp
+
+
+配置完成后重启网络即可生效：
+	
+	$ /etc/init.d/networking restart
+
+
+## 加载内核
+
+内核模块驱动
+
+bf_kdrv.ko是Tofino设备的标准内核模块驱动，通过以下命令加载bf_kdrv.ko
+
+
+	cd $SDE
+	sudo install/bin/bf_kdrv_mod_load $SDE_INSTALL
+
 
 
 ## 环境变量设置
