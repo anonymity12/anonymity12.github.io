@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="sde,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="描述SDE 和 OS 的关系，来明白我们如何 对接RGOS 描述 SDE 编译出来的 thrift 代码，以及实现一个 简单的控制面">
+<meta name="keywords" content="sde">
+<meta property="og:type" content="article">
+<meta property="og:title" content="学习SDE">
+<meta property="og:url" content="http://yoursite.com/2019/02/16/学习SDE/index.html">
+<meta property="og:site_name" content="ANoteBook">
+<meta property="og:description" content="描述SDE 和 OS 的关系，来明白我们如何 对接RGOS 描述 SDE 编译出来的 thrift 代码，以及实现一个 简单的控制面">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/005JrW9Kgy1g0ezqr7d3tj30b50h475l.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/005JrW9Kgy1g0cqgb18p3j30pe0exgnf.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/005JrW9Kgy1g0eyvde20vj30uf0k8k0l.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/005JrW9Kgy1g0ez0gtwhij30al09t747.jpg">
+<meta property="og:image" content="https://wx4.sinaimg.cn/large/005JrW9Kgy1g0ezx1iqruj30cu04ha9w.jpg">
+<meta property="og:image" content="https://wx4.sinaimg.cn/large/005JrW9Kgy1g0ezxbi682j30cv0d1mx8.jpg">
+<meta property="og:image" content="https://ws2.sinaimg.cn/large/005JrW9Kgy1g0ezs31el8j3094052t8k.jpg">
+<meta property="og:image" content="https://wx1.sinaimg.cn/large/005JrW9Kgy1g0eyxtwl4wj30k301qt8i.jpg">
+<meta property="og:image" content="https://wx2.sinaimg.cn/large/005JrW9Kgy1g0if95ca94j30fm035jr7.jpg">
+<meta property="og:updated_time" content="2019-08-16T13:45:37.360Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="学习SDE">
+<meta name="twitter:description" content="描述SDE 和 OS 的关系，来明白我们如何 对接RGOS 描述 SDE 编译出来的 thrift 代码，以及实现一个 简单的控制面">
+<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/005JrW9Kgy1g0ezqr7d3tj30b50h475l.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/02/16/学习SDE/">
+
+
+
+
+
+  <title>学习SDE | ANoteBook</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">ANoteBook</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/16/学习SDE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paulkg">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ANoteBook">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">学习SDE</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-16T13:12:02+08:00">
+                2019-02-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>描述SDE 和 OS 的关系，来明白我们如何 对接RGOS</p>
+<p>描述 SDE 编译出来的 thrift 代码，以及实现一个 简单的控制面</p>
+<a id="more"></a>
+<p>[TOC]</p>
+<h1 id="先说说什么是ONL"><a href="#先说说什么是ONL" class="headerlink" title="先说说什么是ONL"></a>先说说什么是ONL</h1><p>ONL 是专为网络交换机开发的系统，可以特别地支持 端口，LED， 风扇 这些特殊硬件</p>
+<h1 id="明确的问题是：SDE-在ONL-中的作用和行为特征"><a href="#明确的问题是：SDE-在ONL-中的作用和行为特征" class="headerlink" title="明确的问题是：SDE 在ONL 中的作用和行为特征"></a>明确的问题是：SDE 在ONL 中的作用和行为特征</h1><h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p><a href="https://support.barefootnetworks.com/hc/en-us/categories/200358035-Barefoot-P4-Studio-SDE" target="_blank" rel="noopener">https://support.barefootnetworks.com/hc/en-us/categories/200358035-Barefoot-P4-Studio-SDE</a></p>
+<p>SDE 当前在ONL（open network linux) 中作为P4 程序 编译，部署 的环境</p>
+<h1 id="什么是SDE"><a href="#什么是SDE" class="headerlink" title="什么是SDE"></a>什么是SDE</h1><p>software development environment  旨在在各种OS 上进行P4 的开发，生成BF芯片 需要的data panel 可执行的程序</p>
+<p>当前我们在ONL （open network linux) 上搭建好了SDE</p>
+<p>内容包含：</p>
+<ol>
+<li>核心软件</li>
+<li>参考代码</li>
+<li>测试框架</li>
+<li>示例</li>
+<li>第三方lib</li>
+</ol>
+<h2 id="SDE-中包含p4c-及其他工具"><a href="#SDE-中包含p4c-及其他工具" class="headerlink" title="SDE 中包含p4c 及其他工具"></a>SDE 中包含p4c 及其他工具</h2><p><img src="https://ws1.sinaimg.cn/large/005JrW9Kgy1g0ezqr7d3tj30b50h475l.jpg" alt="image"></p>
+<p>编译器，工具，目标模型，系统库，驱动</p>
+<p>利用p4c 我们可以编译p4 程序</p>
+<h2 id="使用run-switchd-sh-可以开始载入编译好的p4-程序"><a href="#使用run-switchd-sh-可以开始载入编译好的p4-程序" class="headerlink" title="使用run_switchd.sh 可以开始载入编译好的p4 程序"></a>使用run_switchd.sh 可以开始载入编译好的p4 程序</h2><p><code>run_switchd.sh</code> 指定了配置文件 作为参数，此配置文件中，包含tofino 需要的bin</p>
+<p><img src="https://ws1.sinaimg.cn/large/005JrW9Kgy1g0cqgb18p3j30pe0exgnf.jpg" alt="image"></p>
+<p><code>run_switchd.sh</code> 使用了<code>bf_switchd</code></p>
+<p> <code>bf_switchd</code>是 在 <code>/root/bf-sde-8.2.0/install/bin</code> 中的一个可执行文件</p>
+<p>我的理解就是，<code>bf_switchd</code> 作为一个加载p4 程序的 进程，同时也是一个开放 数据层面 API 的 服务器</p>
+<p>它实现了C/S 模型，这便于之后我们使用thrift RPC 的方式来进行 通信</p>
+<p><img src="https://ws4.sinaimg.cn/large/005JrW9Kgy1g0eyvde20vj30uf0k8k0l.jpg" alt="image"></p>
+<h1 id="与PD-API交互，打通控制层面和数据层面"><a href="#与PD-API交互，打通控制层面和数据层面" class="headerlink" title="与PD API交互，打通控制层面和数据层面"></a>与PD API交互，打通控制层面和数据层面</h1><h2 id="生成pythrift"><a href="#生成pythrift" class="headerlink" title="生成pythrift"></a>生成pythrift</h2><p>在SDE中 编译我们的p4 后会自动生成pd_api的thrift文件，这包含了我们程序中的table 等内容的<code>CRUD</code> api</p>
+<p><img src="https://ws4.sinaimg.cn/large/005JrW9Kgy1g0ez0gtwhij30al09t747.jpg" alt="image"></p>
+<p><img src="https://wx4.sinaimg.cn/large/005JrW9Kgy1g0ezx1iqruj30cu04ha9w.jpg" alt="image"></p>
+<p><img src="https://wx4.sinaimg.cn/large/005JrW9Kgy1g0ezxbi682j30cv0d1mx8.jpg" alt="image"></p>
+<p>如图，如果以py 为例，那么我们会得到 <code>gen-py</code> 这个文件夹，它其实是通过</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">thrift --gen py p4_pd_rpc.thrift</span><br><span class="line">thrift --gen py res.thrift</span><br></pre></td></tr></table></figure>
+<p>生成了客户端可用的RPC 代码</p>
+<p>如果我们把这些产物copy 出来，并以此为基础，编写一个py 的访问数据层面的小程序，我们是这样做的</p>
+<p><img src="https://ws2.sinaimg.cn/large/005JrW9Kgy1g0ezs31el8j3094052t8k.jpg" alt="image"></p>
+<h2 id="使用py，控制面作为客户端调用thriftAPI-访问数据层面的示例"><a href="#使用py，控制面作为客户端调用thriftAPI-访问数据层面的示例" class="headerlink" title="使用py，控制面作为客户端调用thriftAPI 访问数据层面的示例"></a>使用py，控制面作为客户端调用thriftAPI 访问数据层面的示例</h2><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.path.append(<span class="string">'./gen-py'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 那这些就是我们的 pd 相关的 client 可调用的api， 就是来自 ./gen-py 的那些文件（lib）</span></span><br><span class="line"><span class="keyword">from</span> p4_pd_rpc <span class="keyword">import</span> basic_switching</span><br><span class="line"><span class="keyword">from</span> p4_pd_rpc.ttypes <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">from</span> res_pd_rpc.ttypes <span class="keyword">import</span> *</span><br><span class="line"></span><br><span class="line"><span class="comment"># 这些thrift 的 lib 是 我们必须的</span></span><br><span class="line"><span class="keyword">from</span> thrift <span class="keyword">import</span> Thrift</span><br><span class="line"><span class="keyword">from</span> thrift.transport <span class="keyword">import</span> TSocket</span><br><span class="line"><span class="keyword">from</span> thrift.transport <span class="keyword">import</span> TTransport</span><br><span class="line"><span class="keyword">from</span> thrift.protocol <span class="keyword">import</span> TBinaryProtocol</span><br><span class="line"><span class="keyword">from</span> thrift.protocol <span class="keyword">import</span> TMultiplexedProtocol</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hex_to_i16</span><span class="params">(h)</span>:</span></span><br><span class="line">    x = int(h)</span><br><span class="line">    <span class="keyword">if</span> (x &gt; <span class="number">0x7FFF</span>) : x -= <span class="number">0x10000</span></span><br><span class="line">    <span class="keyword">return</span> x</span><br><span class="line"></span><br><span class="line"><span class="comment"># now BIG!! connect to thrift server</span></span><br><span class="line">transport = TSocket.TSocket(<span class="string">'192.168.193.102'</span>, <span class="number">9090</span>) <span class="comment"># 这意味着控制面可以与数据层面实体 分离的很远</span></span><br><span class="line">transport = TTransport.TBufferedTransport(transport)</span><br><span class="line">protocol = TBinaryProtocol.TBinaryProtocol(transport)</span><br><span class="line">p4_protocol = TMultiplexedProtocol.TMultiplexedProtocol(protocol, <span class="string">"basic_switching"</span>) <span class="comment"># 运行的p4 程序的名字</span></span><br><span class="line">client = basic_switching.Client(p4_protocol)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 打开沟通的连接</span></span><br><span class="line">transport.open()</span><br><span class="line"></span><br><span class="line"><span class="comment"># example： 获得一张表的entry 的数量（ forward 表）</span></span><br><span class="line">dev_tgt = DevTarget_t(<span class="number">0</span>, hex_to_i16(<span class="number">0xFFFF</span>))</span><br><span class="line"><span class="keyword">print</span> client.forward_get_entry_count(<span class="number">0</span>, dev_tgt)</span><br><span class="line"><span class="keyword">print</span> (<span class="string">"now is OK I think!"</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="结果："><a href="#结果：" class="headerlink" title="结果："></a>结果：</h2><p><img src="https://wx1.sinaimg.cn/large/005JrW9Kgy1g0eyxtwl4wj30k301qt8i.jpg" alt="image"></p>
+<h1 id="使用c-的示例-，调用thriftAPI-访问数据层面的示例"><a href="#使用c-的示例-，调用thriftAPI-访问数据层面的示例" class="headerlink" title="使用c++ 的示例 ，调用thriftAPI 访问数据层面的示例"></a>使用c++ 的示例 ，调用thriftAPI 访问数据层面的示例</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">"./gen-cpp/p4_prefix.h"</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;thrift/transport/TSocket.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;thrift/transport/TBufferTransports.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;thrift/protocol/TBinaryProtocol.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;thrift/protocol/TMultiplexedProtocol.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/stat.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;sys/types.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> apache::thrift;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> apache::thrift::protocol;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> apache::thrift::transport;</span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"> </span><br><span class="line"><span class="keyword">using</span> boost::<span class="built_in">shared_ptr</span>;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    boost::<span class="built_in">shared_ptr</span>&lt;TSocket&gt; socket(<span class="keyword">new</span> TSocket(<span class="string">"192.168.193.102"</span>, <span class="number">9090</span>));</span><br><span class="line">    boost::<span class="built_in">shared_ptr</span>&lt;TTransport&gt; transport(<span class="keyword">new</span> TBufferedTransport(socket));</span><br><span class="line">    boost::<span class="built_in">shared_ptr</span>&lt;TProtocol&gt; protocol(<span class="keyword">new</span> TBinaryProtocol(transport));</span><br><span class="line">    <span class="comment">// boost::shared_ptr&lt;TProtocol&gt;TMultiplexedProtocol *mp2 = new boost::shared_ptr&lt;TProtocol&gt;TMultiplexedProtocol(protocol, "WeatherReport");</span></span><br><span class="line">    boost::<span class="built_in">shared_ptr</span>&lt;TProtocol&gt; tm(<span class="keyword">new</span> TMultiplexedProtocol(protocol, <span class="string">"basic_switching"</span>));</span><br><span class="line"></span><br><span class="line">    p4_pd_rpc::<span class="function">basic_switchingClient <span class="title">client</span><span class="params">(tm)</span></span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 打开沟通的连接</span></span><br><span class="line">    transport-&gt;open();</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%s\n"</span>, <span class="string">"s6"</span>);</span><br><span class="line">    <span class="comment">// example： 获得一张表的entry 的数量（ forward 表）</span></span><br><span class="line">    res_pd_rpc::DevTarget_t *dev_tgt = <span class="keyword">new</span> res_pd_rpc::DevTarget_t();</span><br><span class="line">    dev_tgt-&gt;__set_dev_id(<span class="number">0</span>);</span><br><span class="line">    dev_tgt-&gt;__set_dev_pipe_id(<span class="number">-1</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%s\n"</span>, <span class="string">"s7"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, client.forward_get_entry_count(<span class="number">0</span>, *dev_tgt));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%s\n"</span>, <span class="string">"now C++ is OK!"</span>);</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="https://wx2.sinaimg.cn/large/005JrW9Kgy1g0if95ca94j30fm035jr7.jpg" alt="image"></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/sde/" rel="tag"># sde</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/16/理解p4 的产物 PD-API/" rel="next" title="理解p4 的产物 PD-API">
+                <i class="fa fa-chevron-left"></i> 理解p4 的产物 PD-API
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/02/16/SDE-Commands/" rel="prev" title="SDE命令集合">
+                SDE命令集合 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paulkg</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#先说说什么是ONL"><span class="nav-number">1.</span> <span class="nav-text">先说说什么是ONL</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#明确的问题是：SDE-在ONL-中的作用和行为特征"><span class="nav-number">2.</span> <span class="nav-text">明确的问题是：SDE 在ONL 中的作用和行为特征</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ref"><span class="nav-number">2.1.</span> <span class="nav-text">ref</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是SDE"><span class="nav-number">3.</span> <span class="nav-text">什么是SDE</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#SDE-中包含p4c-及其他工具"><span class="nav-number">3.1.</span> <span class="nav-text">SDE 中包含p4c 及其他工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用run-switchd-sh-可以开始载入编译好的p4-程序"><span class="nav-number">3.2.</span> <span class="nav-text">使用run_switchd.sh 可以开始载入编译好的p4 程序</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#与PD-API交互，打通控制层面和数据层面"><span class="nav-number">4.</span> <span class="nav-text">与PD API交互，打通控制层面和数据层面</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#生成pythrift"><span class="nav-number">4.1.</span> <span class="nav-text">生成pythrift</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用py，控制面作为客户端调用thriftAPI-访问数据层面的示例"><span class="nav-number">4.2.</span> <span class="nav-text">使用py，控制面作为客户端调用thriftAPI 访问数据层面的示例</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#结果："><span class="nav-number">4.3.</span> <span class="nav-text">结果：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用c-的示例-，调用thriftAPI-访问数据层面的示例"><span class="nav-number">5.</span> <span class="nav-text">使用c++ 的示例 ，调用thriftAPI 访问数据层面的示例</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paulkg</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

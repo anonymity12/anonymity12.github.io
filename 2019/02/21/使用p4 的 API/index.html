@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="p4,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="描述p4 生成的API， 以及如何使用她的API 写程序">
+<meta name="keywords" content="p4">
+<meta property="og:type" content="article">
+<meta property="og:title" content="API 分类，以及如何使用这些API">
+<meta property="og:url" content="http://yoursite.com/2019/02/21/使用p4 的 API/index.html">
+<meta property="og:site_name" content="ANoteBook">
+<meta property="og:description" content="描述p4 生成的API， 以及如何使用她的API 写程序">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="https://wx3.sinaimg.cn/large/005JrW9Kgy1g0e16jufo7j30p70htdi1.jpg">
+<meta property="og:updated_time" content="2019-08-16T13:45:37.360Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="API 分类，以及如何使用这些API">
+<meta name="twitter:description" content="描述p4 生成的API， 以及如何使用她的API 写程序">
+<meta name="twitter:image" content="https://wx3.sinaimg.cn/large/005JrW9Kgy1g0e16jufo7j30p70htdi1.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/02/21/使用p4 的 API/">
+
+
+
+
+
+  <title>API 分类，以及如何使用这些API | ANoteBook</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">ANoteBook</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/21/使用p4 的 API/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paulkg">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ANoteBook">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">API 分类，以及如何使用这些API</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-21T13:12:02+08:00">
+                2019-02-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>描述p4 生成的API， 以及如何使用她的API 写程序</p>
+<a id="more"></a>
+<h1 id="runtime-api"><a href="#runtime-api" class="headerlink" title="runtime api"></a>runtime api</h1><h2 id="gRPC-是-测试框架使用的，或许平常开发不需要使用RPC"><a href="#gRPC-是-测试框架使用的，或许平常开发不需要使用RPC" class="headerlink" title="gRPC 是 测试框架使用的，或许平常开发不需要使用RPC"></a>gRPC 是 测试框架使用的，或许平常开发不需要使用RPC</h2><p>gRPC 适用于测试情景，此时python客户端通过RPC 进行 与 BF Runtime API 的交互</p>
+<h1 id="fix-function-api"><a href="#fix-function-api" class="headerlink" title="fix function api"></a>fix function api</h1><h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p>D:\prjP4\SDE相关\寻找API\固定功能API介绍.pdf</p>
+<h2 id="note"><a href="#note" class="headerlink" title="note"></a>note</h2><p>此部分的api 是固定功能，与程序无关的api， 比如端口管理的, 流量管理，多播，pkt gen 包生成</p>
+<p>还有在 <code>bf-driver</code> 的 api ，他们是你control panel 不能用的，这些都是核心的底层功能：</p>
+<ol>
+<li>流水线的管理, 比如table 的操作，这些api 确实和你的p4 程序相关，但是他们并非是为了让你直接操作的。而是我们的PD 相关的api 调用这些api</li>
+<li>LLD =  lower level driver</li>
+</ol>
+<h3 id="5-TM-API-管理流量的api"><a href="#5-TM-API-管理流量的api" class="headerlink" title="5. TM API 管理流量的api"></a>5. TM API 管理流量的api</h3><p>三种流量类型</p>
+<h1 id="Switch-p4-List-of-Supported-SAI-API-Attributes"><a href="#Switch-p4-List-of-Supported-SAI-API-Attributes" class="headerlink" title="Switch.p4 List of Supported SAI API Attributes"></a>Switch.p4 List of Supported SAI API Attributes</h1><p>CAP-UG23-001EA-SAI-d.pdf</p>
+<p>仅仅是罗列了支持SAI 的一些h文件内容</p>
+<p><img src="https://wx3.sinaimg.cn/large/005JrW9Kgy1g0e16jufo7j30p70htdi1.jpg" alt="image"></p>
+<h1 id="bfSwitchAPI"><a href="#bfSwitchAPI" class="headerlink" title="bfSwitchAPI"></a>bfSwitchAPI</h1><p>使用C++ 语言的一个CRUD api 集合</p>
+<h2 id="api-和-数据结构"><a href="#api-和-数据结构" class="headerlink" title="api 和 数据结构"></a>api 和 数据结构</h2><p>所有的都包含 一个obj id </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">typedef struct _switch_object_id_s &#123;</span><br><span class="line">	uint64_t data; // 低48 是obj 的index， 高16 是obj type</span><br><span class="line">&#125; switch_object_id_t;</span><br></pre></td></tr></table></figure>
+<h2 id="使用c-和-c-以及-py-实现的api-调用"><a href="#使用c-和-c-以及-py-实现的api-调用" class="headerlink" title="使用c 和 c++  以及 py 实现的api 调用"></a>使用c 和 c++  以及 py 实现的api 调用</h2>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/p4/" rel="tag"># p4</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/16/F9500_FAQ/" rel="next" title="对F9500的疑问">
+                <i class="fa fa-chevron-left"></i> 对F9500的疑问
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/02/26/SDE 编译流程分析/" rel="prev" title="SDE 编译流程分析">
+                SDE 编译流程分析 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paulkg</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#runtime-api"><span class="nav-number">1.</span> <span class="nav-text">runtime api</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#gRPC-是-测试框架使用的，或许平常开发不需要使用RPC"><span class="nav-number">1.1.</span> <span class="nav-text">gRPC 是 测试框架使用的，或许平常开发不需要使用RPC</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#fix-function-api"><span class="nav-number">2.</span> <span class="nav-text">fix function api</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ref"><span class="nav-number">2.1.</span> <span class="nav-text">ref</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#note"><span class="nav-number">2.2.</span> <span class="nav-text">note</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-TM-API-管理流量的api"><span class="nav-number">2.2.1.</span> <span class="nav-text">5. TM API 管理流量的api</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Switch-p4-List-of-Supported-SAI-API-Attributes"><span class="nav-number">3.</span> <span class="nav-text">Switch.p4 List of Supported SAI API Attributes</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#bfSwitchAPI"><span class="nav-number">4.</span> <span class="nav-text">bfSwitchAPI</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#api-和-数据结构"><span class="nav-number">4.1.</span> <span class="nav-text">api 和 数据结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用c-和-c-以及-py-实现的api-调用"><span class="nav-number">4.2.</span> <span class="nav-text">使用c 和 c++  以及 py 实现的api 调用</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paulkg</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
