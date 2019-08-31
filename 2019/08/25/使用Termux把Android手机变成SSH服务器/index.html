@@ -89,7 +89,7 @@
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/img/sshToPhone.jpg">
 <meta property="og:image" content="http://yoursite.com/img/sshToPhone.jpg">
-<meta property="og:updated_time" content="2019-08-25T12:36:15.301Z">
+<meta property="og:updated_time" content="2019-08-25T15:54:14.139Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Termux把Android手机变成SSH服务器">
 <meta name="twitter:description" content="使用Termux把Android手机变成SSH服务器">
@@ -362,7 +362,8 @@
 <h2 id="安装sshd"><a href="#安装sshd" class="headerlink" title="安装sshd"></a>安装sshd</h2><p>打开 Termux 会出现一个类似Linux终端的界面。</p>
 <p>由于sshd是包含在openssh包中的，因此我们首先需要在Termux中安装openssh</p>
 <p>pkg install openssh<br>安装好之后，我们需要手工启动 sshd</p>
-<p>sshd<br>需要指出的是, sshd 监听的是8022端口而不是22号端口，因此可以使用下面命令来验证ssh服务是否开启</p>
+<pre><code>sshd
+</code></pre><p>需要指出的是, sshd 监听的是8022端口而不是22号端口，因此可以使用下面命令来验证ssh服务是否开启</p>
 <p>ssh localhost -p 8022</p>
 <p>若要查看sshd的日志，则可以在Termux上执行</p>
 <p>logcat -s ‘syslog:*’ </p>
@@ -419,6 +420,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/26/90后的老人，可以开始看中庸了/" rel="prev" title="90后的老人，可以开始看中庸了">
+                90后的老人，可以开始看中庸了 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -495,7 +500,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -517,7 +522,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
