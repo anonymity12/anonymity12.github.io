@@ -25,7 +25,8 @@ http://blog.lujun9972.win/blog/2018/01/24/%E4%BD%BF%E7%94%A8termux%E6%8A%8Aandro
 pkg install openssh
 安装好之后，我们需要手工启动 sshd
 
-sshd
+    sshd
+
 需要指出的是, sshd 监听的是8022端口而不是22号端口，因此可以使用下面命令来验证ssh服务是否开启
 
 ssh localhost -p 8022
