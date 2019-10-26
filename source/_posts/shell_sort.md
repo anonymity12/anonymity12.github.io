@@ -28,12 +28,13 @@ void shell_sort(int a[], int n){
 					// to the rear position, until 
 					// the one is not bigger than our tmp
 					// (tmp is a[j])
-					// then we move a[j] to this position
-					// which is suitable for a[j]
 					while (k >= 0 && a[k] > tmp) {
 						a[k + gap] = a[k];
 						k -= gap;
 					}
+                    // then we move a[j] to this position
+                    // which is suitable for a[j]
+                    a[k + gap] = tmp;
 				}
 			}
 		}
