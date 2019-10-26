@@ -9,9 +9,15 @@ let me show you the shell sort algo, implements in C
 
 <!--more-->
 
-shell_sort.md
+# Ref
 
-let me show you the shell sort algo, implements in C:
+https://www.cnblogs.com/skywang12345/p/3597597.html
+
+
+
+# The implementation
+
+Then I show you the shell sort algo, implements in C:
 
 ```
 
