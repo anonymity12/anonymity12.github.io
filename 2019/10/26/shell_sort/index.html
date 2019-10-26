@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="algorithm,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="Liberty means responsibility. That is why most men dread it.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="let me show you the shell sort algo, implements in C">
+<meta name="keywords" content="algorithm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="shell_sort">
+<meta property="og:url" content="http://yoursite.com/2019/10/26/shell_sort/index.html">
 <meta property="og:site_name" content="ANoteBook">
-<meta property="og:description" content="Liberty means responsibility. That is why most men dread it.">
+<meta property="og:description" content="let me show you the shell sort algo, implements in C">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-08-16T14:12:24.573Z">
+<meta property="og:updated_time" content="2019-10-26T08:40:25.006Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="Liberty means responsibility. That is why most men dread it.">
+<meta name="twitter:title" content="shell_sort">
+<meta name="twitter:description" content="let me show you the shell sort algo, implements in C">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2019/10/26/shell_sort/">
 
 
 
 
 
-  <title>tags | ANoteBook</title>
+  <title>shell_sort | ANoteBook</title>
   
 
 
@@ -250,40 +251,169 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/shell_sort/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paulkg">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ANoteBook">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                20 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Swartz/" style="font-size: 12px; color: #ccc">Swartz</a> <a href="/tags/algorithm/" style="font-size: 12px; color: #ccc">algorithm</a> <a href="/tags/hexo/" style="font-size: 12px; color: #ccc">hexo</a> <a href="/tags/ssh/" style="font-size: 12px; color: #ccc">ssh</a> <a href="/tags/time/" style="font-size: 12px; color: #ccc">time</a> <a href="/tags/vm/" style="font-size: 12px; color: #ccc">vm</a> <a href="/tags/中庸/" style="font-size: 12px; color: #ccc">中庸</a> <a href="/tags/同龄人/" style="font-size: 12px; color: #ccc">同龄人</a> <a href="/tags/天赋/" style="font-size: 12px; color: #ccc">天赋</a> <a href="/tags/好奇心/" style="font-size: 12px; color: #ccc">好奇心</a> <a href="/tags/悟道/" style="font-size: 12px; color: #ccc">悟道</a> <a href="/tags/我的愿力所指/" style="font-size: 12px; color: #ccc">我的愿力所指</a> <a href="/tags/时间/" style="font-size: 12px; color: #ccc">时间</a> <a href="/tags/热情/" style="font-size: 12px; color: #ccc">热情</a> <a href="/tags/爱好/" style="font-size: 12px; color: #ccc">爱好</a> <a href="/tags/理财/" style="font-size: 12px; color: #ccc">理财</a> <a href="/tags/生活/" style="font-size: 12px; color: #ccc">生活</a> <a href="/tags/碎碎念/" style="font-size: 30px; color: #111">碎碎念</a> <a href="/tags/青春/" style="font-size: 12px; color: #ccc">青春</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">shell_sort</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-26T07:27:22+08:00">
+                2019-10-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/work/" itemprop="url" rel="index">
+                    <span itemprop="name">work</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>let me show you the shell sort algo, implements in C</p>
+<a id="more"></a>
+<p>shell_sort.md</p>
+<p>let me show you the shell sort algo, implements in C:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">void shell_sort(int a[], int n)&#123;</span><br><span class="line">	int i,j,gap;</span><br><span class="line">	for (gap = n/2; gap &gt; 0; gap /=2)&#123;</span><br><span class="line">		for (i = 0; i &lt; gap; i++) &#123;</span><br><span class="line">			for (j = i + gap; j &lt; n; j += gap)&#123;</span><br><span class="line">				if (a[j - gap] &lt; a[j]) &#123;</span><br><span class="line">					int tmp = a[j];</span><br><span class="line">					int k = j - gap;</span><br><span class="line">					// In this `while` loop</span><br><span class="line">					// I will move all the bigger one</span><br><span class="line">					// to the rear position, until </span><br><span class="line">					// the one is not bigger than our tmp</span><br><span class="line">					// (tmp is a[j])</span><br><span class="line">					// then we move a[j] to this position</span><br><span class="line">					// which is suitable for a[j]</span><br><span class="line">					while (k &gt;= 0 &amp;&amp; a[k] &gt; tmp) &#123;</span><br><span class="line">						a[k + gap] = a[k];</span><br><span class="line">						k -= gap;</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/algorithm/" rel="tag"># algorithm</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/10/25/午后清明-闲谈人生意义/" rel="next" title="午后清明-闲谈人生意义">
+                <i class="fa fa-chevron-left"></i> 午后清明-闲谈人生意义
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
