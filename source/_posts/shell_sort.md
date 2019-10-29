@@ -26,7 +26,8 @@ void shell_sort(int a[], int n){
 	for (gap = n/2; gap > 0; gap /=2){
 		for (i = 0; i < gap; i++) {
 			for (j = i + gap; j < n; j += gap){
-				if (a[j - gap] < a[j]) {
+				// tt1 see below pic
+				if (a[j - gap] > a[j]) {
 					int tmp = a[j];
 					int k = j - gap;
 					// In this `while` loop
@@ -48,3 +49,9 @@ void shell_sort(int a[], int n){
 }
 
 ```
+
+# pic for explain 
+
+## tt1 
+
+<img src="/img/shellSortExplain1.jpg">
