@@ -6,10 +6,7 @@ tags:
 - 我的愿力所指
 - 青春
 - Swartz
-categories: 
-- life
-- time
-- work
+categories: life
 ---
 
 <img src="/img/theAnonymous.jpg">
