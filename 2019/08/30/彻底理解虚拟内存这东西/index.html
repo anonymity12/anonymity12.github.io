@@ -298,7 +298,19 @@
             
 
             
+              <span class="post-meta-divider">|</span>
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified&#58;</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2019-08-31T20:56:30+08:00">
+                2019-08-31
+              </time>
             
           </span>
 
@@ -335,6 +347,25 @@
 
           
 
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+
+              
+            </div>
           
 
           
@@ -404,6 +435,24 @@
 
     
 
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    Paulkg
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://yoursite.com/2019/08/30/彻底理解虚拟内存这东西/" title="彻底理解虚拟内存这东西">http://yoursite.com/2019/08/30/彻底理解虚拟内存这东西/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
     
 
     <footer class="post-footer">
@@ -567,7 +616,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#（1）为什么需要搞一个虚拟的内存出来？"><span class="nav-number">1.</span> <span class="nav-text">（1）为什么需要搞一个虚拟的内存出来？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（2）地址空间是什么个概念"><span class="nav-number">2.</span> <span class="nav-text">（2）地址空间是什么个概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（3）虚拟内存用于缓存"><span class="nav-number">3.</span> <span class="nav-text">（3）虚拟内存用于缓存</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（4）虚拟内存用于存储管理"><span class="nav-number">4.</span> <span class="nav-text">（4）虚拟内存用于存储管理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（5）虚拟内存用于存储保护"><span class="nav-number">5.</span> <span class="nav-text">（5）虚拟内存用于存储保护</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（6）地址翻译，虚拟内存带来的额外工作"><span class="nav-number">6.</span> <span class="nav-text">（6）地址翻译，虚拟内存带来的额外工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一个小内存系统的地址翻译过程阐述"><span class="nav-number">6.1.</span> <span class="nav-text">一个小内存系统的地址翻译过程阐述</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（7）实例学习：英特尔i7-和linux-系统的内存系统"><span class="nav-number">7.</span> <span class="nav-text">（7）实例学习：英特尔i7 和linux 系统的内存系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（8）-内存的映射"><span class="nav-number">8.</span> <span class="nav-text">（8） 内存的映射</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（9）-动态内存分配"><span class="nav-number">9.</span> <span class="nav-text">（9） 动态内存分配</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（10）垃圾回收的机制"><span class="nav-number">10.</span> <span class="nav-text">（10）垃圾回收的机制</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#附件"><span class="nav-number">11.</span> <span class="nav-text">附件</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#（1）为什么需要搞一个虚拟的内存出来？"><span class="nav-text">（1）为什么需要搞一个虚拟的内存出来？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（2）地址空间是什么个概念"><span class="nav-text">（2）地址空间是什么个概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（3）虚拟内存用于缓存"><span class="nav-text">（3）虚拟内存用于缓存</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（4）虚拟内存用于存储管理"><span class="nav-text">（4）虚拟内存用于存储管理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（5）虚拟内存用于存储保护"><span class="nav-text">（5）虚拟内存用于存储保护</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（6）地址翻译，虚拟内存带来的额外工作"><span class="nav-text">（6）地址翻译，虚拟内存带来的额外工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一个小内存系统的地址翻译过程阐述"><span class="nav-text">一个小内存系统的地址翻译过程阐述</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（7）实例学习：英特尔i7-和linux-系统的内存系统"><span class="nav-text">（7）实例学习：英特尔i7 和linux 系统的内存系统</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（8）-内存的映射"><span class="nav-text">（8） 内存的映射</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（9）-动态内存分配"><span class="nav-text">（9） 动态内存分配</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#（10）垃圾回收的机制"><span class="nav-text">（10）垃圾回收的机制</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#附件"><span class="nav-text">附件</span></a></li></ol></div>
             
 
           </div>
@@ -593,6 +642,15 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Paulkg</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count"></span>
   
 </div>
 
