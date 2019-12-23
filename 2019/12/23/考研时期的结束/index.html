@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="algorithm,">
+  <meta name="keywords" content="研究生,">
 
 
 
@@ -79,20 +79,18 @@
 
 
 
-<meta name="description" content="let me show you the shell sort algo, implements in C">
-<meta name="keywords" content="algorithm">
+<meta name="description" content="2019 1222 是2020年的全国研究生入学考试的结束。">
+<meta name="keywords" content="研究生">
 <meta property="og:type" content="article">
-<meta property="og:title" content="shell_sort">
-<meta property="og:url" content="http://yoursite.com/2019/10/26/shell_sort/index.html">
+<meta property="og:title" content="考研时期的结束">
+<meta property="og:url" content="http://yoursite.com/2019/12/23/考研时期的结束/index.html">
 <meta property="og:site_name" content="ANoteBook">
-<meta property="og:description" content="let me show you the shell sort algo, implements in C">
+<meta property="og:description" content="2019 1222 是2020年的全国研究生入学考试的结束。">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://yoursite.com/img/shellSortExplain1.jpg">
-<meta property="og:updated_time" content="2019-10-29T08:11:33.048Z">
+<meta property="og:updated_time" content="2019-12-23T11:00:23.081Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="shell_sort">
-<meta name="twitter:description" content="let me show you the shell sort algo, implements in C">
-<meta name="twitter:image" content="http://yoursite.com/img/shellSortExplain1.jpg">
+<meta name="twitter:title" content="考研时期的结束">
+<meta name="twitter:description" content="2019 1222 是2020年的全国研究生入学考试的结束。">
 
 
 
@@ -122,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/10/26/shell_sort/">
+  <link rel="canonical" href="http://yoursite.com/2019/12/23/考研时期的结束/">
 
 
 
 
 
-  <title>shell_sort | ANoteBook</title>
+  <title>考研时期的结束 | ANoteBook</title>
   
 
 
@@ -265,7 +263,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/26/shell_sort/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/12/23/考研时期的结束/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Paulkg">
@@ -282,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">shell_sort</h1>
+          <h1 class="post-title" itemprop="name headline">考研时期的结束</h1>
         
 
         <div class="post-meta">
@@ -294,8 +292,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-26T07:27:22+08:00">
-                2019-10-26
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-12-23T16:14:25+08:00">
+                2019-12-23
               </time>
             
 
@@ -310,8 +308,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2019-10-29T16:11:33+08:00">
-                2019-10-29
+              <time title="Post modified" itemprop="dateModified" datetime="2019-12-23T19:00:23+08:00">
+                2019-12-23
               </time>
             
           </span>
@@ -329,8 +327,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/work/" itemprop="url" rel="index">
-                    <span itemprop="name">work</span>
+                  <a href="/categories/study/" itemprop="url" rel="index">
+                    <span itemprop="name">study</span>
                   </a>
                 </span>
 
@@ -385,12 +383,18 @@
       
 
       
-        <p>let me show you the shell sort algo, implements in C</p>
+        <p>2019 1222 是2020年的全国研究生入学考试的结束。</p>
 <a id="more"></a>
-<h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p><a href="https://www.cnblogs.com/skywang12345/p/3597597.html" target="_blank" rel="noopener">https://www.cnblogs.com/skywang12345/p/3597597.html</a></p>
-<h1 id="The-implementation"><a href="#The-implementation" class="headerlink" title="The implementation"></a>The implementation</h1><p>Then I show you the shell sort algo, implements in C:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">void shell_sort(int a[], int n)&#123;</span><br><span class="line">	int i,j,gap;</span><br><span class="line">	for (gap = n/2; gap &gt; 0; gap /=2)&#123;</span><br><span class="line">		for (i = 0; i &lt; gap; i++) &#123;</span><br><span class="line">			for (j = i + gap; j &lt; n; j += gap)&#123;</span><br><span class="line">				// tt1 see below pic</span><br><span class="line">				if (a[j - gap] &gt; a[j]) &#123;</span><br><span class="line">					int tmp = a[j];</span><br><span class="line">					int k = j - gap;</span><br><span class="line">					// In this `while` loop</span><br><span class="line">					// I will move all the bigger one</span><br><span class="line">					// to the rear position, until </span><br><span class="line">					// the one is not bigger than our tmp</span><br><span class="line">					// (tmp is a[j])</span><br><span class="line">					while (k &gt;= 0 &amp;&amp; a[k] &gt; tmp) &#123;</span><br><span class="line">						a[k + gap] = a[k];</span><br><span class="line">						k -= gap;</span><br><span class="line">					&#125;</span><br><span class="line">                    // then we move a[j] to this position</span><br><span class="line">                    // which is suitable for a[j]</span><br><span class="line">                    a[k + gap] = tmp;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="pic-for-explain"><a href="#pic-for-explain" class="headerlink" title="pic for explain"></a>pic for explain</h1><h2 id="tt1"><a href="#tt1" class="headerlink" title="tt1"></a>tt1</h2><p><img src="/img/shellSortExplain1.jpg"></p>
+<p>2019 1222 是2020年的全国研究生入学考试的结束。</p>
+<p>我从7月20左右开始准备，8，9，10，11，12 大约100多天的准备。</p>
+<p>于1220去往最近的市里参加了两天的考试。</p>
+<p>2020年的考试是我第二次考试，之前是在2018年，那时候，我是抱着混混的心态去参加的。</p>
+<p>这一次，是决定好了，准备尽力了，然后去参加的。</p>
+<h1 id="期间的体会"><a href="#期间的体会" class="headerlink" title="期间的体会"></a>期间的体会</h1><p>我从离开职场，想要回到学校，一开始的念头，一直越来越深，到最后，反而却淡了一些。</p>
+<p>即使什么都不干，或者每天忙的昏天黑地，我相信，这样一个24岁的年纪，4，5个月的时间，人都会有成长。我在此期间收获了不少体会，这些体会不是单纯来自大脑的逻辑推理，而是，慢了下来，忍受了时间里的煎熬，欣赏了时间里的美好，我慢慢把点滴的记忆，汇集成为了自己的观念。</p>
+<p>这令我成为我自己。这令我认识自己。</p>
+<p>最重要的体会，便是，控制你的念头。</p>
+<h2 id="相信的力量"><a href="#相信的力量" class="headerlink" title="相信的力量"></a>相信的力量</h2><p>别人的评价标准，更好的别人，平均水平，都是看起来很有道理的集体理论，而不适合个人评定。</p>
 
       
     </div>
@@ -411,7 +415,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://yoursite.com/2019/10/26/shell_sort/" title="shell_sort">http://yoursite.com/2019/10/26/shell_sort/</a>
+    <a href="http://yoursite.com/2019/12/23/考研时期的结束/" title="考研时期的结束">http://yoursite.com/2019/12/23/考研时期的结束/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -426,7 +430,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/algorithm/" rel="tag"># algorithm</a>
+            <a href="/tags/研究生/" rel="tag"># 研究生</a>
           
         </div>
       
@@ -439,8 +443,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/10/25/午后清明-闲谈人生意义/" rel="next" title="午后清明-闲谈人生意义">
-                <i class="fa fa-chevron-left"></i> 午后清明-闲谈人生意义
+              <a href="/2019/11/10/一文杀死pv问题/" rel="next" title="一文杀死pv问题">
+                <i class="fa fa-chevron-left"></i> 一文杀死pv问题
               </a>
             
           </div>
@@ -448,10 +452,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/10/31/dijkstra_algo/" rel="prev" title="dijkstra 单源最短路径算法">
-                dijkstra 单源最短路径算法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -583,7 +583,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ref"><span class="nav-text">Ref</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#The-implementation"><span class="nav-text">The implementation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#pic-for-explain"><span class="nav-text">pic for explain</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#tt1"><span class="nav-text">tt1</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#期间的体会"><span class="nav-text">期间的体会</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#相信的力量"><span class="nav-text">相信的力量</span></a></li></ol></li></ol></div>
             
 
           </div>
