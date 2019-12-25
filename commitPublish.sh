@@ -1,5 +1,5 @@
 #!/bin/bash
-printf "Site last updated at %s " `date`
+printf "%s" `date`
 cd ~/code/anonymity12.github.io
 git pull
 hexo clean
