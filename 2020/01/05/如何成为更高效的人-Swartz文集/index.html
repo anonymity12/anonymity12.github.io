@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="algorithm,">
+  <meta name="keywords" content="高效,">
 
 
 
@@ -79,20 +79,18 @@
 
 
 
-<meta name="description" content="let me show you the dijkstra algo, implements in C">
-<meta name="keywords" content="algorithm">
+<meta name="description" content="如何成为更高效的人.md by Aaron Swartz 2005">
+<meta name="keywords" content="高效">
 <meta property="og:type" content="article">
-<meta property="og:title" content="dijkstra 单源最短路径算法">
-<meta property="og:url" content="http://yoursite.com/2019/10/31/dijkstra_algo/index.html">
+<meta property="og:title" content="如何成为更高效的人">
+<meta property="og:url" content="http://yoursite.com/2020/01/05/如何成为更高效的人-Swartz文集/index.html">
 <meta property="og:site_name" content="ANoteBook">
-<meta property="og:description" content="let me show you the dijkstra algo, implements in C">
+<meta property="og:description" content="如何成为更高效的人.md by Aaron Swartz 2005">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://yoursite.com/img/Dijkstra.jpeg">
-<meta property="og:updated_time" content="2019-10-31T09:25:26.987Z">
+<meta property="og:updated_time" content="2020-01-07T08:46:07.501Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="dijkstra 单源最短路径算法">
-<meta name="twitter:description" content="let me show you the dijkstra algo, implements in C">
-<meta name="twitter:image" content="http://yoursite.com/img/Dijkstra.jpeg">
+<meta name="twitter:title" content="如何成为更高效的人">
+<meta name="twitter:description" content="如何成为更高效的人.md by Aaron Swartz 2005">
 
 
 
@@ -122,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/10/31/dijkstra_algo/">
+  <link rel="canonical" href="http://yoursite.com/2020/01/05/如何成为更高效的人-Swartz文集/">
 
 
 
 
 
-  <title>dijkstra 单源最短路径算法 | ANoteBook</title>
+  <title>如何成为更高效的人 | ANoteBook</title>
   
 
 
@@ -265,7 +263,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/31/dijkstra_algo/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/05/如何成为更高效的人-Swartz文集/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Paulkg">
@@ -282,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">dijkstra 单源最短路径算法</h1>
+          <h1 class="post-title" itemprop="name headline">如何成为更高效的人</h1>
         
 
         <div class="post-meta">
@@ -294,8 +292,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-31T17:27:22+08:00">
-                2019-10-31
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-05T10:27:22+08:00">
+                2020-01-05
               </time>
             
 
@@ -310,8 +308,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2019-10-31T17:25:26+08:00">
-                2019-10-31
+              <time title="Post modified" itemprop="dateModified" datetime="2020-01-07T16:46:07+08:00">
+                2020-01-07
               </time>
             
           </span>
@@ -385,11 +383,94 @@
       
 
       
-        <p><img src="/img/Dijkstra.jpeg"></p>
-<p>let me show you the dijkstra algo, implements in C</p>
+        <p>如何成为更高效的人.md</p>
+<p>by Aaron Swartz</p>
+<p>2005</p>
 <a id="more"></a>
-<h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p><a href="https://www.cnblogs.com/jason2003/p/7222182.html" target="_blank" rel="noopener">https://www.cnblogs.com/jason2003/p/7222182.html</a></p>
-<h1 id="detail"><a href="#detail" class="headerlink" title="detail"></a>detail</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">map</span>[<span class="number">110</span>][<span class="number">110</span>];<span class="comment">//这就是map数组，存储图</span></span><br><span class="line"><span class="keyword">int</span> dis[<span class="number">10010</span>];<span class="comment">//dis数组，存储估计值</span></span><br><span class="line"><span class="keyword">int</span> book[<span class="number">10010</span>];<span class="comment">//book[i]代表这个点有没有被当做源点去搜索过，1为有，0为没有。这样就不会重复搜索了。</span></span><br><span class="line"><span class="keyword">int</span> n,m;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dijkstra</span><span class="params">(<span class="keyword">int</span> u)</span><span class="comment">//主函数，参数是源点编号</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(dis,<span class="number">88</span>,<span class="keyword">sizeof</span>(dis));<span class="comment">//把dis数组附最大值（88不是十进制的88，其实很大）</span></span><br><span class="line">    <span class="keyword">int</span> start=u;<span class="comment">//先从源点搜索</span></span><br><span class="line">    book[start]=<span class="number">1</span>;<span class="comment">//标记源点已经搜索过</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        dis[i]=min(dis[i],<span class="built_in">map</span>[start][i]);<span class="comment">//先更新一遍</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//tt minn是用于记录一个最小值：哪个点到源点的距离最小呢？（在未访问过的点中找，aka：book[j] == 0;//这表示未被标记为已经访问过</span></span><br><span class="line">        <span class="keyword">int</span> minn=<span class="number">9999999</span>;<span class="comment">//谢评论区，改正一下：这里的minn不是题解上的minn，这代表的是最近点到源点的距离，start才代表最近的点、</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++) &#123;</span><br><span class="line">            <span class="comment">//book[j] == 0这表示未被标记为已经访问过</span></span><br><span class="line">            <span class="keyword">if</span>(book[j]==<span class="number">0</span> &amp;&amp; minn&gt;dis[j])&#123;</span><br><span class="line">                minn=dis[j];</span><br><span class="line">                start=j;<span class="comment">//找到离源点最近的点，然后把编号记录下来，用于搜索。</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 标记这个点（j点），将是新的出发点（start），也就是记book下来：它已经被踩过了。</span></span><br><span class="line">        book[start]=<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// tt 这里就是核心了，拿最近的，好使的点，更新到其他点的距离。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            dis[j]=min(dis[j],dis[start]+<span class="built_in">map</span>[start][j]);<span class="comment">//以新的点来更新dis。</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="built_in">memset</span>(<span class="built_in">map</span>,<span class="number">88</span>,<span class="keyword">sizeof</span>(<span class="built_in">map</span>));</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> a,b,c;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">        <span class="built_in">map</span>[a][b]=c;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            <span class="keyword">if</span>(i==j)</span><br><span class="line">                <span class="built_in">map</span>[i][j]=<span class="number">0</span>;</span><br><span class="line">    dijkstra(<span class="number">1</span>);<span class="comment">//以1为源点。</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;dis[i]&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="part1-定义：时间质量"><a href="#part1-定义：时间质量" class="headerlink" title="part1 定义：时间质量"></a>part1 定义：时间质量</h1><ul>
+<li>时间不是“fungible”（可替换的）</li>
+</ul>
+<p>Swartz 从对比看电视的时间和写作的时间，来说明，我们的时间确实分成很多质量等级，有的时间，你的时间质量确实很低，比如，生病，劳累，心情差的时候，你的时间只能用来恢复，所以效率不高。有的时候你非常舒服，身心都是，于是此刻，时间质量很高。</p>
+<p>时间不是“fungible”（可替换的）：你不可能把看电视休息的时间用来生产什么。</p>
+<p>人类一直需要劳逸结合，从远古，我们上午打猎，下午在洞里扣虱子，摘水果，说话，上午是劳，下午是逸。</p>
+<p>农业和工业的革命，人类逐渐模糊了这些规律，信息革命后，我在晚上11点还在上班，这是进化。</p>
+<ul>
+<li>总结： 如果你想要成为一个更加高效的人，你必须认清这个现实：时间有不同的等级，你必须尝试令你的可用时间非常高效。</li>
+</ul>
+<h1 id="part2-选择最重要的问题"><a href="#part2-选择最重要的问题" class="headerlink" title="part2 选择最重要的问题"></a>part2 选择最重要的问题</h1><p>这里他说，人生短暂，一定要选择最重要的问题去解决。</p>
+<p>对于我这样的普通人，没有选择问题的资本，这不符合国情，在这里，只能听从大局的选择的矛盾，问题。</p>
+<h1 id="part3-多任务"><a href="#part3-多任务" class="headerlink" title="part3 多任务"></a>part3 多任务</h1><ul>
+<li>多任务不是坏事</li>
+</ul>
+<p>常见的误区是，多任务有很高的切换成本，不好。</p>
+<p>实际上这是谎话。</p>
+<p>拥有多项任务令你可以在多种不同质量的时间中进行工作。</p>
+<p>（另外，多任务意味着变化与移动，现在单任务意味着你必须坐着不动，像流水线工人单任务那样，那对你的身体非常不好。你为了身体也必须切换）</p>
+<p>而且这令你更加有创意，创意来自你从其他领域学习的东西，运用到你当前工作的领域。</p>
+<h1 id="part4-做清单"><a href="#part4-做清单" class="headerlink" title="part4 做清单"></a>part4 做清单</h1><ul>
+<li>做清单</li>
+</ul>
+<p>你把所有要做的事情放在脑子里，这本身就是对你自己的压力和折磨。</p>
+<p>一旦你写下来，你就可以组织事情（分类，定时），而不是被事务推着走。</p>
+<p>Swartz给出他的任务清单，包括： 编程，写作，思考，出差，阅读，听，看（而且也是按照这个顺序，优先级的）</p>
+<p>事实上，真正完整有用的工程确实都是大量任务的集合。把每个任务下放到合适的section，故此你可以利用正确的时间，做正确的事情。</p>
+<h1 id="part5-减少物理约束"><a href="#part5-减少物理约束" class="headerlink" title="part5 减少物理约束"></a>part5 减少物理约束</h1><ul>
+<li>带上纸笔</li>
+</ul>
+<p>这里是在说他利用纸和笔这种传统的方式，避免路上没办法使用任何设备的尴尬。</p>
+<ul>
+<li>避免被打断</li>
+</ul>
+<p>最好，去一个没有打断因素存在的地方。</p>
+<p>关门，下线。</p>
+<h1 id="part6-减少精神约束"><a href="#part6-减少精神约束" class="headerlink" title="part6 减少精神约束"></a>part6 减少精神约束</h1><ul>
+<li>合理安排，吃，睡，运动</li>
+</ul>
+<p>疲劳和困倦是导致效率低下的原因。作者本人也是常常熬夜并饥饿着完成工作，用“我很累但是马上做完，做完再休息”这种理由很容易欺骗你自己。</p>
+<p>事实上，如果你吃点东西，睡一觉，这对你的效率有巨大提升（首先，你得到生理上的补充，其次，你在心理上有未完成的迫切感和休息了的愧疚感，二者都可以激发你高效工作的动力）</p>
+<p>作者不是运动专家，但是，无论去哪里，如果能步行就尽量步行。</p>
+<h1 id="part7-与积极的人交谈"><a href="#part7-与积极的人交谈" class="headerlink" title="part7 与积极的人交谈"></a>part7 与积极的人交谈</h1><p>人是群居动物，即使是程序员这样孤立工作的独行侠，也需要和人接触，通过part6 进行精神上的缓解，是不够的。</p>
+<p>拥有积极的朋友，将令你的心理负担无形分担出去。就算你的朋友不是非常乐观，但是如果有其他人和你一样遇到相似的问题，这也令问题相对简单了许多。精神压力在人之间是可以分散的。</p>
+<p>另外，他们也能无形中推动你去解决问题，而不是全靠自己的自制力与个人意志的督促。</p>
+<h1 id="part8-拖延症-和-精神意志磁场"><a href="#part8-拖延症-和-精神意志磁场" class="headerlink" title="part8 拖延症 和 精神意志磁场"></a>part8 拖延症 和 精神意志磁场</h1><p>上述parts都回避了问题的本质，真正的效率问题往往来自拖延症（procrastination）。</p>
+<p>作者做了如下比喻：</p>
+<p>你非很大的劲也不能把两个同极性的磁铁放在一块。类似的，每个任务可以是一个磁体，你很难把某些任务push到工作区。</p>
+<p>通常，精神意志的磁体不是可见的，但是你可以感觉的一个边缘，并且，如果你越拼命逼迫自己推动一些事情，你结果往往跑到了另外一个方向（崩溃，失败，延期）</p>
+<p>你很难把排斥的磁体放在一起，故此你也难把精神上的拖延，排斥给客服，作者从未成功通过强大的意志力克服精神上的排斥和拖延。</p>
+<p>反而，使用一个诡计，你可以把磁体转一转。</p>
+<p>任务的磁场来源是： </p>
+<ol>
+<li>难不难</li>
+<li>是否是被迫安排的任务</li>
+</ol>
+<h2 id="part8-1-把大难任务拆解"><a href="#part8-1-把大难任务拆解" class="headerlink" title="part8.1 把大难任务拆解"></a>part8.1 把大难任务拆解</h2><ul>
+<li>break it down</li>
+<li>simplify it</li>
+<li>think about it </li>
+</ul>
+<p>(todo details)</p>
+<h2 id="part8-2-被布置的任务"><a href="#part8-2-被布置的任务" class="headerlink" title="part8.2 被布置的任务"></a>part8.2 被布置的任务</h2><p>外部刺激，比如奖励和惩罚，会杀死你的「内在动力」，即你对任务的在意程度和努力程度。</p>
+<p>渴望自由的人往往抗拒被部署的任务。</p>
+<p>奇怪的事还有，就算你自己主动决定了一个任务，你自己对自己说：现在最重要的就是任务X，那么此刻，X突然就是世界上最难的工作了，当且仅当有一个更加重要的任务Y出现，X才会变得简单点。</p>
+<p>不要作出任务的错误部署</p>
+<h2 id="part8-3-让事情变得有趣"><a href="#part8-3-让事情变得有趣" class="headerlink" title="part8.3 让事情变得有趣"></a>part8.3 让事情变得有趣</h2><p>困难的事情都不是令人愉快的事情，一般来说是这样。但是，事实上你可以让它变为一个最享受的事情。</p>
+<p>首先因为解决难的问题令你全身心投入，其次完成了一件困难而严肃的事情会令你感觉有成就感。</p>
+<p>所以，让你开始去做一件事情的秘密不是劝服自己那件事情很重要，而是劝服自己那很有趣。</p>
+<h2 id="part8-4-解决元问题"><a href="#part8-4-解决元问题" class="headerlink" title="part8.4 解决元问题"></a>part8.4 解决元问题</h2><p>比如，你不要去建造一个应用程序，而是建造一个框架。如此以来，你的工作不仅仅是有趣的，而且在之后也能更加有用。</p>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>关于效率有许多思考的迷雾（以下都是错误的）</p>
+<ul>
+<li>时间是可替换的</li>
+<li>关注一件事情是好的</li>
+<li>困难的事情总是令人不快的</li>
+<li>拖延是不自然，不应该的</li>
+</ul>
+<hr>
+<p>实际上通往高效的秘密是：听从你的身体。</p>
+<p>饿了就吃，困了就睡，烦躁了就间断一下。在有趣和令你开心的工作上拼尽全力。</p>
+<p>这些都是常识，不是商业成功人士的某些秘诀。</p>
+<p>只是，社会对任务，工作的定义，已经把我们推向顺利完成它的相反方向。</p>
+<p>如果我们想要更加高效，所有我们需要做的，就是转向。</p>
+
       
     </div>
     
@@ -409,7 +490,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://yoursite.com/2019/10/31/dijkstra_algo/" title="dijkstra 单源最短路径算法">http://yoursite.com/2019/10/31/dijkstra_algo/</a>
+    <a href="http://yoursite.com/2020/01/05/如何成为更高效的人-Swartz文集/" title="如何成为更高效的人">http://yoursite.com/2020/01/05/如何成为更高效的人-Swartz文集/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -424,7 +505,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/algorithm/" rel="tag"># algorithm</a>
+            <a href="/tags/高效/" rel="tag"># 高效</a>
           
         </div>
       
@@ -437,8 +518,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/10/26/shell_sort/" rel="next" title="shell_sort">
-                <i class="fa fa-chevron-left"></i> shell_sort
+              <a href="/2019/12/31/针对2019年的回顾/" rel="next" title="针对2019年的回顾">
+                <i class="fa fa-chevron-left"></i> 针对2019年的回顾
               </a>
             
           </div>
@@ -446,10 +527,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/10/31/DFS深度优先搜索代码展示/" rel="prev" title="DFS核心代码">
-                DFS核心代码 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -581,7 +658,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ref"><span class="nav-text">Ref</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#detail"><span class="nav-text">detail</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#part1-定义：时间质量"><span class="nav-text">part1 定义：时间质量</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part2-选择最重要的问题"><span class="nav-text">part2 选择最重要的问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part3-多任务"><span class="nav-text">part3 多任务</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part4-做清单"><span class="nav-text">part4 做清单</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part5-减少物理约束"><span class="nav-text">part5 减少物理约束</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part6-减少精神约束"><span class="nav-text">part6 减少精神约束</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part7-与积极的人交谈"><span class="nav-text">part7 与积极的人交谈</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#part8-拖延症-和-精神意志磁场"><span class="nav-text">part8 拖延症 和 精神意志磁场</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#part8-1-把大难任务拆解"><span class="nav-text">part8.1 把大难任务拆解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#part8-2-被布置的任务"><span class="nav-text">part8.2 被布置的任务</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#part8-3-让事情变得有趣"><span class="nav-text">part8.3 让事情变得有趣</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#part8-4-解决元问题"><span class="nav-text">part8.4 解决元问题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#结论"><span class="nav-text">结论</span></a></li></ol></div>
             
 
           </div>
