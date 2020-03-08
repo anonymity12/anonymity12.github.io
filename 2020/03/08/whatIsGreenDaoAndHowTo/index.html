@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Android,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="I need to learn what is greenDao and howtos  cause in OpenHub prj copy, I need to know this shit. it’s related to database. as far as I know.">
+<meta name="keywords" content="Android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="whatIsGreenDaoAndHowTo">
+<meta property="og:url" content="http://anonymity12.github.io/2020/03/08/whatIsGreenDaoAndHowTo/index.html">
+<meta property="og:site_name" content="ANoteBook">
+<meta property="og:description" content="I need to learn what is greenDao and howtos  cause in OpenHub prj copy, I need to know this shit. it’s related to database. as far as I know.">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://ww1.sinaimg.cn/mw690/005JrW9Kly1gcmrpkjynmj30ma167gq1.jpg">
+<meta property="og:updated_time" content="2020-03-08T13:08:08.189Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="whatIsGreenDaoAndHowTo">
+<meta name="twitter:description" content="I need to learn what is greenDao and howtos  cause in OpenHub prj copy, I need to know this shit. it’s related to database. as far as I know.">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/mw690/005JrW9Kly1gcmrpkjynmj30ma167gq1.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://anonymity12.github.io/2020/03/08/whatIsGreenDaoAndHowTo/">
+
+
+
+
+
+  <title>whatIsGreenDaoAndHowTo | ANoteBook</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">ANoteBook</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://anonymity12.github.io/2020/03/08/whatIsGreenDaoAndHowTo/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Paulkg">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="ANoteBook">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">whatIsGreenDaoAndHowTo</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-03-08T19:16:22+08:00">
+                2020-03-08
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Post modified&#58;</span>
+              
+              <time title="Post modified" itemprop="dateModified" datetime="2020-03-08T21:08:08+08:00">
+                2020-03-08
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/work/" itemprop="url" rel="index">
+                    <span itemprop="name">work</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  1k
+                </span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>I need to learn what is greenDao and howtos </p>
+<p>cause in OpenHub prj copy, I need to know this shit.</p>
+<p>it’s related to database. as far as I know.</p>
+<a id="more"></a>
+<p>[TOC]</p>
+<h1 id="useful-links"><a href="#useful-links" class="headerlink" title="useful links:"></a>useful links:</h1><ul>
+<li>get start:</li>
+</ul>
+<p><a href="https://greenrobot.org/greendao/documentation/how-to-get-started/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/how-to-get-started/</a></p>
+<h1 id="basic-concept"><a href="#basic-concept" class="headerlink" title="basic concept:"></a>basic concept:</h1><h2 id="schema"><a href="#schema" class="headerlink" title="schema"></a><code>schema</code></h2><p>Entities belong to a schema, so a schema is the first object you define. Call the constructor with the schema version and the default Java package:</p>
+<pre><code>Schema schema = new Schema(1, &quot;de.greenrobot.daoexample&quot;);
+</code></pre><h2 id="Entities"><a href="#Entities" class="headerlink" title="Entities"></a><code>Entities</code></h2><p>Once you have a schema object you can add entities to it:</p>
+<pre><code>Entity user = schema.addEntity(&quot;User&quot;);
+</code></pre><p>An entity has several settings you can change, and more importantly, you can add properties to an entity:</p>
+<pre><code>user.addIdProperty();
+user.addStringProperty(&quot;name&quot;);
+user.addStringProperty(&quot;password&quot;);
+user.addIntProperty(&quot;yearOfBirth&quot;);
+</code></pre><h1 id="it’s-generator"><a href="#it’s-generator" class="headerlink" title="it’s generator"></a>it’s generator</h1><p>事实是:</p>
+<blockquote>
+<p>greenDAO 3 uses annotations to define schemas and entities. In contrast, previous greenDAO versions required developers to have a separate generator Java project.</p>
+</blockquote>
+<ul>
+<li>update to green dao 3</li>
+</ul>
+<p>for more info, see: <a href="https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/</a></p>
+<h2 id="constructure"><a href="#constructure" class="headerlink" title="constructure"></a>constructure</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1gcmrpkjynmj30ma167gq1.jpg" alt="greenDaoGenerator.jpg"></p>
+<p>生成如下两个</p>
+<h3 id="Note-java"><a href="#Note-java" class="headerlink" title="Note.java"></a>Note.java</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT. Enable "keep" sections if you want to edit. </span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Entity mapped to table "NOTE".</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Note</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="keyword">private</span> String text;</span><br><span class="line">    <span class="keyword">private</span> String comment;</span><br><span class="line">    <span class="keyword">private</span> java.util.Date date;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id, String text, String comment, java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getId</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getText</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value; ensure this value is available before it is saved to the database. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setText</span><span class="params">(String text)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getComment</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setComment</span><span class="params">(String comment)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> java.util.<span class="function">Date <span class="title">getDate</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setDate</span><span class="params">(java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="NoteDao-java"><a href="#NoteDao-java" class="headerlink" title="NoteDao.java"></a>NoteDao.java</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.database.Cursor;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteDatabase;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteStatement;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.AbstractDao;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.Property;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.internal.DaoConfig;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.daoexample.Note;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT.</span></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * DAO for table "NOTE".</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">NoteDao</span> <span class="keyword">extends</span> <span class="title">AbstractDao</span>&lt;<span class="title">Note</span>, <span class="title">Long</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String TABLENAME = <span class="string">"NOTE"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Properties of entity Note.&lt;br/&gt;</span></span><br><span class="line"><span class="comment">     * Can be used for QueryBuilder and for referencing column names.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Properties</span> </span>&#123;</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Id = <span class="keyword">new</span> Property(<span class="number">0</span>, Long.class, <span class="string">"id"</span>, <span class="keyword">true</span>, <span class="string">"_id"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Text = <span class="keyword">new</span> Property(<span class="number">1</span>, String.class, <span class="string">"text"</span>, <span class="keyword">false</span>, <span class="string">"TEXT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Comment = <span class="keyword">new</span> Property(<span class="number">2</span>, String.class, <span class="string">"comment"</span>, <span class="keyword">false</span>, <span class="string">"COMMENT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Date = <span class="keyword">new</span> Property(<span class="number">3</span>, java.util.Date.class, <span class="string">"date"</span>, <span class="keyword">false</span>, <span class="string">"DATE"</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config, DaoSession daoSession)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config, daoSession);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Creates the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">createTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifNotExists)</span> </span>&#123;</span><br><span class="line">        String constraint = ifNotExists? <span class="string">"IF NOT EXISTS "</span>: <span class="string">""</span>;</span><br><span class="line">        db.execSQL(<span class="string">"CREATE TABLE "</span> + constraint + <span class="string">"\"NOTE\" ("</span> + <span class="comment">//</span></span><br><span class="line">                <span class="string">"\"_id\" INTEGER PRIMARY KEY ,"</span> + <span class="comment">// 0: id</span></span><br><span class="line">                <span class="string">"\"TEXT\" TEXT NOT NULL ,"</span> + <span class="comment">// 1: text</span></span><br><span class="line">                <span class="string">"\"COMMENT\" TEXT,"</span> + <span class="comment">// 2: comment</span></span><br><span class="line">                <span class="string">"\"DATE\" INTEGER);"</span>); <span class="comment">// 3: date</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Drops the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">dropTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifExists)</span> </span>&#123;</span><br><span class="line">        String sql = <span class="string">"DROP TABLE "</span> + (ifExists ? <span class="string">"IF EXISTS "</span> : <span class="string">""</span>) + <span class="string">"\"NOTE\""</span>;</span><br><span class="line">        db.execSQL(sql);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">bindValues</span><span class="params">(SQLiteStatement stmt, Note entity)</span> </span>&#123;</span><br><span class="line">        stmt.clearBindings();</span><br><span class="line"> </span><br><span class="line">        Long id = entity.getId();</span><br><span class="line">        <span class="keyword">if</span> (id != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">1</span>, id);</span><br><span class="line">        &#125;</span><br><span class="line">        stmt.bindString(<span class="number">2</span>, entity.getText());</span><br><span class="line"> </span><br><span class="line">        String comment = entity.getComment();</span><br><span class="line">        <span class="keyword">if</span> (comment != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindString(<span class="number">3</span>, comment);</span><br><span class="line">        &#125;</span><br><span class="line"> </span><br><span class="line">        java.util.Date date = entity.getDate();</span><br><span class="line">        <span class="keyword">if</span> (date != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">4</span>, date.getTime());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">readKey</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>);</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Note <span class="title">readEntity</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        Note entity = <span class="keyword">new</span> Note( <span class="comment">//</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>), <span class="comment">// id</span></span><br><span class="line">            cursor.getString(offset + <span class="number">1</span>), <span class="comment">// text</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>), <span class="comment">// comment</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)) <span class="comment">// date</span></span><br><span class="line">        );</span><br><span class="line">        <span class="keyword">return</span> entity;</span><br><span class="line">    &#125;</span><br><span class="line">     </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">readEntity</span><span class="params">(Cursor cursor, Note entity, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        entity.setId(cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>));</span><br><span class="line">        entity.setText(cursor.getString(offset + <span class="number">1</span>));</span><br><span class="line">        entity.setComment(cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>));</span><br><span class="line">        entity.setDate(cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)));</span><br><span class="line">     &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> Long <span class="title">updateKeyAfterInsert</span><span class="params">(Note entity, <span class="keyword">long</span> rowId)</span> </span>&#123;</span><br><span class="line">        entity.setId(rowId);</span><br><span class="line">        <span class="keyword">return</span> rowId;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getKey</span><span class="params">(Note entity)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(entity != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> entity.getId();</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span>    </span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">boolean</span> <span class="title">isEntityUpdateable</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="ref-links"><a href="#ref-links" class="headerlink" title="ref links:"></a>ref links:</h2><p><a href="https://greenrobot.org/greendao/documentation/generator/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/generator/</a></p>
+<h2 id="you-can-find-code-instances-about-generator-as-follow"><a href="#you-can-find-code-instances-about-generator-as-follow" class="headerlink" title="you can find code instances about generator as follow:"></a>you can find code instances about <code>generator</code> as follow:</h2><p>/Users/paul/code/javApp/OpenHub-master/daogenerator/src/main/java/com/thirtydereesray/AppDaoGenerator.java</p>
+<p>or:</p>
+<p><a href="https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java" target="_blank" rel="noopener">https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java</a></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Generates entities and DAOs for the example project DaoExample.</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * Run it as a Java application (not Android).</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Markus</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExampleDaoGenerator</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        Schema schema = <span class="keyword">new</span> Schema(<span class="number">1000</span>, <span class="string">"de.greenrobot.daoexample"</span>);</span><br><span class="line"></span><br><span class="line">        addNote(schema);</span><br><span class="line">        addCustomerOrder(schema);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">new</span> DaoGenerator().generateAll(schema, <span class="string">"../DaoExample/src/main/java"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addNote</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity note = schema.addEntity(<span class="string">"Note"</span>);</span><br><span class="line">        note.addIdProperty();</span><br><span class="line">        note.addStringProperty(<span class="string">"text"</span>).notNull();</span><br><span class="line">        note.addStringProperty(<span class="string">"comment"</span>);</span><br><span class="line">        note.addDateProperty(<span class="string">"date"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addCustomerOrder</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity customer = schema.addEntity(<span class="string">"Customer"</span>);</span><br><span class="line">        customer.addIdProperty();</span><br><span class="line">        customer.addStringProperty(<span class="string">"name"</span>).notNull();</span><br><span class="line"></span><br><span class="line">        Entity order = schema.addEntity(<span class="string">"Order"</span>);</span><br><span class="line">        order.setTableName(<span class="string">"ORDERS"</span>); <span class="comment">// "ORDER" is a reserved keyword</span></span><br><span class="line">        order.addIdProperty();</span><br><span class="line">        Property orderDate = order.addDateProperty(<span class="string">"date"</span>).getProperty();</span><br><span class="line">        Property customerId = order.addLongProperty(<span class="string">"customerId"</span>).notNull().getProperty();</span><br><span class="line">        order.addToOne(customer, customerId);</span><br><span class="line"></span><br><span class="line">        ToMany customerToOrders = customer.addToMany(order, customerId);</span><br><span class="line">        customerToOrders.setName(<span class="string">"orders"</span>);</span><br><span class="line">        customerToOrders.orderAsc(orderDate);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    Paulkg
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="http://anonymity12.github.io/2020/03/08/whatIsGreenDaoAndHowTo/" title="whatIsGreenDaoAndHowTo">http://anonymity12.github.io/2020/03/08/whatIsGreenDaoAndHowTo/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag"># Android</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/03/03/记录电科大的一个预面试/" rel="next" title="记录电科大的一个预面试">
+                <i class="fa fa-chevron-left"></i> 记录电科大的一个预面试
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Paulkg</p>
+              <p class="site-description motion-element" itemprop="description">Liberty means responsibility. That is why most men dread it.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">32</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">33</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#useful-links"><span class="nav-text">useful links:</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#basic-concept"><span class="nav-text">basic concept:</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#schema"><span class="nav-text">schema</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Entities"><span class="nav-text">Entities</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#it’s-generator"><span class="nav-text">it’s generator</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#constructure"><span class="nav-text">constructure</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Note-java"><span class="nav-text">Note.java</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#NoteDao-java"><span class="nav-text">NoteDao.java</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ref-links"><span class="nav-text">ref links:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#you-can-find-code-instances-about-generator-as-follow"><span class="nav-text">you can find code instances about generator as follow:</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Paulkg</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">25.6k</span>
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
