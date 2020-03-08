@@ -1,4 +1,4 @@
-https://greenrobot.org/greendao/documentation/how-to-get-started/---
+---
 title: whatIsGreenDaoAndHowTo
 date: 2020-03-08 19:16:22
 tags: Android
