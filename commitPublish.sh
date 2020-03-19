@@ -10,7 +10,7 @@ echo "genertating..."
 #hexo deploy
 #echo "deploying to master"
 git add .
-git commit -m "push src md files"
+git commit -m "wrote at `date`"
 hexo s
 #git push
 #echo "pushing to hexo branch"
