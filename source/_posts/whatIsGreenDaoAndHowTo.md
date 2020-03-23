@@ -21,6 +21,23 @@ it's related to database. as far as I know.
 
 https://greenrobot.org/greendao/documentation/how-to-get-started/
 
+# how it works:
+
+简单来说，greenDao 是通过注解的方式，来进行元编程（通过代码来生成代码）
+
+我们在一个类上写上一些注解：比如： 
+
+`@Entity`, `@Index`, `@Id`, `@NotNull`
+
+那么，上述的 被 `@Entity` 注解的一个类，就会被持久化 到 数据库中。
+
+你可以在这里看到 一个demo：
+
+https://github.com/greenrobot/greenDAO/tree/master/examples/DaoExample/src/main/java/org/greenrobot/greendao/example
+
+
+
+
 # basic concept:
 
 ## `schema`
