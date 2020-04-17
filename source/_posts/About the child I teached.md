@@ -1,6 +1,6 @@
 ---
 title: About the child I teached 
-date: 2020-01-03 09:49:58
+date: 2020-04-03 09:49:58
 tags: 教育
 categories: life
 ---
@@ -10,6 +10,8 @@ categories: life
 # About the child I teached 
 
 I teached some child to learn English after the Examination of Graduation Entrance. I teached them in a small company in my hometown, name YiXuePai. And the slogan of this company is: Learn Three-Year Vocabulary Just in Three Days.
+
+![SmartSelect_20200403-123536_TIM.jpg](https://i.loli.net/2020/04/03/58wMpjX1UkRLKvn.jpg)
 
 Apparently, the slogan is a lie.
 
