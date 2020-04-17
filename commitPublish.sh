@@ -8,9 +8,9 @@ hexo clean
 hexo generate
 echo "genertating..."
 hexo deploy
-echo "push public blog to master branch"
+echo "pushed public blog to master branch"
 git add .
 git commit -m "wrote at `date`"
 #hexo s
 git push
-echo "push backup blog to hexo branch"
+echo "pushed backup blog to hexo branch"
