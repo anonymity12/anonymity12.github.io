@@ -1,7 +1,7 @@
 ---
 title: About the child I teached 
 date: 2020-04-03 09:49:58
-tags: 教育
+tags: edu
 categories: life
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: Dijkstra我终于理解啦
+title: Dijkstra之2:理解加深篇
 date: 2019-11-10 09:47:30
 tags: algo
 categories: work
 ---
 
-<img src="/img/Dijkstra.jpg">
+![Dijkstra.jpeg](http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o543zw0j30po0g3jyg.jpg)
 
 单源最短路径：解决单一个源点到某个点的（任意点的）最短的路径的问题 
 
@@ -33,6 +33,8 @@ c.以k为新考虑的中间点，修改U中各顶点的距离；若从源点v到
 d.重复步骤b和c直到所有顶点都包含在S中。
 
 ## 算法代码实现(需要多多阅读）：
+
+这个包含了记录前驱节点的代码。
 
 ```c
 const int  MAXINT = 32767;
@@ -84,7 +86,7 @@ void Dijkstra(int v0)
 
 ## 啊哈磊 的代码：
 
-更容易理解的
+更容易理解的，省略了记录前驱节点的 代码
 
 https://blog.csdn.net/ahalei/article/details/22717661
 

@@ -5,7 +5,7 @@ tags: algorithm
 categories: work
 ---
 
-<img src="/img/dfsExplain.jpg">
+![dfsExplain.jpg](http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o309r7bj30a009gwer.jpg)
 
 let me show you the dfs algo, implements in C
 

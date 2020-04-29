@@ -54,4 +54,4 @@ void shell_sort(int a[], int n){
 
 ## tt1 
 
-<img src="/img/shellSortExplain1.jpg">
+![shellSortExplain1.jpg](http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oaszpi0j30mg0d2751.jpg)

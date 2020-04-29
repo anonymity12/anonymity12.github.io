@@ -1,7 +1,7 @@
 ---
 title: 打坐
 date: 2019-11-01 09:24:21
-tags: 打坐
+tags: health
 categories: life
 ---
 

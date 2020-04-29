@@ -5,7 +5,7 @@ tags: ssh
 categories: tech
 ---
 
-<img src="/img/sshToPhone.jpg">
+![sshToPhone.jpg](http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg)
 
 使用Termux把Android手机变成SSH服务器
 
@@ -73,4 +73,4 @@ Host termux
 
 ## 展示
 
-<img src="/img/sshToPhone.jpg">
+![sshToPhone.jpg](http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg)
