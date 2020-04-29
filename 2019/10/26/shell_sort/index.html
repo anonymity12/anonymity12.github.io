@@ -87,12 +87,12 @@
 <meta property="og:site_name" content="ANoteBook">
 <meta property="og:description" content="let me show you the shell sort algo, implements in C">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://anonymity12.github.io/img/shellSortExplain1.jpg">
-<meta property="og:updated_time" content="2019-10-29T08:11:33.048Z">
+<meta property="og:image" content="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oaszpi0j30mg0d2751.jpg">
+<meta property="og:updated_time" content="2020-04-21T12:38:56.220Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="shell_sort">
 <meta name="twitter:description" content="let me show you the shell sort algo, implements in C">
-<meta name="twitter:image" content="http://anonymity12.github.io/img/shellSortExplain1.jpg">
+<meta name="twitter:image" content="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oaszpi0j30mg0d2751.jpg">
 
 
 
@@ -342,8 +342,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2019-10-29T16:11:33+08:00">
-                2019-10-29
+              <time title="Post modified" itemprop="dateModified" datetime="2020-04-21T20:38:56+08:00">
+                2020-04-21
               </time>
             
           </span>
@@ -422,7 +422,7 @@
 <h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p><a href="https://www.cnblogs.com/skywang12345/p/3597597.html" target="_blank" rel="noopener">https://www.cnblogs.com/skywang12345/p/3597597.html</a></p>
 <h1 id="The-implementation"><a href="#The-implementation" class="headerlink" title="The implementation"></a>The implementation</h1><p>Then I show you the shell sort algo, implements in C:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">void shell_sort(int a[], int n)&#123;</span><br><span class="line">	int i,j,gap;</span><br><span class="line">	for (gap = n/2; gap &gt; 0; gap /=2)&#123;</span><br><span class="line">		for (i = 0; i &lt; gap; i++) &#123;</span><br><span class="line">			for (j = i + gap; j &lt; n; j += gap)&#123;</span><br><span class="line">				// tt1 see below pic</span><br><span class="line">				if (a[j - gap] &gt; a[j]) &#123;</span><br><span class="line">					int tmp = a[j];</span><br><span class="line">					int k = j - gap;</span><br><span class="line">					// In this `while` loop</span><br><span class="line">					// I will move all the bigger one</span><br><span class="line">					// to the rear position, until </span><br><span class="line">					// the one is not bigger than our tmp</span><br><span class="line">					// (tmp is a[j])</span><br><span class="line">					while (k &gt;= 0 &amp;&amp; a[k] &gt; tmp) &#123;</span><br><span class="line">						a[k + gap] = a[k];</span><br><span class="line">						k -= gap;</span><br><span class="line">					&#125;</span><br><span class="line">                    // then we move a[j] to this position</span><br><span class="line">                    // which is suitable for a[j]</span><br><span class="line">                    a[k + gap] = tmp;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="pic-for-explain"><a href="#pic-for-explain" class="headerlink" title="pic for explain"></a>pic for explain</h1><h2 id="tt1"><a href="#tt1" class="headerlink" title="tt1"></a>tt1</h2><p><img src="/img/shellSortExplain1.jpg"></p>
+<h1 id="pic-for-explain"><a href="#pic-for-explain" class="headerlink" title="pic for explain"></a>pic for explain</h1><h2 id="tt1"><a href="#tt1" class="headerlink" title="tt1"></a>tt1</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oaszpi0j30mg0d2751.jpg" alt="shellSortExplain1.jpg"></p>
 
       
     </div>
@@ -481,8 +481,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/10/31/dijkstra_algo/" rel="prev" title="dijkstra 单源最短路径算法">
-                dijkstra 单源最短路径算法 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/10/31/Dijkstra之1:介绍场景和实现/" rel="prev" title="Dijkstra之1:介绍场景和实现">
+                Dijkstra之1:介绍场景和实现 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -560,7 +560,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">52</span>
+                  <span class="site-state-item-count">56</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -582,7 +582,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">44</span>
+                  <span class="site-state-item-count">40</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -649,7 +649,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">56k</span>
+    <span title="Site words total count">59.5k</span>
   
 </div>
 
