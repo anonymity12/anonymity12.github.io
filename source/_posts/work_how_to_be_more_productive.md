@@ -1,7 +1,7 @@
 ---
 title: 如何成为更高效的人
 date: 2020-01-05 10:27:22
-tags: 高效
+tags: efficiency
 categories: work
 ---
 

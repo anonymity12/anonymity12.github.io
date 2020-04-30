@@ -1,7 +1,7 @@
 ---
 title: 午觉醒来总是对生活充满怀疑
 date: 2019-08-24 17:22:02
-tags: 生活
+tags: thinking
 categories: life
 ---
 

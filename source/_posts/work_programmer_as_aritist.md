@@ -1,7 +1,7 @@
 ---
 title: idea_garden
 date: 2020-04-05 13:38:33
-tags: 随想
+tags: thinking
 categories: life
 ---
 

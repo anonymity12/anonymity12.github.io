@@ -1,7 +1,7 @@
 ---
 title: 90后的老人，可以开始看中庸了
 date: 2019-08-26 07:27:22
-tags: 中庸
+tags: read
 categories: life
 ---
 
