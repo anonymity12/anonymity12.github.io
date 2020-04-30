@@ -82,7 +82,7 @@
 <meta name="description" content="Liberty means responsibility. That is why most men dread it.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="ANoteBook">
-<meta property="og:url" content="http://anonymity12.github.io/tags/Android/index.html">
+<meta property="og:url" content="http://anonymity12.github.io/tags/android/index.html">
 <meta property="og:site_name" content="ANoteBook">
 <meta property="og:description" content="Liberty means responsibility. That is why most men dread it.">
 <meta property="og:locale" content="default">
@@ -118,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="http://anonymity12.github.io/tags/Android/">
+  <link rel="canonical" href="http://anonymity12.github.io/tags/android/">
 
 
 
 
 
-  <title>Tag: Android | ANoteBook</title>
+  <title>Tag: android | ANoteBook</title>
   
 
 
@@ -286,7 +286,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>Android<small>Tag</small>
+        <h1>android<small>Tag</small>
         </h1>
       </div>
 
@@ -298,17 +298,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/03/23/Dagger注解的学习/" itemprop="url">
+            <a class="post-title-link" href="/2020/04/10/what-is-glide-in-android/" itemprop="url">
               
-                <span itemprop="name">Dagger注解的学习总结</span>
+                <span itemprop="name">what_is_glide_in_android</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-03-23T14:03:44+08:00" content="2020-03-23">
-          03-23
+        <time class="post-time" itemprop="dateCreated" datetime="2020-04-10T18:42:25+08:00" content="2020-04-10">
+          04-10
         </time>
       </div>
 
@@ -324,43 +324,17 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/03/15/细数我的Android开发历史/" itemprop="url">
+            <a class="post-title-link" href="/2020/03/27/tech_android_parcel/" itemprop="url">
               
-                <span itemprop="name">细数我的Android开发历史</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-03-15T20:18:41+08:00" content="2020-03-15">
-          03-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/03/08/whatIsGreenDaoAndHowTo/" itemprop="url">
-              
-                <span itemprop="name">whatIsGreenDaoAndHowTo</span>
+                <span itemprop="name">android_os_parcel</span>
               
             </a>
         
       </h2>
 
       <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2020-03-08T19:16:22+08:00" content="2020-03-08">
-          03-08
+        <time class="post-time" itemprop="dateCreated" datetime="2020-03-27T18:26:43+08:00" content="2020-03-27">
+          03-27
         </time>
       </div>
 
@@ -420,7 +394,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">56</span>
+                  <span class="site-state-item-count">57</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -442,7 +416,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">40</span>
+                  <span class="site-state-item-count">36</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -493,7 +467,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">59.5k</span>
+    <span title="Site words total count">59.9k</span>
   
 </div>
 
@@ -952,6 +926,50 @@
     }
 
     // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+r popup window;
     $('.popup-trigger').click(function(e) {
       e.stopPropagation();
       if (isfetched === false) {
