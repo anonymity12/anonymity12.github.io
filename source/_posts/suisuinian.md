@@ -27,3 +27,7 @@ categories: life
   
 2020-04-23 10:35:44 >>>> ![image.png](https://i.loli.net/2020/04/23/pjoK8vBltOgACxi.png) 厌学就对了，谁不厌学？我这个似乎不错的学生，也是厌学，我却考研了。应试教育反对者。
   
+2020-04-30 14:02:07 >>>> 天下谁人不韭菜：记录我的大四被坑：买转换器，买课程
+  
+2020-04-30 22:34:36 >>>> 我过去学习都是为了生存本领，这次我要为了生活而终身好好学习;for the past life, I learn for living in this society, but now I learn for the life long time.
+  

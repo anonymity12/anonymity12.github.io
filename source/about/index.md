@@ -1,5 +1,5 @@
 ---
-title: about
+title: About Me
 date: 2019-08-16 22:06:17
 type: "about"
 ---
@@ -7,9 +7,13 @@ type: "about"
 
 # A life meaning seeker
 
+current working on: *study*
+
 # Skills
 
 - Android 
-- Ethereum
-- C
+- blockchain
+- C/Python/Java
 - Network
+- crypto
+- yoga/buddhism
