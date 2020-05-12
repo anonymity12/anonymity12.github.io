@@ -88,7 +88,7 @@
 <meta property="og:description" content="let me show you the dijkstra algo, implements in C++">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1ocy4n74j30po0g3jyg.jpg">
-<meta property="og:updated_time" content="2020-04-29T05:01:06.656Z">
+<meta property="og:updated_time" content="2020-05-08T04:03:38.385Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Dijkstra之1:介绍场景和实现">
 <meta name="twitter:description" content="let me show you the dijkstra algo, implements in C++">
@@ -342,8 +342,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2020-04-29T13:01:06+08:00">
-                2020-04-29
+              <time title="Post modified" itemprop="dateModified" datetime="2020-05-08T12:03:38+08:00">
+                2020-05-08
               </time>
             
           </span>
@@ -428,8 +428,7 @@
 </code></pre><h3 id="辅助的两个数组"><a href="#辅助的两个数组" class="headerlink" title="辅助的两个数组"></a>辅助的两个数组</h3><p><code>dist[]</code>: 记录了源点v0 到其他各个顶点的当前的最短路径长度。</p>
 <p><code>path[]</code>: 记录了前驱节点；比如 <code>path[i] = j</code> 表示：源点v0 到 点vi ，其中vi 前面的一个点是：vj。事后，我们可以根据这个path 值来追溯最短路径。 </p>
 <h3 id="具体表述"><a href="#具体表述" class="headerlink" title="具体表述"></a>具体表述</h3><p>1) 初始化：S集合；s数组里面就源点自己。 也初始化 <code>dist[]</code>，根据输入，来填入源点 到各个节点的距离，离得近（一步就到）的就填其对应的一步的距离，离得远的（输入中，没有给出的距离，比如源点到目标终点），就填写 int_max （-1也行，看个人选择）。</p>
-<p>2）  <strong>找跳板</strong> 从全集V - 集合S 的集合：V-S 中选取vj 这个节点：满足了：dist[j] = min(dist[i]| vi属于V-S)(tt: 这里不懂)。（</p>
-<p>我的理解是：从本轮更新最短距离的节点们中，选一个最小距离的：vj，vj会是下一轮更新其他vx 节点的跳板，而且是最合适的跳板，因为vj 路径距离最小）</p>
+<p>2）  <strong>找跳板</strong> 从全集V - 集合S 的集合：V-S 中选取vj 这个节点：满足了：dist[j] = min(dist[x]| vertex:x属于V-S)(tt: 这里不懂//2020-05-08 12:03:懂了；)。（我的理解是：从本轮更新最短距离的节点们中，选一个最小距离的：vj，vj会是下一轮更新其他vx 节点的跳板，而且是最合适的跳板，因为vj 路径距离最小）</p>
 <p>3） <strong>开始跳</strong>： 修改从v0出发的，到V-S集合上的任意一个点(say:k)的距离，怎么该呢：如果</p>
 <pre><code>dist[k] &gt; dist[j] + arcs[j][k] 
 </code></pre><p>则令：</p>
@@ -580,7 +579,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">57</span>
+                  <span class="site-state-item-count">61</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -602,7 +601,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-count">38</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -669,7 +668,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">59.9k</span>
+    <span title="Site words total count">62.4k</span>
   
 </div>
 
