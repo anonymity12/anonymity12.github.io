@@ -1,53 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>budda: 快乐人生part1</title>
-    <url>/2020/03/21/buddha-%E5%BF%AB%E4%B9%90%E4%BA%BA%E7%94%9Fpart1/</url>
-    <content><![CDATA[<p><img src="https://gateway.pinata.cloud/ipfs/QmQzimhtuSuUXoArbvi6LUkQpBzeUpeTvpYTDM3SvyFERP" alt="fo" title="大佛"></p>
-<p>达照法师在2011 年讲授了 关于 快乐人生 的智慧。</p>
-<p>第一部分，第1节。</p>
+    <title>Dijkstra之2:理解加深篇</title>
+    <url>/2019/11/10/Dijkstra%E4%B9%8B2:%E7%90%86%E8%A7%A3%E5%8A%A0%E6%B7%B1%E7%AF%87/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o543zw0j30po0g3jyg.jpg" alt="Dijkstra.jpeg"></p>
+<p>单源最短路径：解决单一个源点到某个点的（任意点的）最短的路径的问题 </p>
 <a id="more"></a>
-<p>尊敬的各位师父，各位善知识，大家下午好。</p>
-<p>大家新年好。值此新春之际，我们能在一起共同学习佛法。非常的荣幸。在此祝愿大家在新的一年里，身体健康，工作顺利，大展亲近修行进步。情绪快乐，阿弥陀佛。</p>
-<p>今天给大家一起来讨论的题目是快乐人生。感谢太平寺给我们提供这个机会。这是第四个春节的。学习？记得第一次给大家讨论的是佛法的真心，第二次是佛法的修证，因为你看到了道路才会去走。去年给大家讨论的是觉悟，人生。那么久以后呢？顺其自然的就想到应该是快乐的人生，所以这一次给大家讨论的题目是快乐人生。</p>
-<p>这个题目非常清醒，大家一看就知道了。但是，快乐这件事情。却是人生最大的事情。从以下几个小标题来，展开讨论，就是：</p>
-<p>快乐的定义是什么？</p>
-<p>人生的意义是什么？<br>什么是快乐的？内容？快乐还有企图。快乐还有秘诀，快乐还有发展。</p>
-<p>请这五个角度来跟大家一起来讨论。那么首先我想。问大家一个问题。你们快乐吗？快乐吗？都快乐。你们想要快乐吗？</p>
-<p><strong>想快乐就说明你还不够快乐。</strong></p>
-<p>你知道这个世界上谁最快乐？<br>这是一个非常接近我们的内心，又是非常重要的位置。西方一位著名的哲学家。亚里士多德，他家的快乐是人生的意义。是生命的。全部已全部目标是生命的终极目标。也就是说，我们在这个世界上。你活着一天。你有没有意义？你的生命活着一天，这个意义何在？那就看你是不是快乐的活动？或者是你向往快乐就好了。如果你知道你前面的道路一定是越来越痛苦，你还活着吗？</p>
-<p>很多人，因为对生命失去了希望。所以他就不想再活了。我们大家今天能够活着。那就说明我们还是相信未来我们会更加快乐。所以生命的意义到底在哪？从我们个人而言。其实？古今中外。所有的文明包括我们自己。日常生活的一举一动。无一例外的是逃避痛苦，解决痛苦。</p>
-<p><strong>解决冲突的目的还是想获得快乐。</strong></p>
-<p>多少人孜孜不倦的去追求自己的理想。大家可以 在心里面问一下。你那个理想？是不是自己感觉到快乐？假如你觉得我那个理想。是痛苦的。可能就不会成为你的理想。没有一个人说，我理想就是到监狱里面去。也不会有人说，我的理想。要去做畜生。不过，也有人想做畜生的他想做宠物。看到宠物太快乐了，总有人宠着她。真有人说，我来生做个宠物，那也是因为看到了他的快乐。</p>
-<p>对于人生的意义。佛经里面给我们讲的非常详细。实际上，追求快乐或者舍弃痛苦，离苦得乐永远是我们生命不改的主题。那么我们这次呢，要讲三天。</p>
-<p>我想 分开三个大的环节。</p>
-<p>第一个就是。以苦为乐，苦中作乐。</p>
-<p>我们普通的凡夫众生由于不懂得快乐的原理。往往是求生反对。想要得到好的，往往得到的是更加差。就是迷失的。人生追求。</p>
-<p>第二是 转苦为乐，助人为乐。</p>
-<p>这是我们佛法讲的。正确的人生态度。有什么方法和秘诀，把我们现有的充足转换为快乐。如何去帮助其他的众生，也从痛苦中解脱出来，成为快乐。这个是我们现在以及将来整个社会大家所需要努力的。</p>
-<p>最后一点呢？是离苦得乐，究竟长乐。</p>
-<p>这是我们佛法不共世间法的究竟处。我们的生命本具有常乐我净，涅槃，四德。但由于无明的覆盖，我执的蔓延。<strong>愚痴贪欲蒙蔽了我们智慧的眼睛</strong>。</p>
-<p>我们看不清楚自己面前所对的种种境界，我们也看不清楚自己内心所生起来的种种念头。</p>
-<p>你看，那时候自己的情绪妄想杂念，干扰的。无疑是向外针对各种五花八门理念，各种学说言论，干扰的莫衷一是。</p>
-<p>这就是一个迷乱混乱状态的生命现象。所以，对于这样一个生命现象上来说，虽然我们时时刻刻都想追求快乐舍弃痛苦。尤其是现在这个科学发展，精神却没有完全跟上去的。</p>
-<p>个别的地方，在国际上，或者东中东国家民族战争，宗教纠纷依然存在。</p>
-<p>我们不只是看到大的环境，我们也看到自己的每一个人的家庭里面，都可以找到家家有本难念的经。</p>
-<p>看到自己个人的人生中，人生不如意事十有八九。大到世界，小到身心。</p>
-<p>真正如我们所愿的。快乐了没有呢？基本上没有？社会虽然在发展。但但是这个发展所付出的代价是非常严重的。</p>
-<p>据这个联合国卫生组织调查。西方的国家 以美国跟欧洲为例。到2020年。还有九年时间（注：他2011在温州文城讲这些话）。预测未来将有25%的人。会因为抑郁症而死吧。</p>
-<p>这个比例有多大，四个人当中有一个人会因为抑郁症而死吧。西方现在的这个病死因最突出的是心脏病。也就是2020年以后可能抑郁症，比非正常死因的，这个比例的第二笔心脏病，死亡的少一点点。西方的国家自称为是高度科学发达的国家。可是他人生的快乐到底在哪？</p>
-<p>那么我们？观察释迦摩尼的时代 当时在东西方都出现了一大批的伟大的哲学家。包括释迦佛，孔老夫子，还有苏格拉底，这些人对生命的探索，到今天为止，还是世界上 最高的智慧。</p>
-<p>我们今天来观察自己。在我们生活中，我们的情绪，会影响身体影响家庭。大部分的人，他的痛苦，都是从自己的情绪念头上开始蔓延。当然也有很多外在的因素，比如说天灾人祸。战争离乱会给我们带来很大的痛苦。</p>
-<p>实际上痛苦和快乐，它是有一个基本标准的。</p>
-<p>每一个人从生下来那一刻开始。他的承受力就在不停的训练。生下来在穷苦的人家。他的满足感，标准就算再低一点，比较容易得到满足。一生下来就是幸福的，他的标准就放的高一点。</p>
-<p>所以小孩子你如果给他宠坏了，他的标准一直放的很高，可是现实的人生没有完全随你的标准来给予。所以小孩子受苦受多了，他的标准放的低，容易满足，容易感到快乐。</p>
-<p>那么这个背后就说明一个问题，就是我们的快乐的标准虽然有个基准，但是心随境转，转了一大圈，回过头来，你才发现你的标准还在你的内心深处。就像有些人在农村里面自然环境当中，总是羡慕城市里面的生活。等你到了城市里面赚到钱盖了房子，成了家事业做大，最后还是向往自己小时候住过的农村。在那里空气好，环境好。在那里你能感觉到一种幸福感，一种快乐。</p>
+<h1 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h1><p><a href="https://www.cnblogs.com/biyeymyhjob/archive/2012/07/31/2615833.html" target="_blank" rel="noopener">https://www.cnblogs.com/biyeymyhjob/archive/2012/07/31/2615833.html</a></p>
+<h1 id="note"><a href="#note" class="headerlink" title="note"></a>note</h1><h2 id="一图胜千言，动图胜万言："><a href="#一图胜千言，动图胜万言：" class="headerlink" title="一图胜千言，动图胜万言："></a>一图胜千言，动图胜万言：</h2><p><img src="https://pic002.cnblogs.com/images/2012/426620/2012073019540660.gif"></p>
+<h2 id="算法步骤："><a href="#算法步骤：" class="headerlink" title="算法步骤："></a>算法步骤：</h2><p>a.初始时，S只包含源点，即S＝{v}，v的距离为0。U包含除v外的其他顶点，即:U={其余顶点}，若v与U中顶点u有边，则&lt;u,v&gt;正常有权值，若u不是v的出边邻接点，则&lt;u,v&gt;权值为∞。</p>
+<p>b.从U中选取一个距离v最小的顶点k，把k，加入S中（该选定的距离就是v到k的最短路径长度）。</p>
+<p>c.以k为新考虑的中间点，修改U中各顶点的距离；若从源点v到顶点u的距离（经过顶点k）比原来距离（不经过顶点k）短，则修改顶点u的距离值，修改后的距离值的顶点k的距离加上边上的权。</p>
+<p>d.重复步骤b和c直到所有顶点都包含在S中。</p>
+<h2 id="算法代码实现-需要多多阅读）："><a href="#算法代码实现-需要多多阅读）：" class="headerlink" title="算法代码实现(需要多多阅读）："></a>算法代码实现(需要多多阅读）：</h2><p>这个包含了记录前驱节点的代码。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>  MAXINT = <span class="number">32767</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXNUM = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> dist[MAXNUM];</span><br><span class="line"><span class="keyword">int</span> prev[MAXNUM];</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> A[MAXUNM][MAXNUM];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Dijkstra</span><span class="params">(<span class="keyword">int</span> v0)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  　　<span class="keyword">bool</span> S[MAXNUM];                                  <span class="comment">// 判断是否已存入该点到S集合中</span></span><br><span class="line">      <span class="keyword">int</span> n=MAXNUM;</span><br><span class="line">  　　<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; ++i)</span><br><span class="line"> 　　 &#123;</span><br><span class="line">      　　dist[i] = A[v0][i];</span><br><span class="line">      　　S[i] = <span class="literal">false</span>;                                <span class="comment">// 初始都未用过该点</span></span><br><span class="line">      　　<span class="keyword">if</span>(dist[i] == MAXINT)    </span><br><span class="line">            　　prev[i] = <span class="number">-1</span>;</span><br><span class="line"> 　　     <span class="keyword">else</span> </span><br><span class="line">            　　prev[i] = v0;</span><br><span class="line">   　　&#125;</span><br><span class="line">   　 dist[v0] = <span class="number">0</span>;</span><br><span class="line">   　 S[v0] = <span class="literal">true</span>; 　　</span><br><span class="line"> 　　 <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>; i&lt;=n; i++)</span><br><span class="line"> 　　 &#123;</span><br><span class="line">       　　<span class="keyword">int</span> mindist = MAXINT;</span><br><span class="line">       　　<span class="keyword">int</span> u = v0; 　　                            <span class="comment">// 找出当前未使用的点j的dist[j]最小值</span></span><br><span class="line">      　　 <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>; j&lt;=n; ++j)</span><br><span class="line">      　　    <span class="keyword">if</span>((!S[j]) &amp;&amp; dist[j]&lt;mindist)</span><br><span class="line">      　　    &#123;</span><br><span class="line">         　　       u = j;                             <span class="comment">// u保存当前邻接点中距离最小的点的号码 </span></span><br><span class="line">         　 　      mindist = dist[j];</span><br><span class="line">       　　   &#125;</span><br><span class="line">       　　S[u] = <span class="literal">true</span>; </span><br><span class="line">       　　<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>; j&lt;=n; j++)</span><br><span class="line">       　　    <span class="keyword">if</span>((!S[j]) &amp;&amp; A[u][j]&lt;MAXINT)</span><br><span class="line">       　　    &#123;</span><br><span class="line">           　    　<span class="keyword">if</span>(dist[u] + A[u][j] &lt; dist[j])     <span class="comment">//在通过新加入的u点路径找到离v0点更短的路径  </span></span><br><span class="line">           　    　&#123;</span><br><span class="line">                   　　dist[j] = dist[u] + A[u][j];    <span class="comment">//更新dist </span></span><br><span class="line">                   　　prev[j] = u;                    <span class="comment">//记录前驱顶点 </span></span><br><span class="line">            　　    &#125;</span><br><span class="line">        　    　&#125;</span><br><span class="line">   　　&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="啊哈磊-的代码："><a href="#啊哈磊-的代码：" class="headerlink" title="啊哈磊 的代码："></a>啊哈磊 的代码：</h2><p>更容易理解的，省略了记录前驱节点的 代码</p>
+<p><a href="https://blog.csdn.net/ahalei/article/details/22717661" target="_blank" rel="noopener">https://blog.csdn.net/ahalei/article/details/22717661</a></p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> e[<span class="number">10</span>][<span class="number">10</span>],dis[<span class="number">10</span>],book[<span class="number">10</span>],i,j,n,m,t1,t2,t3,u,v,min;</span><br><span class="line">    <span class="keyword">int</span> inf=<span class="number">99999999</span>; <span class="comment">//用inf(infinity的缩写)存储一个我们认为的正无穷值</span></span><br><span class="line">    <span class="comment">//读入n和m，n表示顶点个数，m表示边的条数</span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>,&amp;n,&amp;m);</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//初始化</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            <span class="keyword">if</span>(i==j) e[i][j]=<span class="number">0</span>;</span><br><span class="line">              <span class="keyword">else</span> e[i][j]=inf;</span><br><span class="line">                                                                     </span><br><span class="line">    <span class="comment">//读入边</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d %d"</span>,&amp;t1,&amp;t2,&amp;t3);</span><br><span class="line">        e[t1][t2]=t3;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//初始化dis数组，这里是1号顶点到其余各个顶点的初始路程</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        dis[i]=e[<span class="number">1</span>][i];</span><br><span class="line">    <span class="comment">//book数组初始化</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        book[i]=<span class="number">0</span>;</span><br><span class="line">    book[<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//Dijkstra算法核心语句</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//找到离1号顶点最近的顶点</span></span><br><span class="line">        min=inf;</span><br><span class="line">        <span class="comment">// 第一个loop ： 从“可以接触到的区域 tt1”，找到离感染区最近的一个未感染的细胞</span></span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(book[j]==<span class="number">0</span> &amp;&amp; dis[j]&lt;min)</span><br><span class="line">            &#123;</span><br><span class="line">                min=dis[j];</span><br><span class="line">                u=j;<span class="comment">// u 是标记的这次loop 找到最近的细胞</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        book[u]=<span class="number">1</span>;<span class="comment">// 细胞u已经被感染</span></span><br><span class="line">        <span class="comment">// 第二个loop：从这个找到的受害者细胞出发，看看有什么细胞我们还能接触到</span></span><br><span class="line">        <span class="comment">// aka：构成了新的：更大的：“可以接触到的区域 tt1”</span></span><br><span class="line">        <span class="keyword">for</span>(v=<span class="number">1</span>;v&lt;=n;v++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(e[u][v]&lt;inf)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">if</span>(dis[v]&gt;dis[u]+e[u][v])</span><br><span class="line">                    dis[v]=dis[u]+e[u][v];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//输出最终的结果</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,dis[i]);</span><br><span class="line">                                                               </span><br><span class="line">    getchar();</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="最后的疑问："><a href="#最后的疑问：" class="headerlink" title="最后的疑问："></a>最后的疑问：</h2><p>和prim （最近细胞感染法）有何区别呢？</p>
+<h3 id="回答："><a href="#回答：" class="headerlink" title="回答："></a>回答：</h3><p>prim ： 全局最优</p>
+<p>dij ： 局部，贪心，最优</p>
 ]]></content>
       <categories>
-        <category>life</category>
+        <category>work</category>
       </categories>
       <tags>
-        <tag>佛学</tag>
+        <tag>algo</tag>
       </tags>
   </entry>
   <entry>
@@ -106,6 +84,42 @@
       </categories>
       <tags>
         <tag>佛学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Dijkstra之1:介绍场景和实现</title>
+    <url>/2019/10/31/Dijkstra%E4%B9%8B1:%E4%BB%8B%E7%BB%8D%E5%9C%BA%E6%99%AF%E5%92%8C%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1ocy4n74j30po0g3jyg.jpg" alt="Dijkstra.jpeg"></p>
+<p>let me show you the dijkstra algo, implements in C++</p>
+<a id="more"></a>
+<h1 id="notes"><a href="#notes" class="headerlink" title="notes"></a>notes</h1><h2 id="什么时候，你会使用-dijkstra-算法呢"><a href="#什么时候，你会使用-dijkstra-算法呢" class="headerlink" title="什么时候，你会使用 dijkstra 算法呢"></a>什么时候，你会使用 dijkstra 算法呢</h2><p>你有一个带权（每个边有距离值）有向图（带箭头的图），你想知道一个点（比如:a)到其余各个顶点(比如：b,c,i,j,k,x,y…)的最短距离，这个时候，你会使用dijkstra 算法；</p>
+<h2 id="dijkstra-算法-的-思想"><a href="#dijkstra-算法-的-思想" class="headerlink" title="dijkstra 算法 的 思想"></a>dijkstra 算法 的 思想</h2><p>首先你安排一个集合：S， 这个S 里面包含已经求得最短路径的那些顶点(比如你已经知道了a 到 b,c,d的最短路径，那么此时，S里面就有 a,b,c,d);</p>
+<p>你可以使用一个数组实现这个 集合; 当 <code>s[vi] = 1</code>， 就说明 vi 这个点在S集合内了。</p>
+<p>你在一开始的时候，会把源点放在 这个 S集合里。比如我想知道点 <code>v0</code> 到其余各个点 <code>vx</code> 的距离，故此，我一开始，会设置 <code>s[v0] = 1</code>. 如果我们的v0 直接设置为s数组的第一个点，其实就会比较方便，于是初始时候，你得到s就如：</p>
+<pre><code>s := [1, 0, 0, 0....//后面全是0]
+</code></pre><h3 id="辅助的两个数组"><a href="#辅助的两个数组" class="headerlink" title="辅助的两个数组"></a>辅助的两个数组</h3><p><code>dist[]</code>: 记录了源点v0 到其他各个顶点的当前的最短路径长度。</p>
+<p><code>path[]</code>: 记录了前驱节点；比如 <code>path[i] = j</code> 表示：源点v0 到 点vi ，其中vi 前面的一个点是：vj。事后，我们可以根据这个path 值来追溯最短路径。 </p>
+<h3 id="具体表述"><a href="#具体表述" class="headerlink" title="具体表述"></a>具体表述</h3><p>1) 初始化：S集合；s数组里面就源点自己。 也初始化 <code>dist[]</code>，根据输入，来填入源点 到各个节点的距离，离得近（一步就到）的就填其对应的一步的距离，离得远的（输入中，没有给出的距离，比如源点到目标终点），就填写 int_max （-1也行，看个人选择）。</p>
+<p>2）  <strong>找跳板</strong> 从全集V - 集合S 的集合：V-S 中选取vj 这个节点：满足了：dist[j] = min(dist[x]| vertex:x属于V-S)(tt: 这里不懂//2020-05-08 12:03:懂了；)。（我的理解是：从本轮更新最短距离的节点们中，选一个最小距离的：vj，vj会是下一轮更新其他vx 节点的跳板，而且是最合适的跳板，因为vj 路径距离最小）</p>
+<p>3） <strong>开始跳</strong>： 修改从v0出发的，到V-S集合上的任意一个点(say:k)的距离，怎么该呢：如果</p>
+<pre><code>dist[k] &gt; dist[j] + arcs[j][k] 
+</code></pre><p>则令：</p>
+<pre><code>dist[k] = dist[j] + arcs[j][k] 
+</code></pre><p>4) 重复2，3；重复n-1次，直到所有的节点 都被包含在S集合中（V-S集合于是就是空集了）</p>
+<h2 id="小tips"><a href="#小tips" class="headerlink" title="小tips"></a>小tips</h2><ol>
+<li>dijkstra 是贪心的。</li>
+<li>双重循环</li>
+<li>时间复杂度：O(v^2);  v 是顶点数，不论是使用邻接表还是邻接矩阵都是这个复杂度。</li>
+<li>不适合含有 负权边 的图</li>
+</ol>
+<h1 id="code-in-cpp"><a href="#code-in-cpp" class="headerlink" title="code in cpp"></a>code in cpp</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">map</span>[<span class="number">110</span>][<span class="number">110</span>];<span class="comment">//这就是map数组，存储图</span></span><br><span class="line"><span class="keyword">int</span> dis[<span class="number">10010</span>];<span class="comment">//dis数组，存储估计值</span></span><br><span class="line"><span class="keyword">int</span> book[<span class="number">10010</span>];<span class="comment">//book[i]代表这个点有没有被当做源点去搜索过，1为有，0为没有。这样就不会重复搜索了。</span></span><br><span class="line"><span class="keyword">int</span> n,m;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dijkstra</span><span class="params">(<span class="keyword">int</span> u)</span><span class="comment">//主函数，参数是源点编号</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(dis,<span class="number">88</span>,<span class="keyword">sizeof</span>(dis));<span class="comment">//把dis数组附最大值（88不是十进制的88，其实很大）</span></span><br><span class="line">    <span class="keyword">int</span> start=u;<span class="comment">//先从源点搜索</span></span><br><span class="line">    book[start]=<span class="number">1</span>;<span class="comment">//标记源点已经搜索过</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        dis[i]=min(dis[i],<span class="built_in">map</span>[start][i]);<span class="comment">//先更新一遍</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//tt minn是用于记录一个最小值：哪个点到源点的距离最小呢？（在未访问过的点中找，aka：book[j] == 0;//这表示未被标记为已经访问过</span></span><br><span class="line">        <span class="keyword">int</span> minn=<span class="number">9999999</span>;<span class="comment">//谢评论区，改正一下：这里的minn不是题解上的minn，这代表的是最近点到源点的距离，start才代表最近的点、</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++) &#123;</span><br><span class="line">            <span class="comment">//book[j] == 0这表示未被标记为已经访问过</span></span><br><span class="line">            <span class="keyword">if</span>(book[j]==<span class="number">0</span> &amp;&amp; minn&gt;dis[j])&#123;</span><br><span class="line">                minn=dis[j];</span><br><span class="line">                start=j;<span class="comment">//找到离源点最近的点，然后把编号记录下来，用于搜索。</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 标记这个点（j点），将是新的出发点（start），也就是记book下来：它已经被踩过了。</span></span><br><span class="line">        book[start]=<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// tt 这里就是核心了，拿最近的，好使的点，更新到其他点的距离。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            dis[j]=min(dis[j],dis[start]+<span class="built_in">map</span>[start][j]);<span class="comment">//以新的点来更新dis。</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="built_in">memset</span>(<span class="built_in">map</span>,<span class="number">88</span>,<span class="keyword">sizeof</span>(<span class="built_in">map</span>));</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> a,b,c;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">        <span class="built_in">map</span>[a][b]=c;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            <span class="keyword">if</span>(i==j)</span><br><span class="line">                <span class="built_in">map</span>[i][j]=<span class="number">0</span>;</span><br><span class="line">    dijkstra(<span class="number">1</span>);<span class="comment">//以1为源点。</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;dis[i]&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p><a href="https://www.cnblogs.com/jason2003/p/7222182.html" target="_blank" rel="noopener">https://www.cnblogs.com/jason2003/p/7222182.html</a></p>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>algo</tag>
       </tags>
   </entry>
   <entry>
@@ -176,161 +190,6 @@
       </categories>
       <tags>
         <tag>佛学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dijkstra之2:理解加深篇</title>
-    <url>/2019/11/10/Dijkstra%E4%B9%8B2:%E7%90%86%E8%A7%A3%E5%8A%A0%E6%B7%B1%E7%AF%87/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o543zw0j30po0g3jyg.jpg" alt="Dijkstra.jpeg"></p>
-<p>单源最短路径：解决单一个源点到某个点的（任意点的）最短的路径的问题 </p>
-<a id="more"></a>
-<h1 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h1><p><a href="https://www.cnblogs.com/biyeymyhjob/archive/2012/07/31/2615833.html" target="_blank" rel="noopener">https://www.cnblogs.com/biyeymyhjob/archive/2012/07/31/2615833.html</a></p>
-<h1 id="note"><a href="#note" class="headerlink" title="note"></a>note</h1><h2 id="一图胜千言，动图胜万言："><a href="#一图胜千言，动图胜万言：" class="headerlink" title="一图胜千言，动图胜万言："></a>一图胜千言，动图胜万言：</h2><p><img src="https://pic002.cnblogs.com/images/2012/426620/2012073019540660.gif"></p>
-<h2 id="算法步骤："><a href="#算法步骤：" class="headerlink" title="算法步骤："></a>算法步骤：</h2><p>a.初始时，S只包含源点，即S＝{v}，v的距离为0。U包含除v外的其他顶点，即:U={其余顶点}，若v与U中顶点u有边，则&lt;u,v&gt;正常有权值，若u不是v的出边邻接点，则&lt;u,v&gt;权值为∞。</p>
-<p>b.从U中选取一个距离v最小的顶点k，把k，加入S中（该选定的距离就是v到k的最短路径长度）。</p>
-<p>c.以k为新考虑的中间点，修改U中各顶点的距离；若从源点v到顶点u的距离（经过顶点k）比原来距离（不经过顶点k）短，则修改顶点u的距离值，修改后的距离值的顶点k的距离加上边上的权。</p>
-<p>d.重复步骤b和c直到所有顶点都包含在S中。</p>
-<h2 id="算法代码实现-需要多多阅读）："><a href="#算法代码实现-需要多多阅读）：" class="headerlink" title="算法代码实现(需要多多阅读）："></a>算法代码实现(需要多多阅读）：</h2><p>这个包含了记录前驱节点的代码。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>  MAXINT = <span class="number">32767</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> MAXNUM = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">int</span> dist[MAXNUM];</span><br><span class="line"><span class="keyword">int</span> prev[MAXNUM];</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> A[MAXUNM][MAXNUM];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Dijkstra</span><span class="params">(<span class="keyword">int</span> v0)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  　　<span class="keyword">bool</span> S[MAXNUM];                                  <span class="comment">// 判断是否已存入该点到S集合中</span></span><br><span class="line">      <span class="keyword">int</span> n=MAXNUM;</span><br><span class="line">  　　<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;=n; ++i)</span><br><span class="line"> 　　 &#123;</span><br><span class="line">      　　dist[i] = A[v0][i];</span><br><span class="line">      　　S[i] = <span class="literal">false</span>;                                <span class="comment">// 初始都未用过该点</span></span><br><span class="line">      　　<span class="keyword">if</span>(dist[i] == MAXINT)    </span><br><span class="line">            　　prev[i] = <span class="number">-1</span>;</span><br><span class="line"> 　　     <span class="keyword">else</span> </span><br><span class="line">            　　prev[i] = v0;</span><br><span class="line">   　　&#125;</span><br><span class="line">   　 dist[v0] = <span class="number">0</span>;</span><br><span class="line">   　 S[v0] = <span class="literal">true</span>; 　　</span><br><span class="line"> 　　 <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>; i&lt;=n; i++)</span><br><span class="line"> 　　 &#123;</span><br><span class="line">       　　<span class="keyword">int</span> mindist = MAXINT;</span><br><span class="line">       　　<span class="keyword">int</span> u = v0; 　　                            <span class="comment">// 找出当前未使用的点j的dist[j]最小值</span></span><br><span class="line">      　　 <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>; j&lt;=n; ++j)</span><br><span class="line">      　　    <span class="keyword">if</span>((!S[j]) &amp;&amp; dist[j]&lt;mindist)</span><br><span class="line">      　　    &#123;</span><br><span class="line">         　　       u = j;                             <span class="comment">// u保存当前邻接点中距离最小的点的号码 </span></span><br><span class="line">         　 　      mindist = dist[j];</span><br><span class="line">       　　   &#125;</span><br><span class="line">       　　S[u] = <span class="literal">true</span>; </span><br><span class="line">       　　<span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>; j&lt;=n; j++)</span><br><span class="line">       　　    <span class="keyword">if</span>((!S[j]) &amp;&amp; A[u][j]&lt;MAXINT)</span><br><span class="line">       　　    &#123;</span><br><span class="line">           　    　<span class="keyword">if</span>(dist[u] + A[u][j] &lt; dist[j])     <span class="comment">//在通过新加入的u点路径找到离v0点更短的路径  </span></span><br><span class="line">           　    　&#123;</span><br><span class="line">                   　　dist[j] = dist[u] + A[u][j];    <span class="comment">//更新dist </span></span><br><span class="line">                   　　prev[j] = u;                    <span class="comment">//记录前驱顶点 </span></span><br><span class="line">            　　    &#125;</span><br><span class="line">        　    　&#125;</span><br><span class="line">   　　&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="啊哈磊-的代码："><a href="#啊哈磊-的代码：" class="headerlink" title="啊哈磊 的代码："></a>啊哈磊 的代码：</h2><p>更容易理解的，省略了记录前驱节点的 代码</p>
-<p><a href="https://blog.csdn.net/ahalei/article/details/22717661" target="_blank" rel="noopener">https://blog.csdn.net/ahalei/article/details/22717661</a></p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> e[<span class="number">10</span>][<span class="number">10</span>],dis[<span class="number">10</span>],book[<span class="number">10</span>],i,j,n,m,t1,t2,t3,u,v,min;</span><br><span class="line">    <span class="keyword">int</span> inf=<span class="number">99999999</span>; <span class="comment">//用inf(infinity的缩写)存储一个我们认为的正无穷值</span></span><br><span class="line">    <span class="comment">//读入n和m，n表示顶点个数，m表示边的条数</span></span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d %d"</span>,&amp;n,&amp;m);</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//初始化</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            <span class="keyword">if</span>(i==j) e[i][j]=<span class="number">0</span>;</span><br><span class="line">              <span class="keyword">else</span> e[i][j]=inf;</span><br><span class="line">                                                                     </span><br><span class="line">    <span class="comment">//读入边</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d %d %d"</span>,&amp;t1,&amp;t2,&amp;t3);</span><br><span class="line">        e[t1][t2]=t3;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//初始化dis数组，这里是1号顶点到其余各个顶点的初始路程</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        dis[i]=e[<span class="number">1</span>][i];</span><br><span class="line">    <span class="comment">//book数组初始化</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        book[i]=<span class="number">0</span>;</span><br><span class="line">    book[<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//Dijkstra算法核心语句</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//找到离1号顶点最近的顶点</span></span><br><span class="line">        min=inf;</span><br><span class="line">        <span class="comment">// 第一个loop ： 从“可以接触到的区域 tt1”，找到离感染区最近的一个未感染的细胞</span></span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(book[j]==<span class="number">0</span> &amp;&amp; dis[j]&lt;min)</span><br><span class="line">            &#123;</span><br><span class="line">                min=dis[j];</span><br><span class="line">                u=j;<span class="comment">// u 是标记的这次loop 找到最近的细胞</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        book[u]=<span class="number">1</span>;<span class="comment">// 细胞u已经被感染</span></span><br><span class="line">        <span class="comment">// 第二个loop：从这个找到的受害者细胞出发，看看有什么细胞我们还能接触到</span></span><br><span class="line">        <span class="comment">// aka：构成了新的：更大的：“可以接触到的区域 tt1”</span></span><br><span class="line">        <span class="keyword">for</span>(v=<span class="number">1</span>;v&lt;=n;v++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(e[u][v]&lt;inf)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">if</span>(dis[v]&gt;dis[u]+e[u][v])</span><br><span class="line">                    dis[v]=dis[u]+e[u][v];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">                                                           </span><br><span class="line">    <span class="comment">//输出最终的结果</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,dis[i]);</span><br><span class="line">                                                               </span><br><span class="line">    getchar();</span><br><span class="line">    getchar();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="最后的疑问："><a href="#最后的疑问：" class="headerlink" title="最后的疑问："></a>最后的疑问：</h2><p>和prim （最近细胞感染法）有何区别呢？</p>
-<h3 id="回答："><a href="#回答：" class="headerlink" title="回答："></a>回答：</h3><p>prim ： 全局最优</p>
-<p>dij ： 局部，贪心，最优</p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>algo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>佛教生死观p1</title>
-    <url>/2020/03/23/buddha%E4%BD%9B%E6%95%99%E7%94%9F%E6%AD%BB%E8%A7%82p1/</url>
-    <content><![CDATA[<p>我知道的佛教生死观念。简述</p>
-<pre><code>诸行无常，是生灭法。
-
-生灭灭已，寂灭为乐。
-</code></pre><a id="more"></a>
-<p>[TOC]</p>
-<blockquote>
-<p>由于众生不能直接体悟本无生死的寂灭心性，而乱起种种妄想、颠倒、执著，导致了迷惑、造业、受报，轮回生死，受尽苦厄，无有了期。因此诸佛菩萨，以及历代祖师大德们，秉着“无缘大慈，同体大悲”的愿力，运用方便和究竟的般若智慧，揭开了“生死大事”的神秘面纱，让我们看到了“生死”那丰富多彩和玲珑剔透的本来面目。于是，智慧和慈悲，从每个人的心中油然生起，我们因此懂得了生活，而不再畏惧死亡。当死亡来临时，我们还将心怀宁静和喜悦！</p>
-</blockquote>
-<p>说人话，白话文：</p>
-<p>人心现在愚痴了，物质的社会令人每天都在追求很多东西，人们有对所谓美好生活的不断向往，执着。这导致了迷惑，无明。</p>
-<p>然而有一群和尚，从印度一个叫做 释迦摩尼 的人那里听来了一些教导。（释迦摩尼 作为官二代的出道可以看看其他文章）然后把这个人成为佛祖（意思是：觉者的祖宗），这个人讲的话，传授的智慧，称佛法，后来经过哲学，文学，身体力行，形成宗教组织，并和中国文化融合了，从某个地方的博物馆你可以看到，整个中国的历史，就是一部佛教的历史（婆说婆有理）。</p>
-<p>总之，这个叫做佛法的东西是个好东西，是释迦摩尼 开悟后，没有直接跑路，而是留在世间给世人说几嘴再走。希望大家都像他一样，从他看到的轮回的世界中解脱，从不时有苦的生命里走出来的法子。这法子，小到让人心怀宁静和喜悦，大到让世界大同和平，万物众生灵可平等和谐生存。</p>
-<h2 id="你看不清生从何来，死往何去"><a href="#你看不清生从何来，死往何去" class="headerlink" title="你看不清生从何来，死往何去"></a>你看不清生从何来，死往何去</h2><p>有空想这些，不如多赚点钱，生死是有的没的，过好这一辈子，死后不管，不相信报应，因缘，说死，不吉利，有时还是禁忌。这是社会的共识。</p>
-<p>早些时候，还是佛法，哲学，比较火的时候，各种学说，各种子，各种苏格拉底，亚里士多德，柏拉图，还能点播一下人关于生死的事，现在我们把死亡当作生理过程，比较轻松，轻视了。</p>
-<p>社会花了很久给大众洗脑，一如各种宗教。现代唯物科学教和资本主义强强联手，令他们每个人的一生恰恰避开了其生命最终，最重的议题：死亡的痛苦。</p>
-<p>生死是痛苦的</p>
-<p>　　首先，生死是痛苦的。凡夫众生，无论在何时，无论在何地，都不能得到绝对的自由；不管是为了自己，还是为了社会，努力的结果，也都无法达到绝对完美的幸福！为什么？原因很简单——万物有生必有死。死亡，谁都不愿意。万物包括我们的任何情绪，财富，知识。情绪有起伏，财富有得失，知识有新旧。</p>
-<p>　　生与死，具有极大的束缚性。我们现在无法知道生与死的来源和去处，这就使我们只能局限在短暂的人生中思索。离我去者，昨日之日不可留；乱我心者，今日之日多烦忧。对于过去和未来，都毫无知晓，毫无把握，最多也只是留下一些模糊的记忆，却无法重现它们的真实面目。整体的生命似乎被分割成无数个零落的碎片，随风飘逝。而感觉中，我们总还以为拥有什么似的。对于生前死后的凌乱与隔阂，这种无知的状态，佛法中称之为“分段生死”。</p>
-<h3 id="说说三个苦"><a href="#说说三个苦" class="headerlink" title="说说三个苦"></a>说说三个苦</h3><p>　　现实的人生，就是分段生死的展现。形体的美丑，寿命的长短，知识的多寡，情绪的高低，智慧的深浅，人人各不相同，自有特色，彼此之间难以沟通，难以理解，难以想象，种种差别情景，都是“分段”之意。分段生死具有最基本的三种痛苦：     <strong>苦苦、行苦、坏苦，通常称为三苦</strong></p>
-<h4 id="苦苦"><a href="#苦苦" class="headerlink" title="苦苦"></a>苦苦</h4><p>　　苦苦，就是直接的、具体的、客观的、痛苦的感受。一切不如意的痛苦感受，具有强烈的 <em>逼迫性</em> ，逼恼身心，不堪忍受之苦。</p>
-<blockquote>
-<p>生老病死谁替得？咸酸苦辣自承当。爱者有别离，怨憎却相会，所求不如意，五阴常炽然，忧悲恼苦，难以尽言。</p>
-</blockquote>
-<blockquote>
-<p>旧苦未去，新苦又来。</p>
-</blockquote>
-<blockquote>
-<p>如麻风病未痊愈又生毒痈，毒痈未好又生疮；年老体衰已经行动不便，偏又摔跤骨折甚至瘫痪。屋漏更遭连夜雨</p>
-</blockquote>
-<p>无论什么身份什么职务，从生到死，总要接受各种苦难的折磨。</p>
-<p>在一切苦苦当中，老、病、死之苦，是最根本、最自然的痛苦。</p>
-<h4 id="行苦"><a href="#行苦" class="headerlink" title="行苦"></a>行苦</h4><p>　　行苦，就是间接的、无形的、变化的、不苦不乐的感受。一切事物无常变化，没有永恒的存在，亦即这种不知不觉使人迁流在三界六道之中，受尽苦楚。时光不待人，渐渐皆远去。看看他人老，不觉轮到己！</p>
-<p>人生在世的时候呢，能让自己快乐和痛苦的事情，在时间的比例上并不是最多的，而不苦不乐的感受，才是最多的，不信可以大数据统计一下自己的情绪函数。</p>
-<p>从生到死，能够留下的记忆实在少之又少，因为大部分的光阴，都是在不知不觉中流逝。然而，在生活中，人们却是何等的无能为力？一任时光流失，一任岁月蹉跎。晓镜但愁云鬓改，夜吟应觉月光寒</p>
-<p>在无常面前，众生是脆弱的。无常是世事，也是人事，也是心事，这三者没有什么是有常，常定的。</p>
-<h4 id="坏苦"><a href="#坏苦" class="headerlink" title="坏苦"></a>坏苦</h4><p>　　坏苦，这是指直接的、具体的、主观的、快乐的感受必将坏灭，从而产生痛苦。所有的快乐感受，都会形成感官上的强烈对比，在失去快乐时，内心就产生极大的痛苦。</p>
-<p>天下没有不散的宴席，亲人的别离，相爱的分手，青春的逝去，才华的枯竭，财富的消耗，荣华的衰落，名望的消失，都是坏苦。</p>
-<p>雕栏玉砌应犹在，只是朱颜改 </p>
-<p>所有快乐，终必损败，无常世间，没有谁能久留。久留的都是无常变化比较慢的：比如乌龟，树木。反例是活动很多的，变化很多的：鲜花，老虎狮子，季节性蚊虫。</p>
-<p>人们只知道追求幸福，但是不知道正在幸福的时候，幸福已经渐渐的离去。临死之际，回首人生，一切都是无常、败坏、不安之相。具体可以参考濒死体验，中阴身。</p>
-<p>　　凡夫众生处于生死之中，不知道很多法是缘起缘灭的，未明生命本质内涵，对于身心苦乐感受，产生欣厌，执取坚固，如此，习惯成自然。</p>
-<p>不能从痛苦中认得真相，不能从苦难中锻炼心志，而是苦上加苦，苦不可言。</p>
-<p>也不能从快乐中悟得真理，不能由欢乐中升华生命，而是乐极生悲，徒自兴叹。</p>
-<p>亦不能从不苦不乐中晓了实相，不能因为不苦不乐而倍加珍惜淡泊明志、宁静致远的豁达超越之胸怀，而是糊里糊涂、得过且过，浪费生命。</p>
-<p>于是，受苦固然是苦，就是快乐也变为痛苦的根源，不苦不乐亦成为痛苦的重要因素。</p>
-<p>　　人生中，最大之苦，莫过于老苦、病苦、死苦！在十二支的因缘法中，“老死”同属一支，当然这一支还包含了出生之后的种种病苦，以及忧悲恼苦。所以，在佛法中正面的<strong>临终关怀</strong>，就包括了对于人生的老、病、死的关怀，这是一项<strong>巨大的工程</strong>。（西藏生死书，对这个关怀讲的比较多）</p>
-<p>　　这项工程就建立在“生死是苦”的基础上来进行。明白生死是苦，这绝对不是消极、胆怯、懦弱的表现，而是如实观察的结果，正是一种对生命认真负责的态度，也是对人生的局限充满挑战性的无畏精神。</p>
-<p>也就是被苦难生活逼急了的人说的：<code>不要怂就是干</code> 的精神。</p>
-<p>如此，面对一切事业和行为，就能够坦然地说“诸行无常，是生灭法”（不理解，估计是：编程语言不重要，重要的是思想。类似）。</p>
-<p>所以，在<strong>照见</strong>[^1]<br>“生死是苦”的黑暗后，能慢慢用智慧的眼，看到解脱此苦的光明。</p>
-<p>[^1]: <code>照</code> 字可以同 般若波罗蜜心经 里面观音大士 的 <code>照见五蕴皆空</code> 理解。</p>
-<p>生命的智慧不是知识，不是可以看见，而是如同蜡烛，照见。</p>
-<hr>
-<p>下一篇：佛手把手教你解决生死之痛</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>佛法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>buddha 快乐人生part2</title>
-    <url>/2020/03/22/buddha-%E5%BF%AB%E4%B9%90%E4%BA%BA%E7%94%9Fpart2/</url>
-    <content><![CDATA[<p><img src="https://gateway.pinata.cloud/ipfs/QmQzimhtuSuUXoArbvi6LUkQpBzeUpeTvpYTDM3SvyFERP" alt="fo" title="佛music"></p>
-<p>达照法师在2011 年讲授了 关于 快乐人生 的智慧。</p>
-<p>第一部分，第2节。</p>
-<a id="more"></a>
-<p>一个人。他在得到福利彩票中奖的时候，那就非常快乐，那种快乐是暂时的。顶过了几个月两三个月以后，她的幸福快乐的标准又回到中奖以前。</p>
-<p><em>这就好像我们工作，上学，期盼放假，放假是很幸福的，但是在家里呆的久了，就像2020年的疫情，许多人在家呆了很久，学生多放了一个月的假期，她们在家里，可以一直幸福吗？实际上，在家里也是憋坏了，也是和父母慢慢出现更多摩擦。
-</em></p>
-<p>当一个人，他突然遭到天灾人祸，或者是换得一个什么疾病，遭受了什么打击？也是大概过了两三个月一段时间以后，他的幸福标准还会退到原来的那点。</p>
-<p>所以古人很在意教育，就是你在很小的时候，在你的大脑里面或者说身心当中植入一种幸福指数的标准。随着不同的标准。你对自己人生的要求自然就不一样。</p>
-<p>过去，传统的教育，总是觉得你的心，如果安，你就会幸福了。你人际关系处理好了，你就会幸福了。你要与人为善，要少一些争吵，多一些关爱。</p>
-<p>但是，随着物质的发展。许多人把物质的享受，当成人生价值的一个重要事情。所以，</p>
-<blockquote>
-<p>外在的生活越来越丰富。内在的精神却越来越空虚。</p>
-</blockquote>
-<p>原因是她的尺寸, 他的标准没有定准。那么我们回过头来。在开发人生的意义，我们从小到大到今天你活出意义了，没有。</p>
-<p>日本有一位企业家。他写过一本《活法》。人生活着，怎么活？他讲过一句话，就是你生下来的时候，是一个什么状态，来到这个世界，你拥有了多少的东西？</p>
-<p>当你死的时候。你还拥有什么东西？如果你临死所拥有的东西，还不如生下来的时候。那你这一生就白活了。混乱的人生。</p>
-<p>如果你在临终到时的时候，比起来到这个世界，获得的东西更好了，那说明你最近活着是有意义。</p>
-<p>但是我们现在观察自己虽然还没有到死完，我们从小到现在，我们内心的充足，是否比小的时候时候少了？特别是第六，七岁，七八岁，天真的时候。</p>
-<p>那个时候，我们拥有的能力，财富，资源，权力，都不如现在。但是偏偏那个时候烦恼痛苦比较小，而现在呢，你的知识能力，眼光享受都比那个时候好，你为什么还不如那时候快乐？这是值得反省的一个重要问题。</p>
-<p>换句话说，如果你今天的能力和权力，掌握了比刚来到这个世界要多很多，但是你所掌握的，却是一些让你产生烦恼的权力，让你产生痛苦的能力。那你这些能力和权利。掌握与不掌握，还不如不掌握。</p>
-<p>这是一个很现实的问题。针对我们自己，我们能不能追索到自己不曾拥有这一切，物质外在的能力的，来到这个世界的这个状态。</p>
-<p>弥勒菩萨在寺庙里面每天笑嘻嘻的，<strong>大肚能容天下事，开口常笑世间人</strong>。原因在哪里？因为他学会了布施。他拥有的食物，不时给别人。他把他的衣服，也能不时给别人。实际上，他获得的是真正的快乐。</p>
-<p>所以，按照佛法说，我们内在每一个人的真心，原本都具有 <strong>不受伤害的本具自信，从来不曾受过伤害，也从来不曾有过烦恼</strong>。从什么时候开始，我们会变得烦恼重重，变得需要去追求快乐呢？</p>
-<p>假如你不懂得追求快乐，这样的人生其实是更加的迷茫。懂得追求快乐了。去追求到的一大堆全部都是痛苦，就是没有智慧的人生。</p>
-<p>我经常有见过，这样的人。他觉得自己的能力超过一般的人，为什么没有相应的待遇。或者他觉得自己已经拥有了不少的物质财富，为什么内心还没有快乐可言？</p>
-<p>我今年遇到两个奇人。</p>
-<p>一个是资产好几个亿的老总。他说自己24岁出来创业，打天下，事业做的很成功，但是他感受到的人生全部都是痛苦。这个世界岂止是痛苦，简直就是痛苦。不过他发了个好愿，他他这一生一定要认真学佛，一定要追究潜伏的主体。别人看他德行，家庭事业，人品样样都好，但他却看到了生命真正的痛苦。</p>
-<p>另外还有一个，是北京大学的博士生。他说，如果这一生活着，只是偶尔做点好事，看看书，突然有一些感悟，就这么活一辈子，简直没意思。</p>
-<p>你看看，你能经常看看，有所感悟，偶尔做一些好事不是挺好的吗？</p>
-<p>他说，简直是没意思。如果不是为了让众生获得更多的快乐，他不活也行，话不要讲也没有关系。</p>
-<p>所以，一定要想追求成就菩萨那样，利益一切众生，这个生命才有意义。</p>
-<p>那么佛陀告诉我们，实际上我们每一个人的生命的本质是具足绝对的自由和快乐的。但是，由于我们不认识自己的生命本质。我们很容易心随境转，很容易随业受报，不能转业。</p>
-<p>这个就是行为的惯性。外在的一切遭遇都是我们过去所造的一手感召来的。因为没有看到自己生命内在的力量，没有把这种绝对自由，绝对快乐的生命力开发出来，所以就只能被动的。随着业流着。流转到快乐的地方，快乐一下，流转到痛苦的地方，痛苦一下，流转到生老病死，我们也无能为力。无奈的去接受生老病死。</p>
-<p>遇到恶人逆境，我们也很无奈的去面对这些。对自己的生命基本上是呈现一种，前不见古人后不见来者的一种迷失的生命的状态。</p>
-<p>如果不是佛陀，古今学者来引导我们，靠我们自己想从这种痛苦的生命中解脱出来，基本上是没有什么希望？所以佛告诉我们，大小乘佛法，开发的是我们生命当中两种最根本的保障。</p>
-<p>第一种是可以消除一切痛苦。所以大家可以肯定的说，如果你今天活得比昨天更加痛苦，你这一天不但白活，而且活错了。</p>
-<p>你今天一定不能比昨天更加痛苦。</p>
-<p>如果你今天活的会比昨天给别人带来更多的痛苦，那你就活得更错。</p>
-<p>所以对自己来说是是舍弃身心的一切，得到快乐。</p>
-<p>但是人不是独立存在，我们每一个人都是群居的团体生活，所以你一个人的生命解决，不是真正的解决。你一个人的痛苦没有了，别的人，如果还有痛楚。那你一定还会继续痛。</p>
-<p>所以有句话讲，如一众生未得渡，我佛终销有泪弹。只是如果有一个人在你的身边，在你的生命里，在你的世界里，他呈现的生命是痛苦的，你一定不是完美的生命状态，也就是说你有责任有义务去帮助他们解决痛苦。</p>
-<p>这是佛法告诉我们生命的意义。</p>
-<p>那么这个意义可以从小到大。想当你的起心动念，内在的理性能否改善自己，大到你的整个世界是否还有一样看不惯的事情？</p>
-<p>我们大家对自己的心不了解，往往误会自己。</p>
-<p>你看到别人的错误，实际上是你内心有错误的标准。</p>
-<p>记住这句话，你看到别人的错误是你内心有错误的标准。</p>
-<p>你看到恶人觉得那个人是个坏人，是因为你内心有恶人坏人的标准。你如果没有坏人的标准，你看不到坏。</p>
-<p>佛菩萨看到一切众生都是佛陀。因为他内心没有错误的标准。</p>
-<p>所以，对于我们最初的生命乃至未来的生命，唯一的意义就是<em>能否获得快乐</em>。这个大家一定要完全肯定自己。如果不能把这个生命的意义，摆到生活当中去，你有时候会觉得很迷茫，学佛学了这么多年我为什么还不快乐，还一样在那里，烦恼习气毛病还是一大堆，因为你没有把快乐的情绪从内心深处开发起来，常常会为了达到某种标准而使自己更加痛苦。</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>佛法</tag>
       </tags>
   </entry>
   <entry>
@@ -414,6 +273,183 @@
       </tags>
   </entry>
   <entry>
+    <title>buddha 快乐人生part2</title>
+    <url>/2020/03/22/buddha-%E5%BF%AB%E4%B9%90%E4%BA%BA%E7%94%9Fpart2/</url>
+    <content><![CDATA[<p><img src="https://gateway.pinata.cloud/ipfs/QmQzimhtuSuUXoArbvi6LUkQpBzeUpeTvpYTDM3SvyFERP" alt="fo" title="佛music"></p>
+<p>达照法师在2011 年讲授了 关于 快乐人生 的智慧。</p>
+<p>第一部分，第2节。</p>
+<a id="more"></a>
+<p>一个人。他在得到福利彩票中奖的时候，那就非常快乐，那种快乐是暂时的。顶过了几个月两三个月以后，她的幸福快乐的标准又回到中奖以前。</p>
+<p><em>这就好像我们工作，上学，期盼放假，放假是很幸福的，但是在家里呆的久了，就像2020年的疫情，许多人在家呆了很久，学生多放了一个月的假期，她们在家里，可以一直幸福吗？实际上，在家里也是憋坏了，也是和父母慢慢出现更多摩擦。
+</em></p>
+<p>当一个人，他突然遭到天灾人祸，或者是换得一个什么疾病，遭受了什么打击？也是大概过了两三个月一段时间以后，他的幸福标准还会退到原来的那点。</p>
+<p>所以古人很在意教育，就是你在很小的时候，在你的大脑里面或者说身心当中植入一种幸福指数的标准。随着不同的标准。你对自己人生的要求自然就不一样。</p>
+<p>过去，传统的教育，总是觉得你的心，如果安，你就会幸福了。你人际关系处理好了，你就会幸福了。你要与人为善，要少一些争吵，多一些关爱。</p>
+<p>但是，随着物质的发展。许多人把物质的享受，当成人生价值的一个重要事情。所以，</p>
+<blockquote>
+<p>外在的生活越来越丰富。内在的精神却越来越空虚。</p>
+</blockquote>
+<p>原因是她的尺寸, 他的标准没有定准。那么我们回过头来。在开发人生的意义，我们从小到大到今天你活出意义了，没有。</p>
+<p>日本有一位企业家。他写过一本《活法》。人生活着，怎么活？他讲过一句话，就是你生下来的时候，是一个什么状态，来到这个世界，你拥有了多少的东西？</p>
+<p>当你死的时候。你还拥有什么东西？如果你临死所拥有的东西，还不如生下来的时候。那你这一生就白活了。混乱的人生。</p>
+<p>如果你在临终到时的时候，比起来到这个世界，获得的东西更好了，那说明你最近活着是有意义。</p>
+<p>但是我们现在观察自己虽然还没有到死完，我们从小到现在，我们内心的充足，是否比小的时候时候少了？特别是第六，七岁，七八岁，天真的时候。</p>
+<p>那个时候，我们拥有的能力，财富，资源，权力，都不如现在。但是偏偏那个时候烦恼痛苦比较小，而现在呢，你的知识能力，眼光享受都比那个时候好，你为什么还不如那时候快乐？这是值得反省的一个重要问题。</p>
+<p>换句话说，如果你今天的能力和权力，掌握了比刚来到这个世界要多很多，但是你所掌握的，却是一些让你产生烦恼的权力，让你产生痛苦的能力。那你这些能力和权利。掌握与不掌握，还不如不掌握。</p>
+<p>这是一个很现实的问题。针对我们自己，我们能不能追索到自己不曾拥有这一切，物质外在的能力的，来到这个世界的这个状态。</p>
+<p>弥勒菩萨在寺庙里面每天笑嘻嘻的，<strong>大肚能容天下事，开口常笑世间人</strong>。原因在哪里？因为他学会了布施。他拥有的食物，不时给别人。他把他的衣服，也能不时给别人。实际上，他获得的是真正的快乐。</p>
+<p>所以，按照佛法说，我们内在每一个人的真心，原本都具有 <strong>不受伤害的本具自信，从来不曾受过伤害，也从来不曾有过烦恼</strong>。从什么时候开始，我们会变得烦恼重重，变得需要去追求快乐呢？</p>
+<p>假如你不懂得追求快乐，这样的人生其实是更加的迷茫。懂得追求快乐了。去追求到的一大堆全部都是痛苦，就是没有智慧的人生。</p>
+<p>我经常有见过，这样的人。他觉得自己的能力超过一般的人，为什么没有相应的待遇。或者他觉得自己已经拥有了不少的物质财富，为什么内心还没有快乐可言？</p>
+<p>我今年遇到两个奇人。</p>
+<p>一个是资产好几个亿的老总。他说自己24岁出来创业，打天下，事业做的很成功，但是他感受到的人生全部都是痛苦。这个世界岂止是痛苦，简直就是痛苦。不过他发了个好愿，他他这一生一定要认真学佛，一定要追究潜伏的主体。别人看他德行，家庭事业，人品样样都好，但他却看到了生命真正的痛苦。</p>
+<p>另外还有一个，是北京大学的博士生。他说，如果这一生活着，只是偶尔做点好事，看看书，突然有一些感悟，就这么活一辈子，简直没意思。</p>
+<p>你看看，你能经常看看，有所感悟，偶尔做一些好事不是挺好的吗？</p>
+<p>他说，简直是没意思。如果不是为了让众生获得更多的快乐，他不活也行，话不要讲也没有关系。</p>
+<p>所以，一定要想追求成就菩萨那样，利益一切众生，这个生命才有意义。</p>
+<p>那么佛陀告诉我们，实际上我们每一个人的生命的本质是具足绝对的自由和快乐的。但是，由于我们不认识自己的生命本质。我们很容易心随境转，很容易随业受报，不能转业。</p>
+<p>这个就是行为的惯性。外在的一切遭遇都是我们过去所造的一手感召来的。因为没有看到自己生命内在的力量，没有把这种绝对自由，绝对快乐的生命力开发出来，所以就只能被动的。随着业流着。流转到快乐的地方，快乐一下，流转到痛苦的地方，痛苦一下，流转到生老病死，我们也无能为力。无奈的去接受生老病死。</p>
+<p>遇到恶人逆境，我们也很无奈的去面对这些。对自己的生命基本上是呈现一种，前不见古人后不见来者的一种迷失的生命的状态。</p>
+<p>如果不是佛陀，古今学者来引导我们，靠我们自己想从这种痛苦的生命中解脱出来，基本上是没有什么希望？所以佛告诉我们，大小乘佛法，开发的是我们生命当中两种最根本的保障。</p>
+<p>第一种是可以消除一切痛苦。所以大家可以肯定的说，如果你今天活得比昨天更加痛苦，你这一天不但白活，而且活错了。</p>
+<p>你今天一定不能比昨天更加痛苦。</p>
+<p>如果你今天活的会比昨天给别人带来更多的痛苦，那你就活得更错。</p>
+<p>所以对自己来说是是舍弃身心的一切，得到快乐。</p>
+<p>但是人不是独立存在，我们每一个人都是群居的团体生活，所以你一个人的生命解决，不是真正的解决。你一个人的痛苦没有了，别的人，如果还有痛楚。那你一定还会继续痛。</p>
+<p>所以有句话讲，如一众生未得渡，我佛终销有泪弹。只是如果有一个人在你的身边，在你的生命里，在你的世界里，他呈现的生命是痛苦的，你一定不是完美的生命状态，也就是说你有责任有义务去帮助他们解决痛苦。</p>
+<p>这是佛法告诉我们生命的意义。</p>
+<p>那么这个意义可以从小到大。想当你的起心动念，内在的理性能否改善自己，大到你的整个世界是否还有一样看不惯的事情？</p>
+<p>我们大家对自己的心不了解，往往误会自己。</p>
+<p>你看到别人的错误，实际上是你内心有错误的标准。</p>
+<p>记住这句话，你看到别人的错误是你内心有错误的标准。</p>
+<p>你看到恶人觉得那个人是个坏人，是因为你内心有恶人坏人的标准。你如果没有坏人的标准，你看不到坏。</p>
+<p>佛菩萨看到一切众生都是佛陀。因为他内心没有错误的标准。</p>
+<p>所以，对于我们最初的生命乃至未来的生命，唯一的意义就是<em>能否获得快乐</em>。这个大家一定要完全肯定自己。如果不能把这个生命的意义，摆到生活当中去，你有时候会觉得很迷茫，学佛学了这么多年我为什么还不快乐，还一样在那里，烦恼习气毛病还是一大堆，因为你没有把快乐的情绪从内心深处开发起来，常常会为了达到某种标准而使自己更加痛苦。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>佛法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>budda: 快乐人生part1</title>
+    <url>/2020/03/21/buddha-%E5%BF%AB%E4%B9%90%E4%BA%BA%E7%94%9Fpart1/</url>
+    <content><![CDATA[<p><img src="https://gateway.pinata.cloud/ipfs/QmQzimhtuSuUXoArbvi6LUkQpBzeUpeTvpYTDM3SvyFERP" alt="fo" title="大佛"></p>
+<p>达照法师在2011 年讲授了 关于 快乐人生 的智慧。</p>
+<p>第一部分，第1节。</p>
+<a id="more"></a>
+<p>尊敬的各位师父，各位善知识，大家下午好。</p>
+<p>大家新年好。值此新春之际，我们能在一起共同学习佛法。非常的荣幸。在此祝愿大家在新的一年里，身体健康，工作顺利，大展亲近修行进步。情绪快乐，阿弥陀佛。</p>
+<p>今天给大家一起来讨论的题目是快乐人生。感谢太平寺给我们提供这个机会。这是第四个春节的。学习？记得第一次给大家讨论的是佛法的真心，第二次是佛法的修证，因为你看到了道路才会去走。去年给大家讨论的是觉悟，人生。那么久以后呢？顺其自然的就想到应该是快乐的人生，所以这一次给大家讨论的题目是快乐人生。</p>
+<p>这个题目非常清醒，大家一看就知道了。但是，快乐这件事情。却是人生最大的事情。从以下几个小标题来，展开讨论，就是：</p>
+<p>快乐的定义是什么？</p>
+<p>人生的意义是什么？<br>什么是快乐的？内容？快乐还有企图。快乐还有秘诀，快乐还有发展。</p>
+<p>请这五个角度来跟大家一起来讨论。那么首先我想。问大家一个问题。你们快乐吗？快乐吗？都快乐。你们想要快乐吗？</p>
+<p><strong>想快乐就说明你还不够快乐。</strong></p>
+<p>你知道这个世界上谁最快乐？<br>这是一个非常接近我们的内心，又是非常重要的位置。西方一位著名的哲学家。亚里士多德，他家的快乐是人生的意义。是生命的。全部已全部目标是生命的终极目标。也就是说，我们在这个世界上。你活着一天。你有没有意义？你的生命活着一天，这个意义何在？那就看你是不是快乐的活动？或者是你向往快乐就好了。如果你知道你前面的道路一定是越来越痛苦，你还活着吗？</p>
+<p>很多人，因为对生命失去了希望。所以他就不想再活了。我们大家今天能够活着。那就说明我们还是相信未来我们会更加快乐。所以生命的意义到底在哪？从我们个人而言。其实？古今中外。所有的文明包括我们自己。日常生活的一举一动。无一例外的是逃避痛苦，解决痛苦。</p>
+<p><strong>解决冲突的目的还是想获得快乐。</strong></p>
+<p>多少人孜孜不倦的去追求自己的理想。大家可以 在心里面问一下。你那个理想？是不是自己感觉到快乐？假如你觉得我那个理想。是痛苦的。可能就不会成为你的理想。没有一个人说，我理想就是到监狱里面去。也不会有人说，我的理想。要去做畜生。不过，也有人想做畜生的他想做宠物。看到宠物太快乐了，总有人宠着她。真有人说，我来生做个宠物，那也是因为看到了他的快乐。</p>
+<p>对于人生的意义。佛经里面给我们讲的非常详细。实际上，追求快乐或者舍弃痛苦，离苦得乐永远是我们生命不改的主题。那么我们这次呢，要讲三天。</p>
+<p>我想 分开三个大的环节。</p>
+<p>第一个就是。以苦为乐，苦中作乐。</p>
+<p>我们普通的凡夫众生由于不懂得快乐的原理。往往是求生反对。想要得到好的，往往得到的是更加差。就是迷失的。人生追求。</p>
+<p>第二是 转苦为乐，助人为乐。</p>
+<p>这是我们佛法讲的。正确的人生态度。有什么方法和秘诀，把我们现有的充足转换为快乐。如何去帮助其他的众生，也从痛苦中解脱出来，成为快乐。这个是我们现在以及将来整个社会大家所需要努力的。</p>
+<p>最后一点呢？是离苦得乐，究竟长乐。</p>
+<p>这是我们佛法不共世间法的究竟处。我们的生命本具有常乐我净，涅槃，四德。但由于无明的覆盖，我执的蔓延。<strong>愚痴贪欲蒙蔽了我们智慧的眼睛</strong>。</p>
+<p>我们看不清楚自己面前所对的种种境界，我们也看不清楚自己内心所生起来的种种念头。</p>
+<p>你看，那时候自己的情绪妄想杂念，干扰的。无疑是向外针对各种五花八门理念，各种学说言论，干扰的莫衷一是。</p>
+<p>这就是一个迷乱混乱状态的生命现象。所以，对于这样一个生命现象上来说，虽然我们时时刻刻都想追求快乐舍弃痛苦。尤其是现在这个科学发展，精神却没有完全跟上去的。</p>
+<p>个别的地方，在国际上，或者东中东国家民族战争，宗教纠纷依然存在。</p>
+<p>我们不只是看到大的环境，我们也看到自己的每一个人的家庭里面，都可以找到家家有本难念的经。</p>
+<p>看到自己个人的人生中，人生不如意事十有八九。大到世界，小到身心。</p>
+<p>真正如我们所愿的。快乐了没有呢？基本上没有？社会虽然在发展。但但是这个发展所付出的代价是非常严重的。</p>
+<p>据这个联合国卫生组织调查。西方的国家 以美国跟欧洲为例。到2020年。还有九年时间（注：他2011在温州文城讲这些话）。预测未来将有25%的人。会因为抑郁症而死吧。</p>
+<p>这个比例有多大，四个人当中有一个人会因为抑郁症而死吧。西方现在的这个病死因最突出的是心脏病。也就是2020年以后可能抑郁症，比非正常死因的，这个比例的第二笔心脏病，死亡的少一点点。西方的国家自称为是高度科学发达的国家。可是他人生的快乐到底在哪？</p>
+<p>那么我们？观察释迦摩尼的时代 当时在东西方都出现了一大批的伟大的哲学家。包括释迦佛，孔老夫子，还有苏格拉底，这些人对生命的探索，到今天为止，还是世界上 最高的智慧。</p>
+<p>我们今天来观察自己。在我们生活中，我们的情绪，会影响身体影响家庭。大部分的人，他的痛苦，都是从自己的情绪念头上开始蔓延。当然也有很多外在的因素，比如说天灾人祸。战争离乱会给我们带来很大的痛苦。</p>
+<p>实际上痛苦和快乐，它是有一个基本标准的。</p>
+<p>每一个人从生下来那一刻开始。他的承受力就在不停的训练。生下来在穷苦的人家。他的满足感，标准就算再低一点，比较容易得到满足。一生下来就是幸福的，他的标准就放的高一点。</p>
+<p>所以小孩子你如果给他宠坏了，他的标准一直放的很高，可是现实的人生没有完全随你的标准来给予。所以小孩子受苦受多了，他的标准放的低，容易满足，容易感到快乐。</p>
+<p>那么这个背后就说明一个问题，就是我们的快乐的标准虽然有个基准，但是心随境转，转了一大圈，回过头来，你才发现你的标准还在你的内心深处。就像有些人在农村里面自然环境当中，总是羡慕城市里面的生活。等你到了城市里面赚到钱盖了房子，成了家事业做大，最后还是向往自己小时候住过的农村。在那里空气好，环境好。在那里你能感觉到一种幸福感，一种快乐。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>佛学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>佛教生死观p1</title>
+    <url>/2020/03/23/buddha%E4%BD%9B%E6%95%99%E7%94%9F%E6%AD%BB%E8%A7%82p1/</url>
+    <content><![CDATA[<p>我知道的佛教生死观念。简述</p>
+<pre><code>诸行无常，是生灭法。
+
+生灭灭已，寂灭为乐。
+</code></pre><a id="more"></a>
+<p>[TOC]</p>
+<blockquote>
+<p>由于众生不能直接体悟本无生死的寂灭心性，而乱起种种妄想、颠倒、执著，导致了迷惑、造业、受报，轮回生死，受尽苦厄，无有了期。因此诸佛菩萨，以及历代祖师大德们，秉着“无缘大慈，同体大悲”的愿力，运用方便和究竟的般若智慧，揭开了“生死大事”的神秘面纱，让我们看到了“生死”那丰富多彩和玲珑剔透的本来面目。于是，智慧和慈悲，从每个人的心中油然生起，我们因此懂得了生活，而不再畏惧死亡。当死亡来临时，我们还将心怀宁静和喜悦！</p>
+</blockquote>
+<p>说人话，白话文：</p>
+<p>人心现在愚痴了，物质的社会令人每天都在追求很多东西，人们有对所谓美好生活的不断向往，执着。这导致了迷惑，无明。</p>
+<p>然而有一群和尚，从印度一个叫做 释迦摩尼 的人那里听来了一些教导。（释迦摩尼 作为官二代的出道可以看看其他文章）然后把这个人成为佛祖（意思是：觉者的祖宗），这个人讲的话，传授的智慧，称佛法，后来经过哲学，文学，身体力行，形成宗教组织，并和中国文化融合了，从某个地方的博物馆你可以看到，整个中国的历史，就是一部佛教的历史（婆说婆有理）。</p>
+<p>总之，这个叫做佛法的东西是个好东西，是释迦摩尼 开悟后，没有直接跑路，而是留在世间给世人说几嘴再走。希望大家都像他一样，从他看到的轮回的世界中解脱，从不时有苦的生命里走出来的法子。这法子，小到让人心怀宁静和喜悦，大到让世界大同和平，万物众生灵可平等和谐生存。</p>
+<h2 id="你看不清生从何来，死往何去"><a href="#你看不清生从何来，死往何去" class="headerlink" title="你看不清生从何来，死往何去"></a>你看不清生从何来，死往何去</h2><p>有空想这些，不如多赚点钱，生死是有的没的，过好这一辈子，死后不管，不相信报应，因缘，说死，不吉利，有时还是禁忌。这是社会的共识。</p>
+<p>早些时候，还是佛法，哲学，比较火的时候，各种学说，各种子，各种苏格拉底，亚里士多德，柏拉图，还能点播一下人关于生死的事，现在我们把死亡当作生理过程，比较轻松，轻视了。</p>
+<p>社会花了很久给大众洗脑，一如各种宗教。现代唯物科学教和资本主义强强联手，令他们每个人的一生恰恰避开了其生命最终，最重的议题：死亡的痛苦。</p>
+<p>生死是痛苦的</p>
+<p>　　首先，生死是痛苦的。凡夫众生，无论在何时，无论在何地，都不能得到绝对的自由；不管是为了自己，还是为了社会，努力的结果，也都无法达到绝对完美的幸福！为什么？原因很简单——万物有生必有死。死亡，谁都不愿意。万物包括我们的任何情绪，财富，知识。情绪有起伏，财富有得失，知识有新旧。</p>
+<p>　　生与死，具有极大的束缚性。我们现在无法知道生与死的来源和去处，这就使我们只能局限在短暂的人生中思索。离我去者，昨日之日不可留；乱我心者，今日之日多烦忧。对于过去和未来，都毫无知晓，毫无把握，最多也只是留下一些模糊的记忆，却无法重现它们的真实面目。整体的生命似乎被分割成无数个零落的碎片，随风飘逝。而感觉中，我们总还以为拥有什么似的。对于生前死后的凌乱与隔阂，这种无知的状态，佛法中称之为“分段生死”。</p>
+<h3 id="说说三个苦"><a href="#说说三个苦" class="headerlink" title="说说三个苦"></a>说说三个苦</h3><p>　　现实的人生，就是分段生死的展现。形体的美丑，寿命的长短，知识的多寡，情绪的高低，智慧的深浅，人人各不相同，自有特色，彼此之间难以沟通，难以理解，难以想象，种种差别情景，都是“分段”之意。分段生死具有最基本的三种痛苦：     <strong>苦苦、行苦、坏苦，通常称为三苦</strong></p>
+<h4 id="苦苦"><a href="#苦苦" class="headerlink" title="苦苦"></a>苦苦</h4><p>　　苦苦，就是直接的、具体的、客观的、痛苦的感受。一切不如意的痛苦感受，具有强烈的 <em>逼迫性</em> ，逼恼身心，不堪忍受之苦。</p>
+<blockquote>
+<p>生老病死谁替得？咸酸苦辣自承当。爱者有别离，怨憎却相会，所求不如意，五阴常炽然，忧悲恼苦，难以尽言。</p>
+</blockquote>
+<blockquote>
+<p>旧苦未去，新苦又来。</p>
+</blockquote>
+<blockquote>
+<p>如麻风病未痊愈又生毒痈，毒痈未好又生疮；年老体衰已经行动不便，偏又摔跤骨折甚至瘫痪。屋漏更遭连夜雨</p>
+</blockquote>
+<p>无论什么身份什么职务，从生到死，总要接受各种苦难的折磨。</p>
+<p>在一切苦苦当中，老、病、死之苦，是最根本、最自然的痛苦。</p>
+<h4 id="行苦"><a href="#行苦" class="headerlink" title="行苦"></a>行苦</h4><p>　　行苦，就是间接的、无形的、变化的、不苦不乐的感受。一切事物无常变化，没有永恒的存在，亦即这种不知不觉使人迁流在三界六道之中，受尽苦楚。时光不待人，渐渐皆远去。看看他人老，不觉轮到己！</p>
+<p>人生在世的时候呢，能让自己快乐和痛苦的事情，在时间的比例上并不是最多的，而不苦不乐的感受，才是最多的，不信可以大数据统计一下自己的情绪函数。</p>
+<p>从生到死，能够留下的记忆实在少之又少，因为大部分的光阴，都是在不知不觉中流逝。然而，在生活中，人们却是何等的无能为力？一任时光流失，一任岁月蹉跎。晓镜但愁云鬓改，夜吟应觉月光寒</p>
+<p>在无常面前，众生是脆弱的。无常是世事，也是人事，也是心事，这三者没有什么是有常，常定的。</p>
+<h4 id="坏苦"><a href="#坏苦" class="headerlink" title="坏苦"></a>坏苦</h4><p>　　坏苦，这是指直接的、具体的、主观的、快乐的感受必将坏灭，从而产生痛苦。所有的快乐感受，都会形成感官上的强烈对比，在失去快乐时，内心就产生极大的痛苦。</p>
+<p>天下没有不散的宴席，亲人的别离，相爱的分手，青春的逝去，才华的枯竭，财富的消耗，荣华的衰落，名望的消失，都是坏苦。</p>
+<p>雕栏玉砌应犹在，只是朱颜改 </p>
+<p>所有快乐，终必损败，无常世间，没有谁能久留。久留的都是无常变化比较慢的：比如乌龟，树木。反例是活动很多的，变化很多的：鲜花，老虎狮子，季节性蚊虫。</p>
+<p>人们只知道追求幸福，但是不知道正在幸福的时候，幸福已经渐渐的离去。临死之际，回首人生，一切都是无常、败坏、不安之相。具体可以参考濒死体验，中阴身。</p>
+<p>　　凡夫众生处于生死之中，不知道很多法是缘起缘灭的，未明生命本质内涵，对于身心苦乐感受，产生欣厌，执取坚固，如此，习惯成自然。</p>
+<p>不能从痛苦中认得真相，不能从苦难中锻炼心志，而是苦上加苦，苦不可言。</p>
+<p>也不能从快乐中悟得真理，不能由欢乐中升华生命，而是乐极生悲，徒自兴叹。</p>
+<p>亦不能从不苦不乐中晓了实相，不能因为不苦不乐而倍加珍惜淡泊明志、宁静致远的豁达超越之胸怀，而是糊里糊涂、得过且过，浪费生命。</p>
+<p>于是，受苦固然是苦，就是快乐也变为痛苦的根源，不苦不乐亦成为痛苦的重要因素。</p>
+<p>　　人生中，最大之苦，莫过于老苦、病苦、死苦！在十二支的因缘法中，“老死”同属一支，当然这一支还包含了出生之后的种种病苦，以及忧悲恼苦。所以，在佛法中正面的<strong>临终关怀</strong>，就包括了对于人生的老、病、死的关怀，这是一项<strong>巨大的工程</strong>。（西藏生死书，对这个关怀讲的比较多）</p>
+<p>　　这项工程就建立在“生死是苦”的基础上来进行。明白生死是苦，这绝对不是消极、胆怯、懦弱的表现，而是如实观察的结果，正是一种对生命认真负责的态度，也是对人生的局限充满挑战性的无畏精神。</p>
+<p>也就是被苦难生活逼急了的人说的：<code>不要怂就是干</code> 的精神。</p>
+<p>如此，面对一切事业和行为，就能够坦然地说“诸行无常，是生灭法”（不理解，估计是：编程语言不重要，重要的是思想。类似）。</p>
+<p>所以，在<strong>照见</strong>[^1]<br>“生死是苦”的黑暗后，能慢慢用智慧的眼，看到解脱此苦的光明。</p>
+<p>[^1]: <code>照</code> 字可以同 般若波罗蜜心经 里面观音大士 的 <code>照见五蕴皆空</code> 理解。</p>
+<p>生命的智慧不是知识，不是可以看见，而是如同蜡烛，照见。</p>
+<hr>
+<p>下一篇：佛手把手教你解决生死之痛</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>佛法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>About the child I teached</title>
     <url>/2020/04/03/edu_about_the_children_i_teached/</url>
     <content><![CDATA[<p>[TOC]</p>
@@ -460,22 +496,48 @@
       </tags>
   </entry>
   <entry>
-    <title>打坐</title>
-    <url>/2019/11/01/health_%E6%89%93%E5%9D%90/</url>
-    <content><![CDATA[<p>解释打坐相关的内容</p>
+    <title>edu_记录电子科大的正式面试</title>
+    <url>/2020/05/24/edu-%E8%AE%B0%E5%BD%95%E7%94%B5%E5%AD%90%E7%A7%91%E5%A4%A7%E7%9A%84%E6%AD%A3%E5%BC%8F%E9%9D%A2%E8%AF%95/</url>
+    <content><![CDATA[<p>一场的普通面试，后面全是操盘和计谋的大戏。</p>
 <a id="more"></a>
-<h1 id="关于腿麻"><a href="#关于腿麻" class="headerlink" title="关于腿麻"></a>关于腿麻</h1><p>在盘坐出现腿麻时，我们可以仔细体会一下，腿麻实际上也可以分为麻与木这两种感觉。</p>
-<p>麻是一种尖锐的、针刺样的、电流通过般的比较清晰的感觉。而木则是一种钝重的、向外膨胀的、模糊性的感觉。所以麻木的感觉并不是同时出现的，往往都是木的感觉在先，而麻的感觉在后。木的感觉比较好忍受，而麻的感觉则是难以忍受。</p>
-<p>麻的实质是气不足，而木的实质是血不足。木的感觉之所以是先于麻出现，主要是因为血是有形的，最易受阻。而气是无形的，气受阻是在血行受阻后，气失所养所致。人体的血容量相对处于恒定的状态，而真气量却是一个变数。因此我们盘坐能保持多长时间腿不麻，主要是由于自身的真气量所决定的。</p>
-<p>你们如果睡眠充足，身体机能处于良好的状态，那么你们的真气就会充实有余，也就自然能保持长时间的盘坐而腿不麻。若是你们的睡眠不足，或身体处于疲劳的状态，那么你们的真气量就会不足，盘坐也就容易腿麻。</p>
-<p>因此，从另一个方面说，根据盘坐时腿能保持不麻的时间上，还可以间接的了解你们当时的机体状态。它往往和我们自身的主观感受是一致的。也就是说，当你们的主观感觉到身体状态不好，疲劳乏力时，那么你们盘坐时也容易腿麻。而相反，如果当你们的主观感觉到精力充沛，身体状态好时，那么你们盘坐时腿也不容易麻。</p>
-<h1 id="体会"><a href="#体会" class="headerlink" title="体会"></a>体会</h1><p>睡觉可以让元气受到的消耗得以恢复，以及提高身体的各个维度的使用方便，智力，体力，脑力，气力。</p>
+<p>我在5.21 这天参加了电子科大的在线的面试。他们需要你使用一个叫做《飞书》 的软件，这个是字节跳动的软件。</p>
+<p>你需要两个摄像头。所以我准备另一个手机，和一个三脚架。</p>
+<p>随机抽了顺序。但是我是调剂到数学学院的，所以可能是照顾李老师吧，这位「大牛」，学院里面，我们这些调剂的反而是第一组。</p>
+<p>三个人，我是第一个，所以我算是数学院的第一个面试的螃蟹。</p>
+<h1 id="开始：各位老师好，good-morning-teachers"><a href="#开始：各位老师好，good-morning-teachers" class="headerlink" title="开始：各位老师好，good morning teachers."></a>开始：各位老师好，good morning teachers.</h1><p>首先是你英语介绍，然后他们问一个问题，比如为何选择CS。</p>
+<ul>
+<li>ans: talking beautiful bullshit; i love game actually</li>
+</ul>
+<p>期间有网络的不好，我就听到这个问题。</p>
+<p>然后是专业知识的面试，也就是抽一道题目。</p>
+<p>我抽到：如何解一个多元一次方程。</p>
+<p>ans： 我for loop暴力解，或者遗传算法。</p>
+<p>我们助教，几分钟啊，她说5分钟；于是我等到4分钟才回答，然后阐述1分钟，老师没时间提问了。搞下一个环节。</p>
+<p>我神仙兄弟抽到了：求解素数的算法。</p>
+<p>他可以顺利回答出：1）简单的判断：对每个数字，来个for loop：用if：有没有一个比我小的，但是能整除我；；2）他也可以回答：素数筛法：把每个数往后的倍数都tm的标记上：你不是素数；最后输出那些：不是你不是素数的；；</p>
+<p>他准备和挺久，他看了这个熟悉的题目，3遍以上。</p>
+<p>但是他紧张了。他面试表现不好了。老师说：面试表现宽严都是水平表现。</p>
+<p>这意思是，这位同学输在了心里素质上。我在此稍微胜利点。（我谢谢各位为难过我的上司，项目经理们，不是你们在工作中打压我，锻炼我的心性和脸皮，我无法通过这个面试。是你们让我知道了，脸是不能要的，牛皮是要会扯的。）</p>
+<p>最后一个是综合，就是聊你大学，职场，你写了多少代码？你项目经历，说说你大学参加的比赛。（潜台词：你能不能给我干漂亮活）</p>
+<p>我直言不讳，我参加了，我都失败了，这些比赛失败了更好，我知道人生不是一帆风顺，人与人的沟通很重要，去理解用户的心里，去理解人性才能做好大学生创新创业比赛。</p>
+<h1 id="谢谢老师，辛苦，再见；oh！操盘的事"><a href="#谢谢老师，辛苦，再见；oh！操盘的事" class="headerlink" title="谢谢老师，辛苦，再见；oh！操盘的事"></a>谢谢老师，辛苦，再见；oh！操盘的事</h1><p>22 号确实是等到了晚上才出来拟录取的通告，你在电科大的校内系统里看到；你被拟录取了。但是你的神仙兄弟，他深知没有非全名额，他想着回到原来计算机学院。他本来可以操盘的，但是出于公平，也没搞；</p>
+<p>如果要面试操盘，他可以这样做：</p>
+<p>找他中南大学的准备二战的高分的头铁兄弟，参加这个面试，然后挤掉王同学，（或者我），然后让中南大学的头铁兄弟，继续他的头铁的二战计划，然后扔了这个拟录取的机会。他可以稳进这李老师的两个名额。</p>
+<p>他没有操盘。</p>
+<p>社会风气说：我需要多一些他这样不耍小聪明的大智慧的人。</p>
+<h1 id="计谋呢？"><a href="#计谋呢？" class="headerlink" title="计谋呢？"></a>计谋呢？</h1><p>现在说出来或许有点早，总之，是一个多方周旋的大戏。</p>
+<p>这些周旋的多方中，我可以列出主演</p>
+<p>最老主演的可以追溯到上个世界6，70年代。以及CS学院的风云浮沉录。</p>
+<p>矛盾由一个21世纪前叶，知乎治校特色的你电保研的孩子点燃。</p>
+<p>2020年，我是无名无姓的NPC，路过的时候，被大F配角讲述了剧情梗概。</p>
+<p>上帝导演可能觉得这个剧实在闹腾，给我加点戏，我就是个磨的感情的群演。我现在开始按照上帝写的潦草剧本，在这个剧里扮演个 joker</p>
+<p><img src="https://images.gitee.com/uploads/images/2020/0524/160836_baf1781d_1867476.png" alt="输入图片说明" title="8525EFEE-41C7-4DB9-AE04-D69E9F5A8A29.png"></p>
 ]]></content>
       <categories>
-        <category>life</category>
+        <category>work</category>
       </categories>
       <tags>
-        <tag>health</tag>
+        <tag>education</tag>
       </tags>
   </entry>
   <entry>
@@ -520,6 +582,36 @@
       </tags>
   </entry>
   <entry>
+    <title>关于腿麻</title>
+    <url>/2019/11/04/health_about_leg_numb/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p46ml13j30pz0zkjuy.jpg" alt="waist.jpg"></p>
+<p>腿麻可能来自于腰部的问题</p>
+<a id="more"></a>
+<p>腿麻木是感觉障碍，可以是多种疾病的先兆：</p>
+<p>1.突然发生的腿麻木，持续的时间短暂，且症状反复发生，可以是短暂性脑缺血发作。</p>
+<p>2.突然发生了腿麻木，症状且持续不缓解，可能存在腔隙性脑梗死或者是脑梗死的先兆。</p>
+<p>3.长期的慢性的腿麻木，考虑是腰间盘突出症引起。</p>
+<p>4.从脚部逐渐向上发展的麻木症状，考虑是脊髓硬膜外占位性的病变引起。</p>
+<p>5.周围神经病也可以出现腿麻木的症状。</p>
+<h1 id="改善腰部的几种方式"><a href="#改善腰部的几种方式" class="headerlink" title="改善腰部的几种方式"></a>改善腰部的几种方式</h1><ul>
+<li>俯卧撑 + 平板撑</li>
+<li>仰卧起坐</li>
+<li>五点支撑（可以理解为sex时的男下，一柱擎天式）</li>
+<li>小燕子飞</li>
+</ul>
+<hr>
+<p>腰部锻炼方法：</p>
+<p>　　腰部肌肉的锻炼主要有两种方法：第一，五点支撑；第二，小燕飞。五点支撑就是病人仰面躺床上，然后两腿屈膝，脚后跟在床上，屁股往起抬，病人每天根据自己的情况进行锻炼，每天可以练3-5组，每组10-30次。</p>
+<p>　　小燕飞就是趴在床上，然后头、胸和脚后跟往起抬，肚子顶在床上，小燕飞对于腰部的肌肉锻炼非常有好处，锻炼的强度和频度也是根据病人的情况而异，不要一次练太多，练太多会导致肌肉疼痛。在锻炼的时候，有些人使劲的扭腰，扭腰过多容易导致肌肉的损伤，还会加重腰椎关节的磨损。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>health</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>how_to_read_a_book</title>
     <url>/2020/04/23/edu_how_to_read_a_book/</url>
     <content><![CDATA[<p><img src="https://i.loli.net/2020/04/23/DnAfqJNx7teSz2j.png" alt="book" title="endAt20200423"></p>
@@ -558,6 +650,25 @@
       </categories>
       <tags>
         <tag>edu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>打坐</title>
+    <url>/2019/11/01/health_%E6%89%93%E5%9D%90/</url>
+    <content><![CDATA[<p>解释打坐相关的内容</p>
+<a id="more"></a>
+<h1 id="关于腿麻"><a href="#关于腿麻" class="headerlink" title="关于腿麻"></a>关于腿麻</h1><p>在盘坐出现腿麻时，我们可以仔细体会一下，腿麻实际上也可以分为麻与木这两种感觉。</p>
+<p>麻是一种尖锐的、针刺样的、电流通过般的比较清晰的感觉。而木则是一种钝重的、向外膨胀的、模糊性的感觉。所以麻木的感觉并不是同时出现的，往往都是木的感觉在先，而麻的感觉在后。木的感觉比较好忍受，而麻的感觉则是难以忍受。</p>
+<p>麻的实质是气不足，而木的实质是血不足。木的感觉之所以是先于麻出现，主要是因为血是有形的，最易受阻。而气是无形的，气受阻是在血行受阻后，气失所养所致。人体的血容量相对处于恒定的状态，而真气量却是一个变数。因此我们盘坐能保持多长时间腿不麻，主要是由于自身的真气量所决定的。</p>
+<p>你们如果睡眠充足，身体机能处于良好的状态，那么你们的真气就会充实有余，也就自然能保持长时间的盘坐而腿不麻。若是你们的睡眠不足，或身体处于疲劳的状态，那么你们的真气量就会不足，盘坐也就容易腿麻。</p>
+<p>因此，从另一个方面说，根据盘坐时腿能保持不麻的时间上，还可以间接的了解你们当时的机体状态。它往往和我们自身的主观感受是一致的。也就是说，当你们的主观感觉到身体状态不好，疲劳乏力时，那么你们盘坐时也容易腿麻。而相反，如果当你们的主观感觉到精力充沛，身体状态好时，那么你们盘坐时腿也不容易麻。</p>
+<h1 id="体会"><a href="#体会" class="headerlink" title="体会"></a>体会</h1><p>睡觉可以让元气受到的消耗得以恢复，以及提高身体的各个维度的使用方便，智力，体力，脑力，气力。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>health</tag>
       </tags>
   </entry>
   <entry>
@@ -614,36 +725,6 @@
       </categories>
       <tags>
         <tag>music</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于腿麻</title>
-    <url>/2019/11/04/health_about_leg_numb/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p46ml13j30pz0zkjuy.jpg" alt="waist.jpg"></p>
-<p>腿麻可能来自于腰部的问题</p>
-<a id="more"></a>
-<p>腿麻木是感觉障碍，可以是多种疾病的先兆：</p>
-<p>1.突然发生的腿麻木，持续的时间短暂，且症状反复发生，可以是短暂性脑缺血发作。</p>
-<p>2.突然发生了腿麻木，症状且持续不缓解，可能存在腔隙性脑梗死或者是脑梗死的先兆。</p>
-<p>3.长期的慢性的腿麻木，考虑是腰间盘突出症引起。</p>
-<p>4.从脚部逐渐向上发展的麻木症状，考虑是脊髓硬膜外占位性的病变引起。</p>
-<p>5.周围神经病也可以出现腿麻木的症状。</p>
-<h1 id="改善腰部的几种方式"><a href="#改善腰部的几种方式" class="headerlink" title="改善腰部的几种方式"></a>改善腰部的几种方式</h1><ul>
-<li>俯卧撑 + 平板撑</li>
-<li>仰卧起坐</li>
-<li>五点支撑（可以理解为sex时的男下，一柱擎天式）</li>
-<li>小燕子飞</li>
-</ul>
-<hr>
-<p>腰部锻炼方法：</p>
-<p>　　腰部肌肉的锻炼主要有两种方法：第一，五点支撑；第二，小燕飞。五点支撑就是病人仰面躺床上，然后两腿屈膝，脚后跟在床上，屁股往起抬，病人每天根据自己的情况进行锻炼，每天可以练3-5组，每组10-30次。</p>
-<p>　　小燕飞就是趴在床上，然后头、胸和脚后跟往起抬，肚子顶在床上，小燕飞对于腰部的肌肉锻炼非常有好处，锻炼的强度和频度也是根据病人的情况而异，不要一次练太多，练太多会导致肌肉疼痛。在锻炼的时候，有些人使劲的扭腰，扭腰过多容易导致肌肉的损伤，还会加重腰椎关节的磨损。</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>health</tag>
       </tags>
   </entry>
   <entry>
@@ -793,141 +874,6 @@
       </tags>
   </entry>
   <entry>
-    <title>午觉醒来总是对生活充满怀疑</title>
-    <url>/2019/08/24/life_the_doubt_for_life_when_i_wake_up/</url>
-    <content><![CDATA[<p>一点对年华消逝的感慨，以及慢下来求道的发愿。</p>
-<a id="more"></a>
-<h1 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h1><p>每次中午醒来的时候，都对人生充满的怀疑。这是非常奇怪的体验。</p>
-<p>简单来说，情况就是刚醒来，似乎有些神神迷迷的，然后睁眼看到现在现在的现实情况，竟然非常恐慌。</p>
-<p>这在oppo公司的时候，以及现在考研期间在碧海湾的卧室里，都是有如此的体验。</p>
-<p>当时大致的想法现在已然不清晰，总之就是一种遗憾和恐慌。</p>
-<p>时间已经到了此时，而我还是一事无成一般。看不到有希望的未来，一种悲情就油然而生。</p>
-<p>在公司醒来，是觉得：哇，一辈子（<em>或者这4，5 年2，3 年</em>）就在这个屋子里，对着屏幕度过了。可悲啊，做的事情就是边角而重复的业务，为别人的各种需求打工，换得几万块钱。留到未来身体和青春都消耗的差不多，再消费。</p>
-<p>在卧室醒来还好，就是觉得：还没奔到自己理想的自由状态啊？无论是房屋自由，资金自由，学术自由，还是要学习，记忆别人要求的，考试需要的。</p>
-<p>这就是没有希望的未来，by 午休初醒的我。</p>
-<h1 id="来点正能量"><a href="#来点正能量" class="headerlink" title="来点正能量"></a>来点正能量</h1><p>我觉得，人生不要变得毫无意义的一个绝佳手段，就是找到自己的道。</p>
-<p>这个道就是意义。</p>
-<p>找到自己热爱的事业不容易（乔布斯说的），但是我大致有个领域，就是计算机，这些硅基生物。</p>
-<p>只是这个领域也是需要探索很久，我才算开始吧。</p>
-<p>我在rj 做网络，在op 做app开发。其实慢慢地可以得道，找到意义。无奈资本希望的是快钱。</p>
-<p>这或许到了那里都一样，即使我未来到xx大学也不应该有太高的期望。</p>
-<p>兴趣很难是用来吃饭的工具（特别是在这样高速发展的state），除非你真的很努力，为自己在那个方向增加极大的愿力。</p>
-<p>然而愿力在这个时代， 是个很涣散的东西。</p>
-<p><strong>你需要做的，就是能在自己掌控的时间内，慢慢走，欣赏啊</strong></p>
-<p>致中和。</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p7914t0j30dl35se70.jpg" alt="MeaningOfLife.png"></p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>食用油和石油有什么区别</title>
-    <url>/2019/08/16/life_my_curiousity/</url>
-    <content><![CDATA[<p>我还对周围的世界好奇。</p>
-<p>我还有时间和心情做一件满足好奇心的事情。</p>
-<p>所以我问着：食用油和石油有什么区别？</p>
-<a id="more"></a>
-<p>[TOC]</p>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现在可以上网的小学生都可以在知网找到这个问题的答案，知网上有一篇论文说了食用油和石油有什么区别。</p>
-<p>食用油是从动物或者植物中提取的， 而石油是从矿物里提取的。从化学的角度，你可以知道，食用油和你的脂肪大概是相同的东西。而石油就是碳以及氢这些元素混合着。</p>
-<p>你或许疑惑着，这人在想什么自私的事情。好奇心就是一个个人的事情啊。</p>
-<p>但是我在说的是关于我生活里的垃圾。</p>
-<p>想象你的生活如果是个屋子。</p>
-<p>那好奇心是个好家具。</p>
-<p>什么是厨余垃圾， 什么是有害垃圾，什么是可回收的垃圾呢？</p>
-<p>我尝试着对自己的生活这间屋子做整理。</p>
-<p>我从好奇心这个家具出发。（比喻一直是一种我喜欢的思想表达方式）</p>
-<p>这东西是个很老的家具，你从小会问父母： 为什么XXX？ 的时候，这就是好奇心，它似乎就是一种与生俱来的人生这件屋子的标配。</p>
-<p>但凡你生活的屋子不是家徒四壁（那意味着你在现实生活里的家里还在为温饱忧愁着），那么我觉得你就应该有这样的一件家具。</p>
-<p>好奇心不会像梦想一样装点你的生活，令其如同宝殿那么堂皇。但是这好奇心是你房屋的电闸，没有好奇心，就没有亮光。你就不知道生活到底是个什么样子，黑夜里看不到生活的模样。</p>
-<hr>
-<p>年纪大了，就会【买】入一些新鲜的物件，有的就是好东西，有的就是垃圾。</p>
-<p>最近住进我屋子的垃圾有很多，我慢慢看到这些实际上已经是垃圾的垃圾，他们慢慢腐烂，就像你买了粘合剂做出来的木板，发现里面的胶都是甲醛类似物，而时间让生活这件屋子留下的都是你这个主人最该拥有的家具。</p>
-<p>我向来不会是去市场买家具的人，（实际上是我还没到那个年纪），我最理想的家具，从来不是买入的。</p>
-<p>就比如【生活节奏】这个家具，我就很不愿意去对标市场标准。</p>
-<p>你会看到在深圳，每个人都在或多或少的加班，来了就是深圳人，来了就做加班的志愿者。深圳 没有早睡的人。</p>
-<p>说点前言如下。</p>
-<p>在进入市场买生活节奏这个家具前，我的邻居给我打了一些广告，我当时觉得那东西不错啊，特别是在北上广深的【生活节奏】， 是最新潮的，是最受年轻人喜爱的，用小米的广告语说一下：北上广深的【生活节奏】，做年轻人的第一段【生活节奏】。我喜爱这款家具，就像小时候喜欢李宁的运动鞋。</p>
-<p>直到后来，我慢慢发现了这个广告的制造商，我不能说其心不轨，只是我们作为【消费者】，对【资本家】来说，太弱小，我们要么物理上无法脱身，要么意识上已经被洗脑。我们总之被物欲给包住了，我们反而是被物品消费的。</p>
-<p>回到家具本身，生活节奏这东西，既然自己安排不了，就要去适应，适应不了就换个方式去接受。</p>
-<p>道可，道非，常道。</p>
-<p>大家可行的道，不巧非你的道，这是很正常不过的道了。</p>
-<p>鲁迅没有说过：路是人走出来的。</p>
-<p>他是个不讨人喜欢的家伙，他骂爱流鼻涕带眼泪的女同学：四条。现在我觉得他要是年轻时想讨生活来深圳了，他一定要说：路是挖掘机和铺路机以及罐车协同工作下铺设好的。</p>
-<p>回到现在的市场情况。</p>
-<p>新建好的平整公路是群众的蛋糕，你可不能动了。要走什么自己的小路，请回，这可没有什么地能让你走。而且一般出门好几公里，有地铁干嘛不坐呢？</p>
-<p>带着不同染料和粘合剂家具已经几乎垄断市场了。就像城市有地铁一样，生活有了快节奏的标配。</p>
-<p>可怕的是，时间长了，家具粘合剂里的毒物就出来了。特别是这个家具还没经过时间合格的检验，就被投向了市场。</p>
-<p>市场有风险，所以股民也有不同的承担风险的能力。</p>
-<p>我算是一波不接受高风险，而总是往高风险的边缘疯狂试探的芫荽。我不承认自己是韭菜。</p>
-<p>就【生活节奏】这款家具，这份抉择。先不等市场冷静，我先自行冷静下来，去审视自己的【购买力】【风险阈值】，看看这款东西是不是我擅长的领域， 是【能源板块】的细水长流呢，还是【科创板块】过山车呢？</p>
-<p>最后，我从市场回家了，回到家，我看到我奶奶家，那是小时候长大的老院子，你会发现小时候觉得很大的门楼，以及很大的大门，现在你觉得小了。院子也是，曾经你和玩伴在地上画游戏玩的圈子，觉得院子很大，画完离羊圈还有挺远的，所以开心地玩吧，不会被羊的屎臭影响心情。而现在院子小了，你就停了一个一汽奔腾二手车，院子已经没啥空间了。但是欣慰的是，老人家找到了村里的老师傅，刚把后院盖上的木材拿过来拉拉锯锯，电钻打打孔，留个铆什么的（我仍旧对传统的木材铆钉什么的结构充满疑问和好奇），拼拼凑凑，敲敲打打，喷喷涂涂，哇啦，你的家具成了。</p>
-<p>在院子晾了几天，你搬回屋里，觉得正好吧，你的生活于是继续着，就像一直以来的那样。</p>
-<p>你感叹说：果然和张小龙说的产品理念一样，让用户感觉不到存在的产品才是好产品，流式体验。</p>
-<p>果然适合自己的，才是最好的。</p>
-<p>年近花甲的你可能被儿孙问到一个问题：那个不规整的实木柜子和市面上看起来的板材做的可真不一样，颜色看着太素了，上的漆也不平整，就那三个小抽屉，要不给你买个新的？带好几个不同大小的抽屉，你的按摩器，减压药，手机啥的得分开放。你是要新的还是不要新的呢？我会选择不要。</p>
-<p>要知道，我年轻的时候，市场繁荣，什么好东西没见过？（除了那些面向领导特供的真好东西）。但是挑挑拣拣，一来二去，还是把自己生活最舒服的那几件东西留下了。</p>
-<p><a href="老大爷鄙视一切的图片">IMG</a></p>
-<hr>
-<p>生活里这间屋子，不仅会搬进来家具，也会进来垃圾。</p>
-<p>首先人本身就产生垃圾，具体你对自己的垃圾怎么分类，怎么处理，都有自己的方式。</p>
-<p>其次旁边的人会产生垃圾。有时候长辈孜孜不倦的教导就被你当成垃圾。</p>
-<p>哦，还有很主要的，你的手机，你的微信，充满了垃圾。</p>
-<p>那些无用的app，说是提高你效率，记录你的健身数据，提升你的英语听力的，扩大你的交际圈的，多少不是垃圾呢？和你小时候买的步步高英语学习（游戏）机一样。</p>
-<p>微信里动不动就：刚刚宣布，1万人都看了，你还不看？ 觉得焦虑吗？测一测你的焦虑指数？想要财务自由吗？来参加长投投资培训课。鸿蒙系统推出，开源微内核，所有设备无缝切换。smellGood港问题的来龙去脉。NorthBig，退你档，为你好。。。。</p>
-<p>生活里这些垃圾是确实存在的，有时候你还不能都扔了，他们算是厨余垃圾，但好歹你还吃了几口，或许你还要回收几次。</p>
-<hr>
-<p>断舍离，这个当代最难的修行。</p>
-<p>放下你在看我文字的手机吧，掌握好自己的【生活节奏】，对世界保持好奇，有一个向善的心，来清理你的屋子，擦亮你的家具， 每天问问自己： If today was the last day of my life, would I want to do what I am about to do today?</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>好奇心</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dijkstra之1:介绍场景和实现</title>
-    <url>/2019/10/31/Dijkstra%E4%B9%8B1:%E4%BB%8B%E7%BB%8D%E5%9C%BA%E6%99%AF%E5%92%8C%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1ocy4n74j30po0g3jyg.jpg" alt="Dijkstra.jpeg"></p>
-<p>let me show you the dijkstra algo, implements in C++</p>
-<a id="more"></a>
-<h1 id="notes"><a href="#notes" class="headerlink" title="notes"></a>notes</h1><h2 id="什么时候，你会使用-dijkstra-算法呢"><a href="#什么时候，你会使用-dijkstra-算法呢" class="headerlink" title="什么时候，你会使用 dijkstra 算法呢"></a>什么时候，你会使用 dijkstra 算法呢</h2><p>你有一个带权（每个边有距离值）有向图（带箭头的图），你想知道一个点（比如:a)到其余各个顶点(比如：b,c,i,j,k,x,y…)的最短距离，这个时候，你会使用dijkstra 算法；</p>
-<h2 id="dijkstra-算法-的-思想"><a href="#dijkstra-算法-的-思想" class="headerlink" title="dijkstra 算法 的 思想"></a>dijkstra 算法 的 思想</h2><p>首先你安排一个集合：S， 这个S 里面包含已经求得最短路径的那些顶点(比如你已经知道了a 到 b,c,d的最短路径，那么此时，S里面就有 a,b,c,d);</p>
-<p>你可以使用一个数组实现这个 集合; 当 <code>s[vi] = 1</code>， 就说明 vi 这个点在S集合内了。</p>
-<p>你在一开始的时候，会把源点放在 这个 S集合里。比如我想知道点 <code>v0</code> 到其余各个点 <code>vx</code> 的距离，故此，我一开始，会设置 <code>s[v0] = 1</code>. 如果我们的v0 直接设置为s数组的第一个点，其实就会比较方便，于是初始时候，你得到s就如：</p>
-<pre><code>s := [1, 0, 0, 0....//后面全是0]
-</code></pre><h3 id="辅助的两个数组"><a href="#辅助的两个数组" class="headerlink" title="辅助的两个数组"></a>辅助的两个数组</h3><p><code>dist[]</code>: 记录了源点v0 到其他各个顶点的当前的最短路径长度。</p>
-<p><code>path[]</code>: 记录了前驱节点；比如 <code>path[i] = j</code> 表示：源点v0 到 点vi ，其中vi 前面的一个点是：vj。事后，我们可以根据这个path 值来追溯最短路径。 </p>
-<h3 id="具体表述"><a href="#具体表述" class="headerlink" title="具体表述"></a>具体表述</h3><p>1) 初始化：S集合；s数组里面就源点自己。 也初始化 <code>dist[]</code>，根据输入，来填入源点 到各个节点的距离，离得近（一步就到）的就填其对应的一步的距离，离得远的（输入中，没有给出的距离，比如源点到目标终点），就填写 int_max （-1也行，看个人选择）。</p>
-<p>2）  <strong>找跳板</strong> 从全集V - 集合S 的集合：V-S 中选取vj 这个节点：满足了：dist[j] = min(dist[x]| vertex:x属于V-S)(tt: 这里不懂//2020-05-08 12:03:懂了；)。（我的理解是：从本轮更新最短距离的节点们中，选一个最小距离的：vj，vj会是下一轮更新其他vx 节点的跳板，而且是最合适的跳板，因为vj 路径距离最小）</p>
-<p>3） <strong>开始跳</strong>： 修改从v0出发的，到V-S集合上的任意一个点(say:k)的距离，怎么该呢：如果</p>
-<pre><code>dist[k] &gt; dist[j] + arcs[j][k] 
-</code></pre><p>则令：</p>
-<pre><code>dist[k] = dist[j] + arcs[j][k] 
-</code></pre><p>4) 重复2，3；重复n-1次，直到所有的节点 都被包含在S集合中（V-S集合于是就是空集了）</p>
-<h2 id="小tips"><a href="#小tips" class="headerlink" title="小tips"></a>小tips</h2><ol>
-<li>dijkstra 是贪心的。</li>
-<li>双重循环</li>
-<li>时间复杂度：O(v^2);  v 是顶点数，不论是使用邻接表还是邻接矩阵都是这个复杂度。</li>
-<li>不适合含有 负权边 的图</li>
-</ol>
-<h1 id="code-in-cpp"><a href="#code-in-cpp" class="headerlink" title="code in cpp"></a>code in cpp</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cmath&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdlib&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">map</span>[<span class="number">110</span>][<span class="number">110</span>];<span class="comment">//这就是map数组，存储图</span></span><br><span class="line"><span class="keyword">int</span> dis[<span class="number">10010</span>];<span class="comment">//dis数组，存储估计值</span></span><br><span class="line"><span class="keyword">int</span> book[<span class="number">10010</span>];<span class="comment">//book[i]代表这个点有没有被当做源点去搜索过，1为有，0为没有。这样就不会重复搜索了。</span></span><br><span class="line"><span class="keyword">int</span> n,m;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">dijkstra</span><span class="params">(<span class="keyword">int</span> u)</span><span class="comment">//主函数，参数是源点编号</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(dis,<span class="number">88</span>,<span class="keyword">sizeof</span>(dis));<span class="comment">//把dis数组附最大值（88不是十进制的88，其实很大）</span></span><br><span class="line">    <span class="keyword">int</span> start=u;<span class="comment">//先从源点搜索</span></span><br><span class="line">    book[start]=<span class="number">1</span>;<span class="comment">//标记源点已经搜索过</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        dis[i]=min(dis[i],<span class="built_in">map</span>[start][i]);<span class="comment">//先更新一遍</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n<span class="number">-1</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//tt minn是用于记录一个最小值：哪个点到源点的距离最小呢？（在未访问过的点中找，aka：book[j] == 0;//这表示未被标记为已经访问过</span></span><br><span class="line">        <span class="keyword">int</span> minn=<span class="number">9999999</span>;<span class="comment">//谢评论区，改正一下：这里的minn不是题解上的minn，这代表的是最近点到源点的距离，start才代表最近的点、</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++) &#123;</span><br><span class="line">            <span class="comment">//book[j] == 0这表示未被标记为已经访问过</span></span><br><span class="line">            <span class="keyword">if</span>(book[j]==<span class="number">0</span> &amp;&amp; minn&gt;dis[j])&#123;</span><br><span class="line">                minn=dis[j];</span><br><span class="line">                start=j;<span class="comment">//找到离源点最近的点，然后把编号记录下来，用于搜索。</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 标记这个点（j点），将是新的出发点（start），也就是记book下来：它已经被踩过了。</span></span><br><span class="line">        book[start]=<span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// tt 这里就是核心了，拿最近的，好使的点，更新到其他点的距离。</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            dis[j]=min(dis[j],dis[start]+<span class="built_in">map</span>[start][j]);<span class="comment">//以新的点来更新dis。</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="built_in">memset</span>(<span class="built_in">map</span>,<span class="number">88</span>,<span class="keyword">sizeof</span>(<span class="built_in">map</span>));</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> a,b,c;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;a&gt;&gt;b&gt;&gt;c;</span><br><span class="line">        <span class="built_in">map</span>[a][b]=c;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=n;j++)</span><br><span class="line">            <span class="keyword">if</span>(i==j)</span><br><span class="line">                <span class="built_in">map</span>[i][j]=<span class="number">0</span>;</span><br><span class="line">    dijkstra(<span class="number">1</span>);<span class="comment">//以1为源点。</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;dis[i]&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p><a href="https://www.cnblogs.com/jason2003/p/7222182.html" target="_blank" rel="noopener">https://www.cnblogs.com/jason2003/p/7222182.html</a></p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>algo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>佛教生死观p2</title>
     <url>/2020/03/23/buddha%E4%BD%9B%E6%95%99%E7%94%9F%E6%AD%BB%E8%A7%82p2/</url>
     <content><![CDATA[<p>佛法中，解决生死之痛，以及生死的真相。</p>
@@ -1001,6 +947,38 @@
       </tags>
   </entry>
   <entry>
+    <title>午觉醒来总是对生活充满怀疑</title>
+    <url>/2019/08/24/life_the_doubt_for_life_when_i_wake_up/</url>
+    <content><![CDATA[<p>一点对年华消逝的感慨，以及慢下来求道的发愿。</p>
+<a id="more"></a>
+<h1 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h1><p>每次中午醒来的时候，都对人生充满的怀疑。这是非常奇怪的体验。</p>
+<p>简单来说，情况就是刚醒来，似乎有些神神迷迷的，然后睁眼看到现在现在的现实情况，竟然非常恐慌。</p>
+<p>这在oppo公司的时候，以及现在考研期间在碧海湾的卧室里，都是有如此的体验。</p>
+<p>当时大致的想法现在已然不清晰，总之就是一种遗憾和恐慌。</p>
+<p>时间已经到了此时，而我还是一事无成一般。看不到有希望的未来，一种悲情就油然而生。</p>
+<p>在公司醒来，是觉得：哇，一辈子（<em>或者这4，5 年2，3 年</em>）就在这个屋子里，对着屏幕度过了。可悲啊，做的事情就是边角而重复的业务，为别人的各种需求打工，换得几万块钱。留到未来身体和青春都消耗的差不多，再消费。</p>
+<p>在卧室醒来还好，就是觉得：还没奔到自己理想的自由状态啊？无论是房屋自由，资金自由，学术自由，还是要学习，记忆别人要求的，考试需要的。</p>
+<p>这就是没有希望的未来，by 午休初醒的我。</p>
+<h1 id="来点正能量"><a href="#来点正能量" class="headerlink" title="来点正能量"></a>来点正能量</h1><p>我觉得，人生不要变得毫无意义的一个绝佳手段，就是找到自己的道。</p>
+<p>这个道就是意义。</p>
+<p>找到自己热爱的事业不容易（乔布斯说的），但是我大致有个领域，就是计算机，这些硅基生物。</p>
+<p>只是这个领域也是需要探索很久，我才算开始吧。</p>
+<p>我在rj 做网络，在op 做app开发。其实慢慢地可以得道，找到意义。无奈资本希望的是快钱。</p>
+<p>这或许到了那里都一样，即使我未来到xx大学也不应该有太高的期望。</p>
+<p>兴趣很难是用来吃饭的工具（特别是在这样高速发展的state），除非你真的很努力，为自己在那个方向增加极大的愿力。</p>
+<p>然而愿力在这个时代， 是个很涣散的东西。</p>
+<p><strong>你需要做的，就是能在自己掌控的时间内，慢慢走，欣赏啊</strong></p>
+<p>致中和。</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p7914t0j30dl35se70.jpg" alt="MeaningOfLife.png"></p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>thinking</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>听歌是一种生活方式</title>
     <url>/2020/05/09/life_music_for_a_programmer/</url>
     <content><![CDATA[<p>作为一个程序员，当我在听歌的时候，我在听什么？</p>
@@ -1033,6 +1011,89 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
+    <title>所谓天赋和热情</title>
+    <url>/2019/08/24/life_the_so_called_talent_and_passion/</url>
+    <content><![CDATA[<blockquote>
+<p>世上没有所谓的生下来就有天赋这回事。只有一个人做自己所爱之事才会有激情。如果这个人爱他做的事，他就更可能花更多时间和努力去做这件事、思考这件事，并且睡觉时做梦还想着这件事。随着时间和努力的积累，那些其他只花了少量时间的人就会把这个人称之为”有天赋的人”。—— 陈星汉   </p>
+</blockquote>
+<hr>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmYUxcmF51yCbsavKCpLB5ngty4Rcg4apmKX6LU8Kif8BS" alt="img" title="风之旅人"></p>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>天赋</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>食用油和石油有什么区别</title>
+    <url>/2019/08/16/life_my_curiousity/</url>
+    <content><![CDATA[<p>我还对周围的世界好奇。</p>
+<p>我还有时间和心情做一件满足好奇心的事情。</p>
+<p>所以我问着：食用油和石油有什么区别？</p>
+<a id="more"></a>
+<p>[TOC]</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>现在可以上网的小学生都可以在知网找到这个问题的答案，知网上有一篇论文说了食用油和石油有什么区别。</p>
+<p>食用油是从动物或者植物中提取的， 而石油是从矿物里提取的。从化学的角度，你可以知道，食用油和你的脂肪大概是相同的东西。而石油就是碳以及氢这些元素混合着。</p>
+<p>你或许疑惑着，这人在想什么自私的事情。好奇心就是一个个人的事情啊。</p>
+<p>但是我在说的是关于我生活里的垃圾。</p>
+<p>想象你的生活如果是个屋子。</p>
+<p>那好奇心是个好家具。</p>
+<p>什么是厨余垃圾， 什么是有害垃圾，什么是可回收的垃圾呢？</p>
+<p>我尝试着对自己的生活这间屋子做整理。</p>
+<p>我从好奇心这个家具出发。（比喻一直是一种我喜欢的思想表达方式）</p>
+<p>这东西是个很老的家具，你从小会问父母： 为什么XXX？ 的时候，这就是好奇心，它似乎就是一种与生俱来的人生这件屋子的标配。</p>
+<p>但凡你生活的屋子不是家徒四壁（那意味着你在现实生活里的家里还在为温饱忧愁着），那么我觉得你就应该有这样的一件家具。</p>
+<p>好奇心不会像梦想一样装点你的生活，令其如同宝殿那么堂皇。但是这好奇心是你房屋的电闸，没有好奇心，就没有亮光。你就不知道生活到底是个什么样子，黑夜里看不到生活的模样。</p>
+<hr>
+<p>年纪大了，就会【买】入一些新鲜的物件，有的就是好东西，有的就是垃圾。</p>
+<p>最近住进我屋子的垃圾有很多，我慢慢看到这些实际上已经是垃圾的垃圾，他们慢慢腐烂，就像你买了粘合剂做出来的木板，发现里面的胶都是甲醛类似物，而时间让生活这件屋子留下的都是你这个主人最该拥有的家具。</p>
+<p>我向来不会是去市场买家具的人，（实际上是我还没到那个年纪），我最理想的家具，从来不是买入的。</p>
+<p>就比如【生活节奏】这个家具，我就很不愿意去对标市场标准。</p>
+<p>你会看到在深圳，每个人都在或多或少的加班，来了就是深圳人，来了就做加班的志愿者。深圳 没有早睡的人。</p>
+<p>说点前言如下。</p>
+<p>在进入市场买生活节奏这个家具前，我的邻居给我打了一些广告，我当时觉得那东西不错啊，特别是在北上广深的【生活节奏】， 是最新潮的，是最受年轻人喜爱的，用小米的广告语说一下：北上广深的【生活节奏】，做年轻人的第一段【生活节奏】。我喜爱这款家具，就像小时候喜欢李宁的运动鞋。</p>
+<p>直到后来，我慢慢发现了这个广告的制造商，我不能说其心不轨，只是我们作为【消费者】，对【资本家】来说，太弱小，我们要么物理上无法脱身，要么意识上已经被洗脑。我们总之被物欲给包住了，我们反而是被物品消费的。</p>
+<p>回到家具本身，生活节奏这东西，既然自己安排不了，就要去适应，适应不了就换个方式去接受。</p>
+<p>道可，道非，常道。</p>
+<p>大家可行的道，不巧非你的道，这是很正常不过的道了。</p>
+<p>鲁迅没有说过：路是人走出来的。</p>
+<p>他是个不讨人喜欢的家伙，他骂爱流鼻涕带眼泪的女同学：四条。现在我觉得他要是年轻时想讨生活来深圳了，他一定要说：路是挖掘机和铺路机以及罐车协同工作下铺设好的。</p>
+<p>回到现在的市场情况。</p>
+<p>新建好的平整公路是群众的蛋糕，你可不能动了。要走什么自己的小路，请回，这可没有什么地能让你走。而且一般出门好几公里，有地铁干嘛不坐呢？</p>
+<p>带着不同染料和粘合剂家具已经几乎垄断市场了。就像城市有地铁一样，生活有了快节奏的标配。</p>
+<p>可怕的是，时间长了，家具粘合剂里的毒物就出来了。特别是这个家具还没经过时间合格的检验，就被投向了市场。</p>
+<p>市场有风险，所以股民也有不同的承担风险的能力。</p>
+<p>我算是一波不接受高风险，而总是往高风险的边缘疯狂试探的芫荽。我不承认自己是韭菜。</p>
+<p>就【生活节奏】这款家具，这份抉择。先不等市场冷静，我先自行冷静下来，去审视自己的【购买力】【风险阈值】，看看这款东西是不是我擅长的领域， 是【能源板块】的细水长流呢，还是【科创板块】过山车呢？</p>
+<p>最后，我从市场回家了，回到家，我看到我奶奶家，那是小时候长大的老院子，你会发现小时候觉得很大的门楼，以及很大的大门，现在你觉得小了。院子也是，曾经你和玩伴在地上画游戏玩的圈子，觉得院子很大，画完离羊圈还有挺远的，所以开心地玩吧，不会被羊的屎臭影响心情。而现在院子小了，你就停了一个一汽奔腾二手车，院子已经没啥空间了。但是欣慰的是，老人家找到了村里的老师傅，刚把后院盖上的木材拿过来拉拉锯锯，电钻打打孔，留个铆什么的（我仍旧对传统的木材铆钉什么的结构充满疑问和好奇），拼拼凑凑，敲敲打打，喷喷涂涂，哇啦，你的家具成了。</p>
+<p>在院子晾了几天，你搬回屋里，觉得正好吧，你的生活于是继续着，就像一直以来的那样。</p>
+<p>你感叹说：果然和张小龙说的产品理念一样，让用户感觉不到存在的产品才是好产品，流式体验。</p>
+<p>果然适合自己的，才是最好的。</p>
+<p>年近花甲的你可能被儿孙问到一个问题：那个不规整的实木柜子和市面上看起来的板材做的可真不一样，颜色看着太素了，上的漆也不平整，就那三个小抽屉，要不给你买个新的？带好几个不同大小的抽屉，你的按摩器，减压药，手机啥的得分开放。你是要新的还是不要新的呢？我会选择不要。</p>
+<p>要知道，我年轻的时候，市场繁荣，什么好东西没见过？（除了那些面向领导特供的真好东西）。但是挑挑拣拣，一来二去，还是把自己生活最舒服的那几件东西留下了。</p>
+<p><a href="老大爷鄙视一切的图片">IMG</a></p>
+<hr>
+<p>生活里这间屋子，不仅会搬进来家具，也会进来垃圾。</p>
+<p>首先人本身就产生垃圾，具体你对自己的垃圾怎么分类，怎么处理，都有自己的方式。</p>
+<p>其次旁边的人会产生垃圾。有时候长辈孜孜不倦的教导就被你当成垃圾。</p>
+<p>哦，还有很主要的，你的手机，你的微信，充满了垃圾。</p>
+<p>那些无用的app，说是提高你效率，记录你的健身数据，提升你的英语听力的，扩大你的交际圈的，多少不是垃圾呢？和你小时候买的步步高英语学习（游戏）机一样。</p>
+<p>微信里动不动就：刚刚宣布，1万人都看了，你还不看？ 觉得焦虑吗？测一测你的焦虑指数？想要财务自由吗？来参加长投投资培训课。鸿蒙系统推出，开源微内核，所有设备无缝切换。smellGood港问题的来龙去脉。NorthBig，退你档，为你好。。。。</p>
+<p>生活里这些垃圾是确实存在的，有时候你还不能都扔了，他们算是厨余垃圾，但好歹你还吃了几口，或许你还要回收几次。</p>
+<hr>
+<p>断舍离，这个当代最难的修行。</p>
+<p>放下你在看我文字的手机吧，掌握好自己的【生活节奏】，对世界保持好奇，有一个向善的心，来清理你的屋子，擦亮你的家具， 每天问问自己： If today was the last day of my life, would I want to do what I am about to do today?</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>好奇心</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>细数我的Android开发历史</title>
     <url>/2020/03/15/life_the_path_of_android_dev/</url>
     <content><![CDATA[<p>我的幸运择业与不幸，一切都是对象，一切世间万象</p>
@@ -1055,6 +1116,38 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>Android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>my_life_in_fuzhou_week51_2018</title>
+    <url>/2020/04/03/my-life-in-fuzhou-week51-2018/</url>
+    <content><![CDATA[<p>简述这小半年 week 51<br>原创 Paulkg Paulkg 2018-12-23</p>
+<a id="more"></a>
+<p>week51</p>
+<p>好久没有写自己每周的事情了，最近开始了自己的职场生涯，如果有写周记，每周也是复盘自己从开通微信公众号以来，在学校的事情。 1223 号这天，总结到了大三快结束的6月份。看看当时的自己，还挺傻的。</p>
+<p>逻辑思维说这个叫做傻瓜指数：你回头看自己，为自己的打分，如果在最近的3个月前，你看当时的自己的想法都是不可取的，认为自己是傻瓜，那么这个傻瓜指数就很高。越高，则表明你在进步的速度越快。</p>
+<p>通过这个定义，我发现，几乎每3个月，我都能看到自己3个月前的傻瓜之处，所以看来是在维持在可观的成长速度上。</p>
+<p>从7月入职这家公司，我先是经历军训</p>
+<p><img src="https://i.loli.net/2020/04/03/LYvrk54uNeSMQ1K.png" alt="image.png"></p>
+<p><img src="https://i.loli.net/2020/04/03/LYvrk54uNeSMQ1K.png" alt="image.png"></p>
+<p>然后简短的业务培训， 参加一个项目里的小小部分，几百行代码，最近接手了比较大的一个项目，和阿里自动化运维有关的，这个应该也是我的转正课题。</p>
+<p>在公司的日子，加班不少，正常都是8点左右回家，好在自己租的房子离得比较近。出勤时间很短，每天去上班也是9点半了。似乎工作时间不长，但是身体因为每天都是久坐，久视，加上一些不好的生活习惯，一些地方，肝，胃，膝盖，腰，眼睛都会不时向我告警。</p>
+<p>在福州的好处就是，可能没有一线那么拥挤，时间，空间都是，所以排出工作时间，和在家的空间，我会出去走走，我叔叔正好也在省内，节假日回去那边，和弟弟玩。也看看这边的生活。其实如果能在这边找到愿意定居的另一半，或许我们会留下，我的室友这样说。</p>
+<p>周末的时间就是做这样的记录，看看自己过去一周，一个月做了什么。结果发现。。。啥都没做，工作是被动的，但凡是商业的行为，就要牟利，就要你有成果，而很多事， 如果just for fun 去做，才是好玩的，for profit不是很舒服，但是一旦凭着利润的压力做出来，得到利润，其实也会很有成就感，而我现在要为了利润，周末去加班。</p>
+<p>周末如果不加班，会在家看看书，视频，电影，不时会有房客造访，我们一个共同的租客离职之后，我们 就在airbnb挂出该房间</p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmRG8sHEkCsQgph21wobxM6JaKioQLz1bNEFCyzbxV2ajd" alt="fo"></p>
+<p>第一位来住的女生对我们的招待评价很好，于是后来很多房客，虽然弥补不了我们的房租，但是会令我们有更长远的收益。</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kgy1gdggon8pn6j30u02slwqf.jpg" alt="undefined"></p>
+<p>每个租客都有她/他（most is she at this moment) 独特的经历，但是和他们聊起来，发现价值观还挺接近，所以以人为本，真的是贯穿任何行业。就像公司对待自己的员工，房东对待自己的房客，想赚钱？请以人为本。</p>
+<p>工作日并不是那么好玩，也没啥可以记的，可以记的都是代码，技术文档，我都会放在csdn。唯一值得自己往后回味的，就是吃饭吧，吃饭是维持自己的一群同事关系的好时机，从餐桌的对话上，我们知道彼此的过往，喜恶，慢慢的，一些人就成了好朋友。</p>
+<p>周末好玩的，令我记忆深刻的最近的，就是去胡桃里音乐酒吧，高档/消费的场合，适合闲下来去，但我不觉得会是个放松身心的去处，太吵，而且晚上熬夜听歌，喝酒，闻二手烟，还不如看看书，睡。</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kgy1gdggpzinlhj30li17otbh.jpg" alt="undefined"></p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>福州</tag>
       </tags>
   </entry>
   <entry>
@@ -1098,105 +1191,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>summary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>所谓天赋和热情</title>
-    <url>/2019/08/24/life_the_so_called_talent_and_passion/</url>
-    <content><![CDATA[<blockquote>
-<p>世上没有所谓的生下来就有天赋这回事。只有一个人做自己所爱之事才会有激情。如果这个人爱他做的事，他就更可能花更多时间和努力去做这件事、思考这件事，并且睡觉时做梦还想着这件事。随着时间和努力的积累，那些其他只花了少量时间的人就会把这个人称之为”有天赋的人”。—— 陈星汉   </p>
-</blockquote>
-<hr>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmYUxcmF51yCbsavKCpLB5ngty4Rcg4apmKX6LU8Kif8BS" alt="img" title="风之旅人"></p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>天赋</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>my_life_in_fuzhou_week51_2018</title>
-    <url>/2020/04/03/my-life-in-fuzhou-week51-2018/</url>
-    <content><![CDATA[<p>简述这小半年 week 51<br>原创 Paulkg Paulkg 2018-12-23</p>
-<a id="more"></a>
-<p>week51</p>
-<p>好久没有写自己每周的事情了，最近开始了自己的职场生涯，如果有写周记，每周也是复盘自己从开通微信公众号以来，在学校的事情。 1223 号这天，总结到了大三快结束的6月份。看看当时的自己，还挺傻的。</p>
-<p>逻辑思维说这个叫做傻瓜指数：你回头看自己，为自己的打分，如果在最近的3个月前，你看当时的自己的想法都是不可取的，认为自己是傻瓜，那么这个傻瓜指数就很高。越高，则表明你在进步的速度越快。</p>
-<p>通过这个定义，我发现，几乎每3个月，我都能看到自己3个月前的傻瓜之处，所以看来是在维持在可观的成长速度上。</p>
-<p>从7月入职这家公司，我先是经历军训</p>
-<p><img src="https://i.loli.net/2020/04/03/LYvrk54uNeSMQ1K.png" alt="image.png"></p>
-<p><img src="https://i.loli.net/2020/04/03/LYvrk54uNeSMQ1K.png" alt="image.png"></p>
-<p>然后简短的业务培训， 参加一个项目里的小小部分，几百行代码，最近接手了比较大的一个项目，和阿里自动化运维有关的，这个应该也是我的转正课题。</p>
-<p>在公司的日子，加班不少，正常都是8点左右回家，好在自己租的房子离得比较近。出勤时间很短，每天去上班也是9点半了。似乎工作时间不长，但是身体因为每天都是久坐，久视，加上一些不好的生活习惯，一些地方，肝，胃，膝盖，腰，眼睛都会不时向我告警。</p>
-<p>在福州的好处就是，可能没有一线那么拥挤，时间，空间都是，所以排出工作时间，和在家的空间，我会出去走走，我叔叔正好也在省内，节假日回去那边，和弟弟玩。也看看这边的生活。其实如果能在这边找到愿意定居的另一半，或许我们会留下，我的室友这样说。</p>
-<p>周末的时间就是做这样的记录，看看自己过去一周，一个月做了什么。结果发现。。。啥都没做，工作是被动的，但凡是商业的行为，就要牟利，就要你有成果，而很多事， 如果just for fun 去做，才是好玩的，for profit不是很舒服，但是一旦凭着利润的压力做出来，得到利润，其实也会很有成就感，而我现在要为了利润，周末去加班。</p>
-<p>周末如果不加班，会在家看看书，视频，电影，不时会有房客造访，我们一个共同的租客离职之后，我们 就在airbnb挂出该房间</p>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmRG8sHEkCsQgph21wobxM6JaKioQLz1bNEFCyzbxV2ajd" alt="fo"></p>
-<p>第一位来住的女生对我们的招待评价很好，于是后来很多房客，虽然弥补不了我们的房租，但是会令我们有更长远的收益。</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kgy1gdggon8pn6j30u02slwqf.jpg" alt="undefined"></p>
-<p>每个租客都有她/他（most is she at this moment) 独特的经历，但是和他们聊起来，发现价值观还挺接近，所以以人为本，真的是贯穿任何行业。就像公司对待自己的员工，房东对待自己的房客，想赚钱？请以人为本。</p>
-<p>工作日并不是那么好玩，也没啥可以记的，可以记的都是代码，技术文档，我都会放在csdn。唯一值得自己往后回味的，就是吃饭吧，吃饭是维持自己的一群同事关系的好时机，从餐桌的对话上，我们知道彼此的过往，喜恶，慢慢的，一些人就成了好朋友。</p>
-<p>周末好玩的，令我记忆深刻的最近的，就是去胡桃里音乐酒吧，高档/消费的场合，适合闲下来去，但我不觉得会是个放松身心的去处，太吵，而且晚上熬夜听歌，喝酒，闻二手烟，还不如看看书，睡。</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kgy1gdggpzinlhj30li17otbh.jpg" alt="undefined"></p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>福州</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>假时间和真诚心</title>
-    <url>/2019/09/19/life_%E5%81%87%E6%97%B6%E9%97%B4%E5%92%8C%E7%9C%9F%E8%AF%9A%E5%BF%83/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
-<p>时间是虚假的，一生唯有一颗诚心</p>
-<a id="more"></a>
-<h1 id="时间，作为一个劫匪"><a href="#时间，作为一个劫匪" class="headerlink" title="时间，作为一个劫匪"></a>时间，作为一个劫匪</h1><p>我们活着，总是会被时间「绑架」。</p>
-<p>比如：</p>
-<p><em>现在还有4天就交付了，快完成。</em></p>
-<p><em>考试还剩30天，快好好准备。</em></p>
-<p><em>都什么年纪了，快找个对象，该结婚了。</em></p>
-<p>随着我们的身体长到壮年，似乎这位劫匪，也是在慢慢变得强壮。它操控着我们周围的大部分人，让我们与之（时间）妥协。到了该奋斗的年纪就要奋斗，这是没错，但是我想说的是，没有必要，让时间这个「劫匪」拿着deadline作为凶器，指着你的头，威胁着：<em>不给我快点，就撕票！</em></p>
-<h1 id="在时间里的颠倒"><a href="#在时间里的颠倒" class="headerlink" title="在时间里的颠倒"></a>在时间里的颠倒</h1><p>鲁迅看到的世界是颠倒的，这情况似乎没有多少改观。</p>
-<p>我小时候，学习很大的道理，一些必须热爱的，一些必须斗争的，一些光荣的。</p>
-<p>我长大了，学习很小的道理，我听人说话要闭嘴，正视别人的眼睛，我撒尿的时候得往前文明一小步，我得开门的时候注意门后的人，门卫给我开门，我要谢谢别人。</p>
-<p>所以，随着年岁上去，我是越来越「笨」的。</p>
-<p>我从鲜艳红火的花朵，变成在艳阳下低头的麦穗。我也曾口吐莲花，但我现在默默听着世界的叽叽喳喳。</p>
-<p>我自以为曾经说过的就是真理，朝阳下，都是朦胧的美，我现在看世界，正午的烈阳，虚假的东西就像被点燃的山火，炙烤着那些离虚伪最近的居民。</p>
-<h1 id="诚心，作为一个警察"><a href="#诚心，作为一个警察" class="headerlink" title="诚心，作为一个警察"></a>诚心，作为一个警察</h1><p>纠正这种颠倒泡影的善知识，是我的诚心。</p>
-<p>每每我陷入「绑架」，被时间一路带到他们的贼窝，一路天南地北，一路风雨雷电，一车上挤满的「受害人」，每个人都要被绑到不同的据点，到了一个据点，时间的车就像干呕一样，像吐出一滩烂肉一样，吐出我这样的蝼蚁。</p>
-<p>一次次被绑架中，我慢慢会猜想，时间这帮劫匪的「总部」是什么样呢？</p>
-<p>是这样吗？</p>
-<p>（本来是一个密集大楼的图片）</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
-<p>或者：</p>
-<p>(本来是一圈人朝拜的图片)</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
-<p><strong>唯一的救赎和生还希望，就只有一颗诚心</strong></p>
-<p>就像一个警察一样，诚心它成心和时间对抗着。</p>
-<p>诚心既不需要你拨打电话向外求助，也不需要你等待他们一路赶来。</p>
-<p>人生来，都会，都应该有一个诚心。</p>
-<p>一个人，他最本心的渴望，他想成为一个什么样的自己，他要如何度过自己的一生，在不确定的死亡来临之前，他要在世间如何绽放。我想，这就是一个人诚心，大致的样子吧。</p>
-<p>你有了诚心，便有了与时间博弈的手段。</p>
-<p>诚心，就像一个经验老道的警察一把，他不会中时间劫匪的圈套。</p>
-<p>我觉得，若有一颗诚心常伴的话，你就是一颗自由生长的生命，既不会被早上的红太阳叫醒，活在一个人工的花园里，也不会被严寒酷暑，冰霜雨雪，四时无情，所欺凌。</p>
-<p>诚心，能驱赶时间带给人的恐惧和焦虑，时间的贼船上，人人看似乘风破浪，实则颠沛流离，惶惶不可终日。</p>
-<h1 id="温和的结束这场追捕"><a href="#温和的结束这场追捕" class="headerlink" title="温和的结束这场追捕"></a>温和的结束这场追捕</h1><p>而我就在一个叫做「考研究生」的时间的贼船上了。有时候，就是在时间的航进里，我焦急，我恐惧，担心，比较，而又不自信着，又不得不在思绪的海洋里起起伏伏，紧紧张张。</p>
-<p>有时间，航行是平稳的，心海是平静的，而我也终于看清这个贼船的轨迹和我应该的航向。</p>
-<p>或许我不该称时间为「劫匪」了。</p>
-<p>时间是曾绑架过我们，但我们下不下车，向来是我们自己的愿力所决。</p>
-<p>时间或许只是个摆渡人，从生到死，你在苦海里，在许多时间的渡轮上，要找到一个回归的灯塔。</p>
-<p>而诚心，也不是要和时间永不妥协的警察，而是时间的海浪洗干净了你的污浊，看看自己是个什么样子，你的诚心就是灯塔的一束光。</p>
-<p>时间在诚心的指引下，把你送到你本该在的地方。</p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>time</tag>
       </tags>
   </entry>
   <entry>
@@ -1273,6 +1267,89 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>佛法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>假时间和真诚心</title>
+    <url>/2019/09/19/life_%E5%81%87%E6%97%B6%E9%97%B4%E5%92%8C%E7%9C%9F%E8%AF%9A%E5%BF%83/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
+<p>时间是虚假的，一生唯有一颗诚心</p>
+<a id="more"></a>
+<h1 id="时间，作为一个劫匪"><a href="#时间，作为一个劫匪" class="headerlink" title="时间，作为一个劫匪"></a>时间，作为一个劫匪</h1><p>我们活着，总是会被时间「绑架」。</p>
+<p>比如：</p>
+<p><em>现在还有4天就交付了，快完成。</em></p>
+<p><em>考试还剩30天，快好好准备。</em></p>
+<p><em>都什么年纪了，快找个对象，该结婚了。</em></p>
+<p>随着我们的身体长到壮年，似乎这位劫匪，也是在慢慢变得强壮。它操控着我们周围的大部分人，让我们与之（时间）妥协。到了该奋斗的年纪就要奋斗，这是没错，但是我想说的是，没有必要，让时间这个「劫匪」拿着deadline作为凶器，指着你的头，威胁着：<em>不给我快点，就撕票！</em></p>
+<h1 id="在时间里的颠倒"><a href="#在时间里的颠倒" class="headerlink" title="在时间里的颠倒"></a>在时间里的颠倒</h1><p>鲁迅看到的世界是颠倒的，这情况似乎没有多少改观。</p>
+<p>我小时候，学习很大的道理，一些必须热爱的，一些必须斗争的，一些光荣的。</p>
+<p>我长大了，学习很小的道理，我听人说话要闭嘴，正视别人的眼睛，我撒尿的时候得往前文明一小步，我得开门的时候注意门后的人，门卫给我开门，我要谢谢别人。</p>
+<p>所以，随着年岁上去，我是越来越「笨」的。</p>
+<p>我从鲜艳红火的花朵，变成在艳阳下低头的麦穗。我也曾口吐莲花，但我现在默默听着世界的叽叽喳喳。</p>
+<p>我自以为曾经说过的就是真理，朝阳下，都是朦胧的美，我现在看世界，正午的烈阳，虚假的东西就像被点燃的山火，炙烤着那些离虚伪最近的居民。</p>
+<h1 id="诚心，作为一个警察"><a href="#诚心，作为一个警察" class="headerlink" title="诚心，作为一个警察"></a>诚心，作为一个警察</h1><p>纠正这种颠倒泡影的善知识，是我的诚心。</p>
+<p>每每我陷入「绑架」，被时间一路带到他们的贼窝，一路天南地北，一路风雨雷电，一车上挤满的「受害人」，每个人都要被绑到不同的据点，到了一个据点，时间的车就像干呕一样，像吐出一滩烂肉一样，吐出我这样的蝼蚁。</p>
+<p>一次次被绑架中，我慢慢会猜想，时间这帮劫匪的「总部」是什么样呢？</p>
+<p>是这样吗？</p>
+<p>（本来是一个密集大楼的图片）</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
+<p>或者：</p>
+<p>(本来是一圈人朝拜的图片)</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o6pwoedj314014012e.jpg" alt="placeholder.jpeg"></p>
+<p><strong>唯一的救赎和生还希望，就只有一颗诚心</strong></p>
+<p>就像一个警察一样，诚心它成心和时间对抗着。</p>
+<p>诚心既不需要你拨打电话向外求助，也不需要你等待他们一路赶来。</p>
+<p>人生来，都会，都应该有一个诚心。</p>
+<p>一个人，他最本心的渴望，他想成为一个什么样的自己，他要如何度过自己的一生，在不确定的死亡来临之前，他要在世间如何绽放。我想，这就是一个人诚心，大致的样子吧。</p>
+<p>你有了诚心，便有了与时间博弈的手段。</p>
+<p>诚心，就像一个经验老道的警察一把，他不会中时间劫匪的圈套。</p>
+<p>我觉得，若有一颗诚心常伴的话，你就是一颗自由生长的生命，既不会被早上的红太阳叫醒，活在一个人工的花园里，也不会被严寒酷暑，冰霜雨雪，四时无情，所欺凌。</p>
+<p>诚心，能驱赶时间带给人的恐惧和焦虑，时间的贼船上，人人看似乘风破浪，实则颠沛流离，惶惶不可终日。</p>
+<h1 id="温和的结束这场追捕"><a href="#温和的结束这场追捕" class="headerlink" title="温和的结束这场追捕"></a>温和的结束这场追捕</h1><p>而我就在一个叫做「考研究生」的时间的贼船上了。有时候，就是在时间的航进里，我焦急，我恐惧，担心，比较，而又不自信着，又不得不在思绪的海洋里起起伏伏，紧紧张张。</p>
+<p>有时间，航行是平稳的，心海是平静的，而我也终于看清这个贼船的轨迹和我应该的航向。</p>
+<p>或许我不该称时间为「劫匪」了。</p>
+<p>时间是曾绑架过我们，但我们下不下车，向来是我们自己的愿力所决。</p>
+<p>时间或许只是个摆渡人，从生到死，你在苦海里，在许多时间的渡轮上，要找到一个回归的灯塔。</p>
+<p>而诚心，也不是要和时间永不妥协的警察，而是时间的海浪洗干净了你的污浊，看看自己是个什么样子，你的诚心就是灯塔的一束光。</p>
+<p>时间在诚心的指引下，把你送到你本该在的地方。</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>time</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小狗钱钱一书</title>
+    <url>/2019/10/06/read_xiaogou_qianqian/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p5j2io5j313818e0zw.jpg" alt="xiaogouqianqian.jpg"></p>
+<p>来自 博多 费舍尔 的理财童话。</p>
+<p>适合小孩子以及刚刚开始理财的社会青年。</p>
+<p>使用一个孩子遇到了一个会说话的狗开始的童话故事。</p>
+<p>故事中，在小狗钱钱的 指导之下，主人公开始了为梦想储蓄，解决父母的财务问题，并开始从帮邻居带狗，开始了自己的事业。</p>
+<p>并且在赚钱的驱动下，结识了社区的许多人们，并在社区做公开演讲。</p>
+<p>书中不止是告诉我们基本的理财知识，诸如银行储蓄的陷阱，通货膨胀，股票以及基金，分红等等，全部使用简单的可以理解的类比来解释给我们听。</p>
+<p>书中也在穿插许多如何过好良好生活的许多指南，赚钱和生活不是分开的，能够顺利得到金钱回报的人， 也必定按照相同的品行和道德会得到生活的良好回报。</p>
+<a id="more"></a>
+<h1 id="以下给出一些记录，钱钱语录"><a href="#以下给出一些记录，钱钱语录" class="headerlink" title="以下给出一些记录，钱钱语录"></a>以下给出一些记录，钱钱语录</h1><ul>
+<li>你是否能挣到钱 最关键的因素并不在于你是不是有一个好点子 你有多聪明<br>也不是主要原因 决定因素是你的自信程度 </li>
+</ul>
+<ul>
+<li>一个人把精力集中在自己所能做的 知道的和拥有的东西上的那一天起 他的<br>成功就已经拉开了序幕 这也使得一个孩子完全有能力比成人挣到更多的钱 </li>
+</ul>
+<ul>
+<li>你最好想清楚 你喜欢做什么 然后再考虑你怎么用它来挣钱 </li>
+</ul>
+<ul>
+<li>你要每天不间断地去做对称的未来意义重大的事情 你为此花费的时间不会超<br>过10分钟 但是就是这10分钟会让一切变得不同</li>
+</ul>
+]]></content>
+      <categories>
+        <category>reading</category>
+      </categories>
+      <tags>
+        <tag>理财</tag>
       </tags>
   </entry>
   <entry>
@@ -1353,38 +1430,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>小狗钱钱一书</title>
-    <url>/2019/10/06/read_xiaogou_qianqian/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1p5j2io5j313818e0zw.jpg" alt="xiaogouqianqian.jpg"></p>
-<p>来自 博多 费舍尔 的理财童话。</p>
-<p>适合小孩子以及刚刚开始理财的社会青年。</p>
-<p>使用一个孩子遇到了一个会说话的狗开始的童话故事。</p>
-<p>故事中，在小狗钱钱的 指导之下，主人公开始了为梦想储蓄，解决父母的财务问题，并开始从帮邻居带狗，开始了自己的事业。</p>
-<p>并且在赚钱的驱动下，结识了社区的许多人们，并在社区做公开演讲。</p>
-<p>书中不止是告诉我们基本的理财知识，诸如银行储蓄的陷阱，通货膨胀，股票以及基金，分红等等，全部使用简单的可以理解的类比来解释给我们听。</p>
-<p>书中也在穿插许多如何过好良好生活的许多指南，赚钱和生活不是分开的，能够顺利得到金钱回报的人， 也必定按照相同的品行和道德会得到生活的良好回报。</p>
-<a id="more"></a>
-<h1 id="以下给出一些记录，钱钱语录"><a href="#以下给出一些记录，钱钱语录" class="headerlink" title="以下给出一些记录，钱钱语录"></a>以下给出一些记录，钱钱语录</h1><ul>
-<li>你是否能挣到钱 最关键的因素并不在于你是不是有一个好点子 你有多聪明<br>也不是主要原因 决定因素是你的自信程度 </li>
-</ul>
-<ul>
-<li>一个人把精力集中在自己所能做的 知道的和拥有的东西上的那一天起 他的<br>成功就已经拉开了序幕 这也使得一个孩子完全有能力比成人挣到更多的钱 </li>
-</ul>
-<ul>
-<li>你最好想清楚 你喜欢做什么 然后再考虑你怎么用它来挣钱 </li>
-</ul>
-<ul>
-<li>你要每天不间断地去做对称的未来意义重大的事情 你为此花费的时间不会超<br>过10分钟 但是就是这10分钟会让一切变得不同</li>
-</ul>
-]]></content>
-      <categories>
-        <category>reading</category>
-      </categories>
-      <tags>
-        <tag>理财</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>shell_for_loop</title>
     <url>/2020/04/17/shell-for-loop/</url>
     <content><![CDATA[<p>如何使用 shell 里面的 <code>for</code> 循环，代码示范</p>
@@ -1419,26 +1464,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>pyramid_selling_book_read</title>
-    <url>/2020/04/19/pyramid-selling-book-read/</url>
-    <content><![CDATA[<p>两天读了这本叫做：《中国，缺一味药》的书，作者深入传销窝点，记录了传销组织内的一点事情。</p>
-<p>里面有很多人，里面是善良而无知的恶人。</p>
-<p>给出一些highlight notes。警示和教诲。</p>
-<a id="more"></a>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmeAZNWUP5cLnDezD8v851cSix7RGaCr6iCdZMpTMbuUSa" alt="Alt text" title="Optional title"></p>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmULhjvWUZgLNkMtVdLXWDRrjRNd1ytzxDxMQyfGvZgWsz" alt="Alt text" title="Optional title"></p>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmRkqhWePLgMqPzSshVpNSwtRkwac22CZKe9koheHWJ3as" alt="Alt text" title="Optional title"></p>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmQpzknuXPsHzw3eJy1UyoZAjBnEcCn7n1VY5y61DDQMFM" alt="Alt text" title="Optional title"></p>
-<p><img src="https://gateway.pinata.cloud/ipfs/QmYEghtSJeuVY6pJVPThGcU1HKftkAckdSbHzt6NPzQioS" alt="Alt text" title="Optional title"></p>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>read</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>shell_sort</title>
     <url>/2019/10/26/shell_sort/</url>
     <content><![CDATA[<p>let me show you the shell sort algo, implements in C</p>
@@ -1453,6 +1478,27 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>sui碎碎念</title>
+    <url>/2019/10/08/sui%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
+    <content><![CDATA[<p>到了什么年龄就做什么事</p>
+<p>平均下来，再正常不过了。</p>
+<a id="more"></a>
+<h1 id="我无法在微信再公开的文章"><a href="#我无法在微信再公开的文章" class="headerlink" title="我无法在微信再公开的文章"></a>我无法在微信再公开的文章</h1><p>一些不成熟的想法，最好不要让别人抓住把柄，于是silence 了。</p>
+<p>我不再再wx上更新太多关于自己的内容，我应该迎合大家的喜好，并且只是做一个<br>传递正确价值观念的人，就可以了。</p>
+<h1 id="喜欢呆在家里"><a href="#喜欢呆在家里" class="headerlink" title="喜欢呆在家里"></a>喜欢呆在家里</h1><p>常常会疑惑：为什么要这样和那样呢？</p>
+<p>为什么长大就要另起炉灶，成家立业，结婚生子呢？</p>
+<p>一直呆在家里，一些日本的啃老族已经开始这样了。或许，未来的自由王国<br>就应该如此吧。</p>
+<p>我暂时以为，结婚生子，搭伙过日子，就是集体，社会，政治需要你作为一个贡献因子<br>完成的事。大集体不在意你的个人规划，而是集体有自己的规划，就好像<br>你作为一个身体上的细胞，你不要自我增殖（那是癌变），你要新陈代谢。</p>
+<p>现在的癌症多了，也就是，身体上不听话的细胞多了，那么，类比一下啊，<br>社会上不听话的人，不按照社会时钟来的人，是不是也会越来越多呢？</p>
+]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>碎碎念</tag>
       </tags>
   </entry>
   <entry>
@@ -1497,24 +1543,23 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>sui碎碎念</title>
-    <url>/2019/10/08/sui%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<p>到了什么年龄就做什么事</p>
-<p>平均下来，再正常不过了。</p>
+    <title>pyramid_selling_book_read</title>
+    <url>/2020/04/19/pyramid-selling-book-read/</url>
+    <content><![CDATA[<p>两天读了这本叫做：《中国，缺一味药》的书，作者深入传销窝点，记录了传销组织内的一点事情。</p>
+<p>里面有很多人，里面是善良而无知的恶人。</p>
+<p>给出一些highlight notes。警示和教诲。</p>
 <a id="more"></a>
-<h1 id="我无法在微信再公开的文章"><a href="#我无法在微信再公开的文章" class="headerlink" title="我无法在微信再公开的文章"></a>我无法在微信再公开的文章</h1><p>一些不成熟的想法，最好不要让别人抓住把柄，于是silence 了。</p>
-<p>我不再再wx上更新太多关于自己的内容，我应该迎合大家的喜好，并且只是做一个<br>传递正确价值观念的人，就可以了。</p>
-<h1 id="喜欢呆在家里"><a href="#喜欢呆在家里" class="headerlink" title="喜欢呆在家里"></a>喜欢呆在家里</h1><p>常常会疑惑：为什么要这样和那样呢？</p>
-<p>为什么长大就要另起炉灶，成家立业，结婚生子呢？</p>
-<p>一直呆在家里，一些日本的啃老族已经开始这样了。或许，未来的自由王国<br>就应该如此吧。</p>
-<p>我暂时以为，结婚生子，搭伙过日子，就是集体，社会，政治需要你作为一个贡献因子<br>完成的事。大集体不在意你的个人规划，而是集体有自己的规划，就好像<br>你作为一个身体上的细胞，你不要自我增殖（那是癌变），你要新陈代谢。</p>
-<p>现在的癌症多了，也就是，身体上不听话的细胞多了，那么，类比一下啊，<br>社会上不听话的人，不按照社会时钟来的人，是不是也会越来越多呢？</p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmeAZNWUP5cLnDezD8v851cSix7RGaCr6iCdZMpTMbuUSa" alt="Alt text" title="Optional title"></p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmULhjvWUZgLNkMtVdLXWDRrjRNd1ytzxDxMQyfGvZgWsz" alt="Alt text" title="Optional title"></p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmRkqhWePLgMqPzSshVpNSwtRkwac22CZKe9koheHWJ3as" alt="Alt text" title="Optional title"></p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmQpzknuXPsHzw3eJy1UyoZAjBnEcCn7n1VY5y61DDQMFM" alt="Alt text" title="Optional title"></p>
+<p><img src="https://gateway.pinata.cloud/ipfs/QmYEghtSJeuVY6pJVPThGcU1HKftkAckdSbHzt6NPzQioS" alt="Alt text" title="Optional title"></p>
 ]]></content>
       <categories>
         <category>life</category>
       </categories>
       <tags>
-        <tag>碎碎念</tag>
+        <tag>read</tag>
       </tags>
   </entry>
   <entry>
@@ -1538,22 +1583,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>talk_about_CS_from_recursive</title>
-    <url>/2020/04/11/talk-about-CS-from-recursive/</url>
-    <content><![CDATA[<p>从递归来讨论计算机科学</p>
-<a id="more"></a>
-<h1 id="递归阻止了世界毁灭（汉诺塔视频讲解）"><a href="#递归阻止了世界毁灭（汉诺塔视频讲解）" class="headerlink" title="递归阻止了世界毁灭（汉诺塔视频讲解）"></a>递归阻止了世界毁灭（汉诺塔视频讲解）</h1><iframe src="//player.bilibili.com/player.html?aid=82006662&bvid=BV1gJ41177fX&cid=140324212&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<h1 id="言归正传"><a href="#言归正传" class="headerlink" title="言归正传"></a>言归正传</h1><p>感悟：学会问题的拆解：拆解问题，本身就是在解决问题。</p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>CS</tag>
       </tags>
   </entry>
   <entry>
@@ -1584,28 +1613,45 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>如何写出好的代码</title>
-    <url>/2020/03/01/tech_how_to_wr_good_code/</url>
-    <content><![CDATA[<p>说话，写字，与遗言</p>
-<p>认真对待你写下的每一个字符，就像你自己的遗言一样。</p>
+    <title>talk_about_CS_from_recursive</title>
+    <url>/2020/04/11/talk-about-CS-from-recursive/</url>
+    <content><![CDATA[<p>从递归来讨论计算机科学</p>
 <a id="more"></a>
-<p>我0223 看到水浒传，这是个中国的四大名著之一，它讲述了宋朝末期的一群英雄的故事。</p>
-<p>电视上今天放送了 林冲 被发配，没有钱贿赂，在柴进面前与小人教头 对决的故事。</p>
-<p>林冲 没有打开枷锁，便胜了那小人。但小人不知骄傲就是羞耻，还要杀人。</p>
-<p>关注的重点是，</p>
-<p><strong>人心至纯，则棒术虽有枷锁，而仍游刃有余，一击必杀。</strong></p>
-<h1 id="游刃有余"><a href="#游刃有余" class="headerlink" title="游刃有余"></a>游刃有余</h1><p>这个成语是来自 庄子的《养生主》这一篇。</p>
-<p>一个厨子可以如同跳舞一样，卸下一头牛的皮肉，而令牛如同积木一样轰塌，这是绝妙的技艺。</p>
-<p>我阅读韩宏老师的反汇编来自底向上的介绍计算机的书籍，也是有这种体验：你对一个技艺把握到精深纯熟，你使用这个技术，就如同伴随美妙的音乐舞蹈。</p>
-<p>我发现我适合安静的工作：写字，代码，洗碗，做一个视频。即使我不时需要和人沟通来排解孤独的情绪积累，我大部分时间，需要安静的完成我的技艺。</p>
-<p>洗碗相比写代码，是更加简单的事情，于是你可以轻易掌握，并乐在其中（尽管你吃完饭后，是不想洗碗的那个人）</p>
-<p>当你沉浸在洗碗里，你听着podcast，你会慢慢注意到一日三餐，这是我在工作期间，很难注意到的：我吃完饭就离开餐座，我回到工位，我继续思考业务，或者开会。我不会注意我是一个需要吃饭的人，我所需要的，就是好好的在资本的机器上，做好自己的角色。</p>
+<h1 id="递归阻止了世界毁灭（汉诺塔视频讲解）"><a href="#递归阻止了世界毁灭（汉诺塔视频讲解）" class="headerlink" title="递归阻止了世界毁灭（汉诺塔视频讲解）"></a>递归阻止了世界毁灭（汉诺塔视频讲解）</h1><iframe src="//player.bilibili.com/player.html?aid=82006662&bvid=BV1gJ41177fX&cid=140324212&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+<h1 id="言归正传"><a href="#言归正传" class="headerlink" title="言归正传"></a>言归正传</h1><p>感悟：学会问题的拆解：拆解问题，本身就是在解决问题。</p>
 ]]></content>
       <categories>
-        <category>tech</category>
+        <category>work</category>
       </categories>
       <tags>
-        <tag>thinking</tag>
+        <tag>CS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>android_os_parcel</title>
+    <url>/2020/03/27/tech_android_parcel/</url>
+    <content><![CDATA[<p>明白 android 里面的 parcel 概念</p>
+<p>what, why, how</p>
+<a id="more"></a>
+<h1 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h1><p>How to do Android IPC with Parcelable and AIDLs.</p>
+<p><a href="https://www.vogella.com/tutorials/AndroidParcelable/article.html" target="_blank" rel="noopener">https://www.vogella.com/tutorials/AndroidParcelable/article.html</a></p>
+<h1 id="what-is-parcelable"><a href="#what-is-parcelable" class="headerlink" title="what is parcelable"></a>what is parcelable</h1><p>android 自己 用 parcelable  实现了 java 里面的  serializable, parcelable 能在Android 里面 速度比  serializable 更快。</p>
+<h1 id="why-we-use-it"><a href="#why-we-use-it" class="headerlink" title="why we use it"></a>why we use it</h1><p>如果想要你的数据，能在几个组件之间能被解析，所以你要 实现 parcelable 接口</p>
+<h1 id="how-to-use-it"><a href="#how-to-use-it" class="headerlink" title="how to use it"></a>how to use it</h1><p>1) 首先你知道，我们需要在Android的几个组件之间传递数据，这是一个软件内部解藕的好方法。你将使用bundle 传递 数据。</p>
+<p>2） 你把bundle 会放在 intent里面，你在另外一个 组件 里拿这个intent，然后从中取出bundle， 然后bundle 里面就是你自定义的对象数据。</p>
+<h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.vogella.android.autovalueparceable;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.os.Parcel;</span><br><span class="line"><span class="keyword">import</span> android.os.Parcelable;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> <span class="keyword">implements</span> <span class="title">Parcelable</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Parcelable.Creator CREATOR = <span class="keyword">new</span> Parcelable.Creator() &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> Student <span class="title">createFromParcel</span><span class="params">(Parcel in)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> Student(in);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> Student[] newArray(<span class="keyword">int</span> size) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> Student[size];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> String grade;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Constructor</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(<span class="keyword">long</span> id, String name, String grade)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.grade = grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getId</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(<span class="keyword">long</span> id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getGrade</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setGrade</span><span class="params">(String grade)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.grade = grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Parcelling part</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(Parcel in)</span></span>&#123;</span><br><span class="line">           <span class="keyword">this</span>.id = in.readLong();</span><br><span class="line">           <span class="keyword">this</span>.name = in.readString();</span><br><span class="line">           <span class="keyword">this</span>.grade =  in.readString();</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">describeContents</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">writeToParcel</span><span class="params">(Parcel dest, <span class="keyword">int</span> flags)</span> </span>&#123;</span><br><span class="line">        dest.writeLong(<span class="keyword">this</span>.id);</span><br><span class="line">        dest.writeString(<span class="keyword">this</span>.name);</span><br><span class="line">        dest.writeString(<span class="keyword">this</span>.grade);</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"Student&#123;"</span> +</span><br><span class="line">                <span class="string">"id='"</span> + id + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">", name='"</span> + name + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">", grade='"</span> + grade + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">'&#125;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Once you have defined this, you can put it into the extra of an intent.</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">intent.putExtra(<span class="string">"student"</span>, <span class="keyword">new</span> Student(<span class="string">"1"</span>,<span class="string">"Mike"</span>,<span class="string">"6"</span>));</span><br></pre></td></tr></table></figure>
+<p>To access the parcel on the other side, you can use the following example code.</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Bundle data = getIntent().getExtras();</span><br><span class="line">Student student = (Student) data.getParcelable(<span class="string">"student"</span>);</span><br></pre></td></tr></table></figure>
+<h1 id="further-reading"><a href="#further-reading" class="headerlink" title="further reading"></a>further reading</h1><p><a href="https://www.jianshu.com/p/df35baa91541" target="_blank" rel="noopener">https://www.jianshu.com/p/df35baa91541</a></p>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
       </tags>
   </entry>
   <entry>
@@ -1647,29 +1693,28 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>android_os_parcel</title>
-    <url>/2020/03/27/tech_android_parcel/</url>
-    <content><![CDATA[<p>明白 android 里面的 parcel 概念</p>
-<p>what, why, how</p>
+    <title>如何写出好的代码</title>
+    <url>/2020/03/01/tech_how_to_wr_good_code/</url>
+    <content><![CDATA[<p>说话，写字，与遗言</p>
+<p>认真对待你写下的每一个字符，就像你自己的遗言一样。</p>
 <a id="more"></a>
-<h1 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h1><p>How to do Android IPC with Parcelable and AIDLs.</p>
-<p><a href="https://www.vogella.com/tutorials/AndroidParcelable/article.html" target="_blank" rel="noopener">https://www.vogella.com/tutorials/AndroidParcelable/article.html</a></p>
-<h1 id="what-is-parcelable"><a href="#what-is-parcelable" class="headerlink" title="what is parcelable"></a>what is parcelable</h1><p>android 自己 用 parcelable  实现了 java 里面的  serializable, parcelable 能在Android 里面 速度比  serializable 更快。</p>
-<h1 id="why-we-use-it"><a href="#why-we-use-it" class="headerlink" title="why we use it"></a>why we use it</h1><p>如果想要你的数据，能在几个组件之间能被解析，所以你要 实现 parcelable 接口</p>
-<h1 id="how-to-use-it"><a href="#how-to-use-it" class="headerlink" title="how to use it"></a>how to use it</h1><p>1) 首先你知道，我们需要在Android的几个组件之间传递数据，这是一个软件内部解藕的好方法。你将使用bundle 传递 数据。</p>
-<p>2） 你把bundle 会放在 intent里面，你在另外一个 组件 里拿这个intent，然后从中取出bundle， 然后bundle 里面就是你自定义的对象数据。</p>
-<h2 id="code"><a href="#code" class="headerlink" title="code"></a>code</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.vogella.android.autovalueparceable;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.os.Parcel;</span><br><span class="line"><span class="keyword">import</span> android.os.Parcelable;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Student</span> <span class="keyword">implements</span> <span class="title">Parcelable</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Parcelable.Creator CREATOR = <span class="keyword">new</span> Parcelable.Creator() &#123;</span><br><span class="line">        <span class="function"><span class="keyword">public</span> Student <span class="title">createFromParcel</span><span class="params">(Parcel in)</span> </span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> Student(in);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">public</span> Student[] newArray(<span class="keyword">int</span> size) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> Student[size];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">long</span> id;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> String grade;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Constructor</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(<span class="keyword">long</span> id, String name, String grade)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">        <span class="keyword">this</span>.grade = grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getId</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(<span class="keyword">long</span> id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setName</span><span class="params">(String name)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.name = name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getGrade</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setGrade</span><span class="params">(String grade)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.grade = grade;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Parcelling part</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="title">Student</span><span class="params">(Parcel in)</span></span>&#123;</span><br><span class="line">           <span class="keyword">this</span>.id = in.readLong();</span><br><span class="line">           <span class="keyword">this</span>.name = in.readString();</span><br><span class="line">           <span class="keyword">this</span>.grade =  in.readString();</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">describeContents</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">       <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">writeToParcel</span><span class="params">(Parcel dest, <span class="keyword">int</span> flags)</span> </span>&#123;</span><br><span class="line">        dest.writeLong(<span class="keyword">this</span>.id);</span><br><span class="line">        dest.writeString(<span class="keyword">this</span>.name);</span><br><span class="line">        dest.writeString(<span class="keyword">this</span>.grade);</span><br><span class="line">       &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">toString</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"Student&#123;"</span> +</span><br><span class="line">                <span class="string">"id='"</span> + id + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">", name='"</span> + name + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">", grade='"</span> + grade + <span class="string">'\''</span> +</span><br><span class="line">                <span class="string">'&#125;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Once you have defined this, you can put it into the extra of an intent.</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">intent.putExtra(<span class="string">"student"</span>, <span class="keyword">new</span> Student(<span class="string">"1"</span>,<span class="string">"Mike"</span>,<span class="string">"6"</span>));</span><br></pre></td></tr></table></figure>
-<p>To access the parcel on the other side, you can use the following example code.</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Bundle data = getIntent().getExtras();</span><br><span class="line">Student student = (Student) data.getParcelable(<span class="string">"student"</span>);</span><br></pre></td></tr></table></figure>
-<h1 id="further-reading"><a href="#further-reading" class="headerlink" title="further reading"></a>further reading</h1><p><a href="https://www.jianshu.com/p/df35baa91541" target="_blank" rel="noopener">https://www.jianshu.com/p/df35baa91541</a></p>
+<p>我0223 看到水浒传，这是个中国的四大名著之一，它讲述了宋朝末期的一群英雄的故事。</p>
+<p>电视上今天放送了 林冲 被发配，没有钱贿赂，在柴进面前与小人教头 对决的故事。</p>
+<p>林冲 没有打开枷锁，便胜了那小人。但小人不知骄傲就是羞耻，还要杀人。</p>
+<p>关注的重点是，</p>
+<p><strong>人心至纯，则棒术虽有枷锁，而仍游刃有余，一击必杀。</strong></p>
+<h1 id="游刃有余"><a href="#游刃有余" class="headerlink" title="游刃有余"></a>游刃有余</h1><p>这个成语是来自 庄子的《养生主》这一篇。</p>
+<p>一个厨子可以如同跳舞一样，卸下一头牛的皮肉，而令牛如同积木一样轰塌，这是绝妙的技艺。</p>
+<p>我阅读韩宏老师的反汇编来自底向上的介绍计算机的书籍，也是有这种体验：你对一个技艺把握到精深纯熟，你使用这个技术，就如同伴随美妙的音乐舞蹈。</p>
+<p>我发现我适合安静的工作：写字，代码，洗碗，做一个视频。即使我不时需要和人沟通来排解孤独的情绪积累，我大部分时间，需要安静的完成我的技艺。</p>
+<p>洗碗相比写代码，是更加简单的事情，于是你可以轻易掌握，并乐在其中（尽管你吃完饭后，是不想洗碗的那个人）</p>
+<p>当你沉浸在洗碗里，你听着podcast，你会慢慢注意到一日三餐，这是我在工作期间，很难注意到的：我吃完饭就离开餐座，我回到工位，我继续思考业务，或者开会。我不会注意我是一个需要吃饭的人，我所需要的，就是好好的在资本的机器上，做好自己的角色。</p>
 ]]></content>
       <categories>
-        <category>work</category>
+        <category>tech</category>
       </categories>
       <tags>
-        <tag>android</tag>
+        <tag>thinking</tag>
       </tags>
   </entry>
   <entry>
@@ -1685,67 +1730,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>Android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>floyd_algo我终于理解啦</title>
-    <url>/2019/11/09/tech_understand_floyd_algo/</url>
-    <content><![CDATA[<p>todo 2020-04-29 19:48 你仍旧需要自己写个代码，才算理解了</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1odmva7zj32801e0wky.jpg" alt="floyd_intro.jpg"></p>
-<a id="more"></a>
-<p>path 矩阵 每次会被更新一下：</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1odu8ousj32801e0ags.jpg" alt="floyd_path.jpg"></p>
-<p>如果你要知道 1 到 0的最短路径经过了啥，那么上图的 printPath 函数可能就会输出：</p>
-<pre><code>&lt;1,3&gt; &lt;3,2&gt; &lt;2,0&gt;
-</code></pre><p>其核心算法如下：</p>
-<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oe29filj32801e00yr.jpg" alt="floyd_core.jpg"></p>
-<p>820 要求你会艹上图中的A 和 path 数组。</p>
-<hr>
-<p>参考：</p>
-<p><a href="https://www.bilibili.com/video/av69308899?from=search&amp;seid=17458840725710118669" target="_blank" rel="noopener">https://www.bilibili.com/video/av69308899?from=search&amp;seid=17458840725710118669</a></p>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>algo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Termux把Android手机变成SSH服务器</title>
-    <url>/2019/08/25/tech_%E4%BD%BF%E7%94%A8Termux%E6%8A%8AAndroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90SSH%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg" alt="sshToPhone.jpg"></p>
-<p>使用Termux把Android手机变成SSH服务器</p>
-<a id="more"></a>
-<h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p><a href="http://blog.lujun9972.win/blog/2018/01/24/%E4%BD%BF%E7%94%A8termux%E6%8A%8Aandroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90ssh%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_blank" rel="noopener">http://blog.lujun9972.win/blog/2018/01/24/%E4%BD%BF%E7%94%A8termux%E6%8A%8Aandroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90ssh%E6%9C%8D%E5%8A%A1%E5%99%A8/</a></p>
-<h2 id="安装sshd"><a href="#安装sshd" class="headerlink" title="安装sshd"></a>安装sshd</h2><p>打开 Termux 会出现一个类似Linux终端的界面。</p>
-<p>由于sshd是包含在openssh包中的，因此我们首先需要在Termux中安装openssh</p>
-<p>pkg install openssh<br>安装好之后，我们需要手工启动 sshd</p>
-<pre><code>sshd
-</code></pre><p>需要指出的是, sshd 监听的是8022端口而不是22号端口，因此可以使用下面命令来验证ssh服务是否开启</p>
-<p>ssh localhost -p 8022</p>
-<p>若要查看sshd的日志，则可以在Termux上执行</p>
-<p>logcat -s ‘syslog:*’ </p>
-<h2 id="添加Public-key"><a href="#添加Public-key" class="headerlink" title="添加Public key"></a>添加Public key</h2><p>Termux的sshd只能通过密钥登陆，因此你需要在linux客户机上生成密钥对</p>
-<p>ssh-keygen<br>把linux客户机上的公钥加到Termux中的 .ssh/authorized_keys,这一步比较麻烦</p>
-<p>因为你无法使用 ssh-copy-id,只能先把 id_rsa.pub 拷贝到手机上，再在手机上打开该文件，拷贝文件内容后在Termux中用 vi 打开 authorized_keys,并复制内容进去.</p>
-<p>不过如果linux客户机上本身也开启了ssh服务的话，则会简单很多，可以在Termux上执行</p>
-<pre><code>ssh user@linux_clinet &quot;cat ~/.ssh/id_rsa.pub&quot; &gt;&gt; ~/.ssh/authorized_keys
-</code></pre><p>就行了，其中linux_clinet为linux客户机的地址，user为登陆用户</p>
-<h2 id="客户端登陆"><a href="#客户端登陆" class="headerlink" title="客户端登陆"></a>客户端登陆</h2><p>在客户端上执行</p>
-<p>ssh 192.4.4.9 -p 8022<br>将这里的 192.4.4.9 修改为手机的ip，就能登陆到Termux中了。</p>
-<p>手机ip可以通过在 Termux 中运行 ifconfig -a 来查看。</p>
-<p>需要说明的是，使用ssh登陆Termux时无需带上用户名，因为Termux是单用户系统。即使你登陆时带上了用户名，Termux也会忽略该用户名</p>
-<p>为了方便，我们可以配置一下ssh client的配置文件,将下面内容加入到 ~/.ssh/config 文件中</p>
-<p>Host termux<br>     HostName 192.4.4.9<br>     Port 8022</p>
-<p>这样只需要执行 ssh termux 就能登陆termx了。</p>
-<h2 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg" alt="sshToPhone.jpg"></p>
-]]></content>
-      <categories>
-        <category>tech</category>
-      </categories>
-      <tags>
-        <tag>ssh</tag>
       </tags>
   </entry>
   <entry>
@@ -1787,6 +1771,57 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
+    <title>使用Termux把Android手机变成SSH服务器</title>
+    <url>/2019/08/25/tech_%E4%BD%BF%E7%94%A8Termux%E6%8A%8AAndroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90SSH%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg" alt="sshToPhone.jpg"></p>
+<p>使用Termux把Android手机变成SSH服务器</p>
+<a id="more"></a>
+<h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p><a href="http://blog.lujun9972.win/blog/2018/01/24/%E4%BD%BF%E7%94%A8termux%E6%8A%8Aandroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90ssh%E6%9C%8D%E5%8A%A1%E5%99%A8/" target="_blank" rel="noopener">http://blog.lujun9972.win/blog/2018/01/24/%E4%BD%BF%E7%94%A8termux%E6%8A%8Aandroid%E6%89%8B%E6%9C%BA%E5%8F%98%E6%88%90ssh%E6%9C%8D%E5%8A%A1%E5%99%A8/</a></p>
+<h2 id="安装sshd"><a href="#安装sshd" class="headerlink" title="安装sshd"></a>安装sshd</h2><p>打开 Termux 会出现一个类似Linux终端的界面。</p>
+<p>由于sshd是包含在openssh包中的，因此我们首先需要在Termux中安装openssh</p>
+<p>pkg install openssh<br>安装好之后，我们需要手工启动 sshd</p>
+<pre><code>sshd
+</code></pre><p>需要指出的是, sshd 监听的是8022端口而不是22号端口，因此可以使用下面命令来验证ssh服务是否开启</p>
+<p>ssh localhost -p 8022</p>
+<p>若要查看sshd的日志，则可以在Termux上执行</p>
+<p>logcat -s ‘syslog:*’ </p>
+<h2 id="添加Public-key"><a href="#添加Public-key" class="headerlink" title="添加Public key"></a>添加Public key</h2><p>Termux的sshd只能通过密钥登陆，因此你需要在linux客户机上生成密钥对</p>
+<p>ssh-keygen<br>把linux客户机上的公钥加到Termux中的 .ssh/authorized_keys,这一步比较麻烦</p>
+<p>因为你无法使用 ssh-copy-id,只能先把 id_rsa.pub 拷贝到手机上，再在手机上打开该文件，拷贝文件内容后在Termux中用 vi 打开 authorized_keys,并复制内容进去.</p>
+<p>不过如果linux客户机上本身也开启了ssh服务的话，则会简单很多，可以在Termux上执行</p>
+<pre><code>ssh user@linux_clinet &quot;cat ~/.ssh/id_rsa.pub&quot; &gt;&gt; ~/.ssh/authorized_keys
+</code></pre><p>就行了，其中linux_clinet为linux客户机的地址，user为登陆用户</p>
+<h2 id="客户端登陆"><a href="#客户端登陆" class="headerlink" title="客户端登陆"></a>客户端登陆</h2><p>在客户端上执行</p>
+<p>ssh 192.4.4.9 -p 8022<br>将这里的 192.4.4.9 修改为手机的ip，就能登陆到Termux中了。</p>
+<p>手机ip可以通过在 Termux 中运行 ifconfig -a 来查看。</p>
+<p>需要说明的是，使用ssh登陆Termux时无需带上用户名，因为Termux是单用户系统。即使你登陆时带上了用户名，Termux也会忽略该用户名</p>
+<p>为了方便，我们可以配置一下ssh client的配置文件,将下面内容加入到 ~/.ssh/config 文件中</p>
+<p>Host termux<br>     HostName 192.4.4.9<br>     Port 8022</p>
+<p>这样只需要执行 ssh termux 就能登陆termx了。</p>
+<h2 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1o20mm8yj312u0jg431.jpg" alt="sshToPhone.jpg"></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>ssh</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>使用hexo如果换了电脑怎么更新博客</title>
+    <url>/2019/08/24/tech_%E4%BD%BF%E7%94%A8hexo_%E5%A6%82%E6%9E%9C%E6%8D%A2%E4%BA%86%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>使用hexo如果换了电脑怎么更新博客.md</p>
+<p>当重装电脑之后，或者想在其他电脑上修改博客，可以使用下列步骤：1. 使用git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:CrazyMilk/CrazyMilk.github.io.git拷贝仓库（默认分支为hexo）；2. 在本地新拷贝的<a href="http://CrazyMilk.github.io文件夹下通过Git" target="_blank" rel="noopener">http://CrazyMilk.github.io文件夹下通过Git</a> bash依次执行下列指令：npm install hexo、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）</p>
+<p>作者：CrazyMilk<br>链接：<a href="https://www.zhihu.com/question/21193762/answer/79109280" target="_blank" rel="noopener">https://www.zhihu.com/question/21193762/answer/79109280</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>西藏生死书</title>
     <url>/2020/05/16/the-tibetan-book-of-living-and-death/</url>
     <content><![CDATA[<p><img src="https://i.loli.net/2020/05/16/EiJIyCo2X6SLvYT.jpg" alt="20200516_082830.jpg"></p>
@@ -1822,17 +1857,96 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>使用hexo如果换了电脑怎么更新博客</title>
-    <url>/2019/08/24/tech_%E4%BD%BF%E7%94%A8hexo_%E5%A6%82%E6%9E%9C%E6%8D%A2%E4%BA%86%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E6%9B%B4%E6%96%B0%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<p>使用hexo如果换了电脑怎么更新博客.md</p>
-<p>当重装电脑之后，或者想在其他电脑上修改博客，可以使用下列步骤：1. 使用git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:CrazyMilk/CrazyMilk.github.io.git拷贝仓库（默认分支为hexo）；2. 在本地新拷贝的<a href="http://CrazyMilk.github.io文件夹下通过Git" target="_blank" rel="noopener">http://CrazyMilk.github.io文件夹下通过Git</a> bash依次执行下列指令：npm install hexo、npm install、npm install hexo-deployer-git（记得，不需要hexo init这条指令）</p>
-<p>作者：CrazyMilk<br>链接：<a href="https://www.zhihu.com/question/21193762/answer/79109280" target="_blank" rel="noopener">https://www.zhihu.com/question/21193762/answer/79109280</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+    <title>theTibetanBookOfLivingAndDying</title>
+    <url>/2020/04/03/theTibetanBookOfLivingAndDying/</url>
+    <content><![CDATA[<p>西藏生死书的摘录</p>
+<a id="more"></a>
+<ul>
+<li>学习发展出温和而不可动摇的沉着</li>
+<li>修行的关键，就是在梦中保持积极的愿力。</li>
+</ul>
 ]]></content>
       <categories>
-        <category>tech</category>
+        <category>life</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>what_is_glide_in_android</title>
+    <url>/2020/04/10/what-is-glide-in-android/</url>
+    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/005JrW9Kly1gdov8bmj4dj30r60ckjrq.jpg" alt="54D780628CB9BB95FAF3E0577D2FE146.jpg"></p>
+<p>in openHub/zzzfourm, we use <code>glide</code></p>
+<p>so, what is <code>glide</code>?</p>
+<p>how to use it?</p>
+<p>how it work?</p>
+<a id="more"></a>
+<h1 id="what-is-glide"><a href="#what-is-glide" class="headerlink" title="what is glide?"></a>what is glide?</h1><p>google 出品的用于 在 Android 里面进行 图片 加载的框架</p>
+<h1 id="how-to-use-it"><a href="#how-to-use-it" class="headerlink" title="how to use it?"></a>how to use it?</h1><p>使用方法参考：</p>
+<p><a href="https://www.jianshu.com/p/0d7e1f899b05" target="_blank" rel="noopener">https://www.jianshu.com/p/0d7e1f899b05</a></p>
+<p>完整中文doc： </p>
+<p><a href="https://muyangmin.github.io/glide-docs-cn/" target="_blank" rel="noopener">https://muyangmin.github.io/glide-docs-cn/</a></p>
+<h1 id="how-it-work"><a href="#how-it-work" class="headerlink" title="how it work?"></a>how it work?</h1><ul>
+<li style="list-style: none"><input type="checkbox"> todo; 完成解析</li>
+</ul>
+]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>android</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>whatIsGreenDaoAndHowTo</title>
+    <url>/2020/03/08/whatIsGreenDaoAndHowTo/</url>
+    <content><![CDATA[<p>I need to learn what is greenDao and howtos </p>
+<p>cause in OpenHub prj copy, I need to know this shit.</p>
+<p>it’s related to database. as far as I know.</p>
+<a id="more"></a>
+<p>[TOC]</p>
+<h1 id="useful-links"><a href="#useful-links" class="headerlink" title="useful links:"></a>useful links:</h1><ul>
+<li>get start:</li>
+</ul>
+<p><a href="https://greenrobot.org/greendao/documentation/how-to-get-started/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/how-to-get-started/</a></p>
+<h1 id="how-it-works"><a href="#how-it-works" class="headerlink" title="how it works:"></a>how it works:</h1><p>简单来说，greenDao 是通过注解的方式，来进行元编程（通过代码来生成代码）</p>
+<p>我们在一个类上写上一些注解：比如： </p>
+<p><code>@Entity</code>, <code>@Index</code>, <code>@Id</code>, <code>@NotNull</code></p>
+<p>那么，上述的 被 <code>@Entity</code> 注解的一个类，就会被持久化 到 数据库中。</p>
+<p>你可以在这里看到 一个demo：</p>
+<p><a href="https://github.com/greenrobot/greenDAO/tree/master/examples/DaoExample/src/main/java/org/greenrobot/greendao/example" target="_blank" rel="noopener">https://github.com/greenrobot/greenDAO/tree/master/examples/DaoExample/src/main/java/org/greenrobot/greendao/example</a></p>
+<h1 id="basic-concept"><a href="#basic-concept" class="headerlink" title="basic concept:"></a>basic concept:</h1><h2 id="schema"><a href="#schema" class="headerlink" title="schema"></a><code>schema</code></h2><p>Entities belong to a schema, so a schema is the first object you define. Call the constructor with the schema version and the default Java package:</p>
+<pre><code>Schema schema = new Schema(1, &quot;de.greenrobot.daoexample&quot;);
+</code></pre><h2 id="Entities"><a href="#Entities" class="headerlink" title="Entities"></a><code>Entities</code></h2><p>Once you have a schema object you can add entities to it:</p>
+<pre><code>Entity user = schema.addEntity(&quot;User&quot;);
+</code></pre><p>An entity has several settings you can change, and more importantly, you can add properties to an entity:</p>
+<pre><code>user.addIdProperty();
+user.addStringProperty(&quot;name&quot;);
+user.addStringProperty(&quot;password&quot;);
+user.addIntProperty(&quot;yearOfBirth&quot;);
+</code></pre><h1 id="it’s-generator"><a href="#it’s-generator" class="headerlink" title="it’s generator"></a>it’s generator</h1><p>事实是:</p>
+<blockquote>
+<p>greenDAO 3 uses annotations to define schemas and entities. In contrast, previous greenDAO versions required developers to have a separate generator Java project.</p>
+</blockquote>
+<ul>
+<li>update to green dao 3</li>
+</ul>
+<p>for more info, see: <a href="https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/</a></p>
+<h2 id="constructure"><a href="#constructure" class="headerlink" title="constructure"></a>constructure</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1gcmrpkjynmj30ma167gq1.jpg" alt="greenDaoGenerator.jpg"></p>
+<p>生成如下两个</p>
+<h3 id="Note-java"><a href="#Note-java" class="headerlink" title="Note.java"></a>Note.java</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT. Enable "keep" sections if you want to edit. </span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Entity mapped to table "NOTE".</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Note</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="keyword">private</span> String text;</span><br><span class="line">    <span class="keyword">private</span> String comment;</span><br><span class="line">    <span class="keyword">private</span> java.util.Date date;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id, String text, String comment, java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getId</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getText</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value; ensure this value is available before it is saved to the database. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setText</span><span class="params">(String text)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getComment</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setComment</span><span class="params">(String comment)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> java.util.<span class="function">Date <span class="title">getDate</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setDate</span><span class="params">(java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="NoteDao-java"><a href="#NoteDao-java" class="headerlink" title="NoteDao.java"></a>NoteDao.java</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.database.Cursor;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteDatabase;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteStatement;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.AbstractDao;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.Property;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.internal.DaoConfig;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.daoexample.Note;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT.</span></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * DAO for table "NOTE".</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">NoteDao</span> <span class="keyword">extends</span> <span class="title">AbstractDao</span>&lt;<span class="title">Note</span>, <span class="title">Long</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String TABLENAME = <span class="string">"NOTE"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Properties of entity Note.&lt;br/&gt;</span></span><br><span class="line"><span class="comment">     * Can be used for QueryBuilder and for referencing column names.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Properties</span> </span>&#123;</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Id = <span class="keyword">new</span> Property(<span class="number">0</span>, Long.class, <span class="string">"id"</span>, <span class="keyword">true</span>, <span class="string">"_id"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Text = <span class="keyword">new</span> Property(<span class="number">1</span>, String.class, <span class="string">"text"</span>, <span class="keyword">false</span>, <span class="string">"TEXT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Comment = <span class="keyword">new</span> Property(<span class="number">2</span>, String.class, <span class="string">"comment"</span>, <span class="keyword">false</span>, <span class="string">"COMMENT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Date = <span class="keyword">new</span> Property(<span class="number">3</span>, java.util.Date.class, <span class="string">"date"</span>, <span class="keyword">false</span>, <span class="string">"DATE"</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config, DaoSession daoSession)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config, daoSession);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Creates the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">createTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifNotExists)</span> </span>&#123;</span><br><span class="line">        String constraint = ifNotExists? <span class="string">"IF NOT EXISTS "</span>: <span class="string">""</span>;</span><br><span class="line">        db.execSQL(<span class="string">"CREATE TABLE "</span> + constraint + <span class="string">"\"NOTE\" ("</span> + <span class="comment">//</span></span><br><span class="line">                <span class="string">"\"_id\" INTEGER PRIMARY KEY ,"</span> + <span class="comment">// 0: id</span></span><br><span class="line">                <span class="string">"\"TEXT\" TEXT NOT NULL ,"</span> + <span class="comment">// 1: text</span></span><br><span class="line">                <span class="string">"\"COMMENT\" TEXT,"</span> + <span class="comment">// 2: comment</span></span><br><span class="line">                <span class="string">"\"DATE\" INTEGER);"</span>); <span class="comment">// 3: date</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Drops the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">dropTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifExists)</span> </span>&#123;</span><br><span class="line">        String sql = <span class="string">"DROP TABLE "</span> + (ifExists ? <span class="string">"IF EXISTS "</span> : <span class="string">""</span>) + <span class="string">"\"NOTE\""</span>;</span><br><span class="line">        db.execSQL(sql);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">bindValues</span><span class="params">(SQLiteStatement stmt, Note entity)</span> </span>&#123;</span><br><span class="line">        stmt.clearBindings();</span><br><span class="line"> </span><br><span class="line">        Long id = entity.getId();</span><br><span class="line">        <span class="keyword">if</span> (id != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">1</span>, id);</span><br><span class="line">        &#125;</span><br><span class="line">        stmt.bindString(<span class="number">2</span>, entity.getText());</span><br><span class="line"> </span><br><span class="line">        String comment = entity.getComment();</span><br><span class="line">        <span class="keyword">if</span> (comment != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindString(<span class="number">3</span>, comment);</span><br><span class="line">        &#125;</span><br><span class="line"> </span><br><span class="line">        java.util.Date date = entity.getDate();</span><br><span class="line">        <span class="keyword">if</span> (date != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">4</span>, date.getTime());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">readKey</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>);</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Note <span class="title">readEntity</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        Note entity = <span class="keyword">new</span> Note( <span class="comment">//</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>), <span class="comment">// id</span></span><br><span class="line">            cursor.getString(offset + <span class="number">1</span>), <span class="comment">// text</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>), <span class="comment">// comment</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)) <span class="comment">// date</span></span><br><span class="line">        );</span><br><span class="line">        <span class="keyword">return</span> entity;</span><br><span class="line">    &#125;</span><br><span class="line">     </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">readEntity</span><span class="params">(Cursor cursor, Note entity, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        entity.setId(cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>));</span><br><span class="line">        entity.setText(cursor.getString(offset + <span class="number">1</span>));</span><br><span class="line">        entity.setComment(cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>));</span><br><span class="line">        entity.setDate(cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)));</span><br><span class="line">     &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> Long <span class="title">updateKeyAfterInsert</span><span class="params">(Note entity, <span class="keyword">long</span> rowId)</span> </span>&#123;</span><br><span class="line">        entity.setId(rowId);</span><br><span class="line">        <span class="keyword">return</span> rowId;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getKey</span><span class="params">(Note entity)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(entity != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> entity.getId();</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span>    </span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">boolean</span> <span class="title">isEntityUpdateable</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="ref-links"><a href="#ref-links" class="headerlink" title="ref links:"></a>ref links:</h2><p><a href="https://greenrobot.org/greendao/documentation/generator/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/generator/</a></p>
+<h2 id="you-can-find-code-instances-about-generator-as-follow"><a href="#you-can-find-code-instances-about-generator-as-follow" class="headerlink" title="you can find code instances about generator as follow:"></a>you can find code instances about <code>generator</code> as follow:</h2><p>/Users/paul/code/javApp/OpenHub-master/daogenerator/src/main/java/com/thirtydereesray/AppDaoGenerator.java</p>
+<p>or:</p>
+<p><a href="https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java" target="_blank" rel="noopener">https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java</a></p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Generates entities and DAOs for the example project DaoExample.</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * Run it as a Java application (not Android).</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Markus</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExampleDaoGenerator</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        Schema schema = <span class="keyword">new</span> Schema(<span class="number">1000</span>, <span class="string">"de.greenrobot.daoexample"</span>);</span><br><span class="line"></span><br><span class="line">        addNote(schema);</span><br><span class="line">        addCustomerOrder(schema);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">new</span> DaoGenerator().generateAll(schema, <span class="string">"../DaoExample/src/main/java"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addNote</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity note = schema.addEntity(<span class="string">"Note"</span>);</span><br><span class="line">        note.addIdProperty();</span><br><span class="line">        note.addStringProperty(<span class="string">"text"</span>).notNull();</span><br><span class="line">        note.addStringProperty(<span class="string">"comment"</span>);</span><br><span class="line">        note.addDateProperty(<span class="string">"date"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addCustomerOrder</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity customer = schema.addEntity(<span class="string">"Customer"</span>);</span><br><span class="line">        customer.addIdProperty();</span><br><span class="line">        customer.addStringProperty(<span class="string">"name"</span>).notNull();</span><br><span class="line"></span><br><span class="line">        Entity order = schema.addEntity(<span class="string">"Order"</span>);</span><br><span class="line">        order.setTableName(<span class="string">"ORDERS"</span>); <span class="comment">// "ORDER" is a reserved keyword</span></span><br><span class="line">        order.addIdProperty();</span><br><span class="line">        Property orderDate = order.addDateProperty(<span class="string">"date"</span>).getProperty();</span><br><span class="line">        Property customerId = order.addLongProperty(<span class="string">"customerId"</span>).notNull().getProperty();</span><br><span class="line">        order.addToOne(customer, customerId);</span><br><span class="line"></span><br><span class="line">        ToMany customerToOrders = customer.addToMany(order, customerId);</span><br><span class="line">        customerToOrders.setName(<span class="string">"orders"</span>);</span><br><span class="line">        customerToOrders.orderAsc(orderDate);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>work</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
       </tags>
   </entry>
   <entry>
@@ -1869,68 +1983,6 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </categories>
       <tags>
         <tag>thinking</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>what_is_glide_in_android</title>
-    <url>/2020/04/10/what-is-glide-in-android/</url>
-    <content><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/005JrW9Kly1gdov8bmj4dj30r60ckjrq.jpg" alt="54D780628CB9BB95FAF3E0577D2FE146.jpg"></p>
-<p>in openHub/zzzfourm, we use <code>glide</code></p>
-<p>so, what is <code>glide</code>?</p>
-<p>how to use it?</p>
-<p>how it work?</p>
-<a id="more"></a>
-<h1 id="what-is-glide"><a href="#what-is-glide" class="headerlink" title="what is glide?"></a>what is glide?</h1><p>google 出品的用于 在 Android 里面进行 图片 加载的框架</p>
-<h1 id="how-to-use-it"><a href="#how-to-use-it" class="headerlink" title="how to use it?"></a>how to use it?</h1><p>使用方法参考：</p>
-<p><a href="https://www.jianshu.com/p/0d7e1f899b05" target="_blank" rel="noopener">https://www.jianshu.com/p/0d7e1f899b05</a></p>
-<p>完整中文doc： </p>
-<p><a href="https://muyangmin.github.io/glide-docs-cn/" target="_blank" rel="noopener">https://muyangmin.github.io/glide-docs-cn/</a></p>
-<h1 id="how-it-work"><a href="#how-it-work" class="headerlink" title="how it work?"></a>how it work?</h1><ul>
-<li style="list-style: none"><input type="checkbox"> todo; 完成解析</li>
-</ul>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>android</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>theTibetanBookOfLivingAndDying</title>
-    <url>/2020/04/03/theTibetanBookOfLivingAndDying/</url>
-    <content><![CDATA[<p>西藏生死书的摘录</p>
-<a id="more"></a>
-<ul>
-<li>学习发展出温和而不可动摇的沉着</li>
-<li>修行的关键，就是在梦中保持积极的愿力。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>work_8021_BR_protocol</title>
-    <url>/2020/05/12/work-8021-BR-protocol/</url>
-    <content><![CDATA[<p>讲解我在rj 接触的 802.1br 协议，以及我的相关工作</p>
-<a id="more"></a>
-<h1 id="粗浅介绍802-1br-协议"><a href="#粗浅介绍802-1br-协议" class="headerlink" title="粗浅介绍802.1br 协议"></a>粗浅介绍802.1br 协议</h1><p>对数据中心网络设备进行虚拟化，这是一种提升网络管理效率的有效方式</p>
-<p><strong>网络设备的虚拟化</strong> 不同于 <strong>网络虚拟化技术</strong> （比如<a href="https://www.cnblogs.com/itxdm/p/VLAN_TRUNK_and_VTP.html" target="_blank" rel="noopener">vlan</a>），<strong>网络设备的虚拟化</strong>  强调的是网络设备之间的融合，将所有的网络设备虚拟化成一台设备，统一对所有网络设备集中式管理，这样大大提升了网络的使用率和管理效率，802.1BR就是这样的一种,对设备进行虚拟化技术.</p>
-<p>802.1BR可以通过添加额外的标签信息只允许一个帧副本被发送和复制，从而减少了组播状况下的带宽占用，这样需要更多的硬件资源来支持。802.1BR可以将远程网络设备部署为虚拟环境中的策略控制设备，而不是部署成邻近服务器机架的设备，通过多个虚拟通道，让边缘虚拟桥复制帧到一组远程端口，利用瀑布式的串联端口灵活地设计网络，更有效地为多播帧、广播帧和单播帧分配带宽。802.1BR就是为了打破物理的限制，实现多个物理服务器连接、刀片服务器提供桥的多端口扩展能力，或是为虚拟机提供独立的桥接口逻辑连接，通过802 LAN技术和交互接口来扩展桥和桥的管理对象。</p>
-<p><strong>802.1BR可以将整个网络的设备都虚拟成为父设备的几个端口，在父设备上其它的网络设备和服务器都以端口的形式显示，所有的配置下发实际上都是在父设备上来完成，其它设备只充当流量转发的透传功能。</strong></p>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><h2 id="csdn：-包含报文格式"><a href="#csdn：-包含报文格式" class="headerlink" title="csdn： 包含报文格式"></a>csdn： 包含报文格式</h2><p><a href="https://blog.csdn.net/cybertan/article/details/8348777" target="_blank" rel="noopener">https://blog.csdn.net/cybertan/article/details/8348777</a></p>
-<h2 id="cnblog-802-1br"><a href="#cnblog-802-1br" class="headerlink" title="cnblog: 802.1br"></a>cnblog: 802.1br</h2><p><a href="https://www.cnblogs.com/liheng369/p/8537052.html" target="_blank" rel="noopener">https://www.cnblogs.com/liheng369/p/8537052.html</a></p>
-<h2 id="official-doc"><a href="#official-doc" class="headerlink" title="official doc"></a>official doc</h2><p><a href="https://1.ieee802.org/dcb/802-1br/" target="_blank" rel="noopener">https://1.ieee802.org/dcb/802-1br/</a></p>
-]]></content>
-      <categories>
-        <category>work</category>
-      </categories>
-      <tags>
-        <tag>network</tag>
       </tags>
   </entry>
   <entry>
@@ -2032,54 +2084,23 @@ XX技术分享群：@all 开始啦，春笋 3307 来吧
       </tags>
   </entry>
   <entry>
-    <title>whatIsGreenDaoAndHowTo</title>
-    <url>/2020/03/08/whatIsGreenDaoAndHowTo/</url>
-    <content><![CDATA[<p>I need to learn what is greenDao and howtos </p>
-<p>cause in OpenHub prj copy, I need to know this shit.</p>
-<p>it’s related to database. as far as I know.</p>
+    <title>work_8021_BR_protocol</title>
+    <url>/2020/05/12/work-8021-BR-protocol/</url>
+    <content><![CDATA[<p>讲解我在rj 接触的 802.1br 协议，以及我的相关工作</p>
 <a id="more"></a>
-<p>[TOC]</p>
-<h1 id="useful-links"><a href="#useful-links" class="headerlink" title="useful links:"></a>useful links:</h1><ul>
-<li>get start:</li>
-</ul>
-<p><a href="https://greenrobot.org/greendao/documentation/how-to-get-started/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/how-to-get-started/</a></p>
-<h1 id="how-it-works"><a href="#how-it-works" class="headerlink" title="how it works:"></a>how it works:</h1><p>简单来说，greenDao 是通过注解的方式，来进行元编程（通过代码来生成代码）</p>
-<p>我们在一个类上写上一些注解：比如： </p>
-<p><code>@Entity</code>, <code>@Index</code>, <code>@Id</code>, <code>@NotNull</code></p>
-<p>那么，上述的 被 <code>@Entity</code> 注解的一个类，就会被持久化 到 数据库中。</p>
-<p>你可以在这里看到 一个demo：</p>
-<p><a href="https://github.com/greenrobot/greenDAO/tree/master/examples/DaoExample/src/main/java/org/greenrobot/greendao/example" target="_blank" rel="noopener">https://github.com/greenrobot/greenDAO/tree/master/examples/DaoExample/src/main/java/org/greenrobot/greendao/example</a></p>
-<h1 id="basic-concept"><a href="#basic-concept" class="headerlink" title="basic concept:"></a>basic concept:</h1><h2 id="schema"><a href="#schema" class="headerlink" title="schema"></a><code>schema</code></h2><p>Entities belong to a schema, so a schema is the first object you define. Call the constructor with the schema version and the default Java package:</p>
-<pre><code>Schema schema = new Schema(1, &quot;de.greenrobot.daoexample&quot;);
-</code></pre><h2 id="Entities"><a href="#Entities" class="headerlink" title="Entities"></a><code>Entities</code></h2><p>Once you have a schema object you can add entities to it:</p>
-<pre><code>Entity user = schema.addEntity(&quot;User&quot;);
-</code></pre><p>An entity has several settings you can change, and more importantly, you can add properties to an entity:</p>
-<pre><code>user.addIdProperty();
-user.addStringProperty(&quot;name&quot;);
-user.addStringProperty(&quot;password&quot;);
-user.addIntProperty(&quot;yearOfBirth&quot;);
-</code></pre><h1 id="it’s-generator"><a href="#it’s-generator" class="headerlink" title="it’s generator"></a>it’s generator</h1><p>事实是:</p>
-<blockquote>
-<p>greenDAO 3 uses annotations to define schemas and entities. In contrast, previous greenDAO versions required developers to have a separate generator Java project.</p>
-</blockquote>
-<ul>
-<li>update to green dao 3</li>
-</ul>
-<p>for more info, see: <a href="https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/updating-to-greendao-3-and-annotations/</a></p>
-<h2 id="constructure"><a href="#constructure" class="headerlink" title="constructure"></a>constructure</h2><p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1gcmrpkjynmj30ma167gq1.jpg" alt="greenDaoGenerator.jpg"></p>
-<p>生成如下两个</p>
-<h3 id="Note-java"><a href="#Note-java" class="headerlink" title="Note.java"></a>Note.java</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT. Enable "keep" sections if you want to edit. </span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Entity mapped to table "NOTE".</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Note</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Long id;</span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="keyword">private</span> String text;</span><br><span class="line">    <span class="keyword">private</span> String comment;</span><br><span class="line">    <span class="keyword">private</span> java.util.Date date;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Note</span><span class="params">(Long id, String text, String comment, java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getId</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setId</span><span class="params">(Long id)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.id = id;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getText</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Not-null value; ensure this value is available before it is saved to the database. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setText</span><span class="params">(String text)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.text = text;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getComment</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setComment</span><span class="params">(String comment)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.comment = comment;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> java.util.<span class="function">Date <span class="title">getDate</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setDate</span><span class="params">(java.util.Date date)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.date = date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="NoteDao-java"><a href="#NoteDao-java" class="headerlink" title="NoteDao.java"></a>NoteDao.java</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> de.greenrobot.daoexample;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.database.Cursor;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteDatabase;</span><br><span class="line"><span class="keyword">import</span> android.database.sqlite.SQLiteStatement;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.AbstractDao;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.Property;</span><br><span class="line"><span class="keyword">import</span> de.greenrobot.dao.internal.DaoConfig;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> de.greenrobot.daoexample.Note;</span><br><span class="line"></span><br><span class="line"><span class="comment">// THIS CODE IS GENERATED BY greenDAO, DO NOT EDIT.</span></span><br><span class="line"><span class="comment">/** </span></span><br><span class="line"><span class="comment"> * DAO for table "NOTE".</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">NoteDao</span> <span class="keyword">extends</span> <span class="title">AbstractDao</span>&lt;<span class="title">Note</span>, <span class="title">Long</span>&gt; </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> String TABLENAME = <span class="string">"NOTE"</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Properties of entity Note.&lt;br/&gt;</span></span><br><span class="line"><span class="comment">     * Can be used for QueryBuilder and for referencing column names.</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="class"><span class="keyword">class</span> <span class="title">Properties</span> </span>&#123;</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Id = <span class="keyword">new</span> Property(<span class="number">0</span>, Long.class, <span class="string">"id"</span>, <span class="keyword">true</span>, <span class="string">"_id"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Text = <span class="keyword">new</span> Property(<span class="number">1</span>, String.class, <span class="string">"text"</span>, <span class="keyword">false</span>, <span class="string">"TEXT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Comment = <span class="keyword">new</span> Property(<span class="number">2</span>, String.class, <span class="string">"comment"</span>, <span class="keyword">false</span>, <span class="string">"COMMENT"</span>);</span><br><span class="line">        <span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">static</span> Property Date = <span class="keyword">new</span> Property(<span class="number">3</span>, java.util.Date.class, <span class="string">"date"</span>, <span class="keyword">false</span>, <span class="string">"DATE"</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config);</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">NoteDao</span><span class="params">(DaoConfig config, DaoSession daoSession)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>(config, daoSession);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Creates the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">createTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifNotExists)</span> </span>&#123;</span><br><span class="line">        String constraint = ifNotExists? <span class="string">"IF NOT EXISTS "</span>: <span class="string">""</span>;</span><br><span class="line">        db.execSQL(<span class="string">"CREATE TABLE "</span> + constraint + <span class="string">"\"NOTE\" ("</span> + <span class="comment">//</span></span><br><span class="line">                <span class="string">"\"_id\" INTEGER PRIMARY KEY ,"</span> + <span class="comment">// 0: id</span></span><br><span class="line">                <span class="string">"\"TEXT\" TEXT NOT NULL ,"</span> + <span class="comment">// 1: text</span></span><br><span class="line">                <span class="string">"\"COMMENT\" TEXT,"</span> + <span class="comment">// 2: comment</span></span><br><span class="line">                <span class="string">"\"DATE\" INTEGER);"</span>); <span class="comment">// 3: date</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** Drops the underlying database table. */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">dropTable</span><span class="params">(SQLiteDatabase db, <span class="keyword">boolean</span> ifExists)</span> </span>&#123;</span><br><span class="line">        String sql = <span class="string">"DROP TABLE "</span> + (ifExists ? <span class="string">"IF EXISTS "</span> : <span class="string">""</span>) + <span class="string">"\"NOTE\""</span>;</span><br><span class="line">        db.execSQL(sql);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">bindValues</span><span class="params">(SQLiteStatement stmt, Note entity)</span> </span>&#123;</span><br><span class="line">        stmt.clearBindings();</span><br><span class="line"> </span><br><span class="line">        Long id = entity.getId();</span><br><span class="line">        <span class="keyword">if</span> (id != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">1</span>, id);</span><br><span class="line">        &#125;</span><br><span class="line">        stmt.bindString(<span class="number">2</span>, entity.getText());</span><br><span class="line"> </span><br><span class="line">        String comment = entity.getComment();</span><br><span class="line">        <span class="keyword">if</span> (comment != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindString(<span class="number">3</span>, comment);</span><br><span class="line">        &#125;</span><br><span class="line"> </span><br><span class="line">        java.util.Date date = entity.getDate();</span><br><span class="line">        <span class="keyword">if</span> (date != <span class="keyword">null</span>) &#123;</span><br><span class="line">            stmt.bindLong(<span class="number">4</span>, date.getTime());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">readKey</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>);</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Note <span class="title">readEntity</span><span class="params">(Cursor cursor, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        Note entity = <span class="keyword">new</span> Note( <span class="comment">//</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>), <span class="comment">// id</span></span><br><span class="line">            cursor.getString(offset + <span class="number">1</span>), <span class="comment">// text</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>), <span class="comment">// comment</span></span><br><span class="line">            cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)) <span class="comment">// date</span></span><br><span class="line">        );</span><br><span class="line">        <span class="keyword">return</span> entity;</span><br><span class="line">    &#125;</span><br><span class="line">     </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">readEntity</span><span class="params">(Cursor cursor, Note entity, <span class="keyword">int</span> offset)</span> </span>&#123;</span><br><span class="line">        entity.setId(cursor.isNull(offset + <span class="number">0</span>) ? <span class="keyword">null</span> : cursor.getLong(offset + <span class="number">0</span>));</span><br><span class="line">        entity.setText(cursor.getString(offset + <span class="number">1</span>));</span><br><span class="line">        entity.setComment(cursor.isNull(offset + <span class="number">2</span>) ? <span class="keyword">null</span> : cursor.getString(offset + <span class="number">2</span>));</span><br><span class="line">        entity.setDate(cursor.isNull(offset + <span class="number">3</span>) ? <span class="keyword">null</span> : <span class="keyword">new</span> java.util.Date(cursor.getLong(offset + <span class="number">3</span>)));</span><br><span class="line">     &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> Long <span class="title">updateKeyAfterInsert</span><span class="params">(Note entity, <span class="keyword">long</span> rowId)</span> </span>&#123;</span><br><span class="line">        entity.setId(rowId);</span><br><span class="line">        <span class="keyword">return</span> rowId;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Long <span class="title">getKey</span><span class="params">(Note entity)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(entity != <span class="keyword">null</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> entity.getId();</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/** <span class="doctag">@inheritdoc</span> */</span></span><br><span class="line">    <span class="meta">@Override</span>    </span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">boolean</span> <span class="title">isEntityUpdateable</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="ref-links"><a href="#ref-links" class="headerlink" title="ref links:"></a>ref links:</h2><p><a href="https://greenrobot.org/greendao/documentation/generator/" target="_blank" rel="noopener">https://greenrobot.org/greendao/documentation/generator/</a></p>
-<h2 id="you-can-find-code-instances-about-generator-as-follow"><a href="#you-can-find-code-instances-about-generator-as-follow" class="headerlink" title="you can find code instances about generator as follow:"></a>you can find code instances about <code>generator</code> as follow:</h2><p>/Users/paul/code/javApp/OpenHub-master/daogenerator/src/main/java/com/thirtydereesray/AppDaoGenerator.java</p>
-<p>or:</p>
-<p><a href="https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java" target="_blank" rel="noopener">https://github.com/greenrobot/greenDAO/blob/V2.2.1/DaoExampleGenerator/src/de/greenrobot/daogenerator/gentest/ExampleDaoGenerator.java</a></p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Generates entities and DAOs for the example project DaoExample.</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * Run it as a Java application (not Android).</span></span><br><span class="line"><span class="comment"> * </span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> Markus</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExampleDaoGenerator</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        Schema schema = <span class="keyword">new</span> Schema(<span class="number">1000</span>, <span class="string">"de.greenrobot.daoexample"</span>);</span><br><span class="line"></span><br><span class="line">        addNote(schema);</span><br><span class="line">        addCustomerOrder(schema);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">new</span> DaoGenerator().generateAll(schema, <span class="string">"../DaoExample/src/main/java"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addNote</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity note = schema.addEntity(<span class="string">"Note"</span>);</span><br><span class="line">        note.addIdProperty();</span><br><span class="line">        note.addStringProperty(<span class="string">"text"</span>).notNull();</span><br><span class="line">        note.addStringProperty(<span class="string">"comment"</span>);</span><br><span class="line">        note.addDateProperty(<span class="string">"date"</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">addCustomerOrder</span><span class="params">(Schema schema)</span> </span>&#123;</span><br><span class="line">        Entity customer = schema.addEntity(<span class="string">"Customer"</span>);</span><br><span class="line">        customer.addIdProperty();</span><br><span class="line">        customer.addStringProperty(<span class="string">"name"</span>).notNull();</span><br><span class="line"></span><br><span class="line">        Entity order = schema.addEntity(<span class="string">"Order"</span>);</span><br><span class="line">        order.setTableName(<span class="string">"ORDERS"</span>); <span class="comment">// "ORDER" is a reserved keyword</span></span><br><span class="line">        order.addIdProperty();</span><br><span class="line">        Property orderDate = order.addDateProperty(<span class="string">"date"</span>).getProperty();</span><br><span class="line">        Property customerId = order.addLongProperty(<span class="string">"customerId"</span>).notNull().getProperty();</span><br><span class="line">        order.addToOne(customer, customerId);</span><br><span class="line"></span><br><span class="line">        ToMany customerToOrders = customer.addToMany(order, customerId);</span><br><span class="line">        customerToOrders.setName(<span class="string">"orders"</span>);</span><br><span class="line">        customerToOrders.orderAsc(orderDate);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<h1 id="粗浅介绍802-1br-协议"><a href="#粗浅介绍802-1br-协议" class="headerlink" title="粗浅介绍802.1br 协议"></a>粗浅介绍802.1br 协议</h1><p>对数据中心网络设备进行虚拟化，这是一种提升网络管理效率的有效方式</p>
+<p><strong>网络设备的虚拟化</strong> 不同于 <strong>网络虚拟化技术</strong> （比如<a href="https://www.cnblogs.com/itxdm/p/VLAN_TRUNK_and_VTP.html" target="_blank" rel="noopener">vlan</a>），<strong>网络设备的虚拟化</strong>  强调的是网络设备之间的融合，将所有的网络设备虚拟化成一台设备，统一对所有网络设备集中式管理，这样大大提升了网络的使用率和管理效率，802.1BR就是这样的一种,对设备进行虚拟化技术.</p>
+<p>802.1BR可以通过添加额外的标签信息只允许一个帧副本被发送和复制，从而减少了组播状况下的带宽占用，这样需要更多的硬件资源来支持。802.1BR可以将远程网络设备部署为虚拟环境中的策略控制设备，而不是部署成邻近服务器机架的设备，通过多个虚拟通道，让边缘虚拟桥复制帧到一组远程端口，利用瀑布式的串联端口灵活地设计网络，更有效地为多播帧、广播帧和单播帧分配带宽。802.1BR就是为了打破物理的限制，实现多个物理服务器连接、刀片服务器提供桥的多端口扩展能力，或是为虚拟机提供独立的桥接口逻辑连接，通过802 LAN技术和交互接口来扩展桥和桥的管理对象。</p>
+<p><strong>802.1BR可以将整个网络的设备都虚拟成为父设备的几个端口，在父设备上其它的网络设备和服务器都以端口的形式显示，所有的配置下发实际上都是在父设备上来完成，其它设备只充当流量转发的透传功能。</strong></p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><h2 id="csdn：-包含报文格式"><a href="#csdn：-包含报文格式" class="headerlink" title="csdn： 包含报文格式"></a>csdn： 包含报文格式</h2><p><a href="https://blog.csdn.net/cybertan/article/details/8348777" target="_blank" rel="noopener">https://blog.csdn.net/cybertan/article/details/8348777</a></p>
+<h2 id="cnblog-802-1br"><a href="#cnblog-802-1br" class="headerlink" title="cnblog: 802.1br"></a>cnblog: 802.1br</h2><p><a href="https://www.cnblogs.com/liheng369/p/8537052.html" target="_blank" rel="noopener">https://www.cnblogs.com/liheng369/p/8537052.html</a></p>
+<h2 id="official-doc"><a href="#official-doc" class="headerlink" title="official doc"></a>official doc</h2><p><a href="https://1.ieee802.org/dcb/802-1br/" target="_blank" rel="noopener">https://1.ieee802.org/dcb/802-1br/</a></p>
+]]></content>
       <categories>
         <category>work</category>
       </categories>
       <tags>
-        <tag>Android</tag>
+        <tag>network</tag>
       </tags>
   </entry>
   <entry>
@@ -2202,6 +2223,30 @@ user.addIntProperty(&quot;yearOfBirth&quot;);
       </categories>
       <tags>
         <tag>thinking</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>floyd_algo我终于理解啦</title>
+    <url>/2019/11/09/tech_understand_floyd_algo/</url>
+    <content><![CDATA[<p>todo 2020-04-29 19:48 你仍旧需要自己写个代码，才算理解了</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1odmva7zj32801e0wky.jpg" alt="floyd_intro.jpg"></p>
+<a id="more"></a>
+<p>path 矩阵 每次会被更新一下：</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1odu8ousj32801e0ags.jpg" alt="floyd_path.jpg"></p>
+<p>如果你要知道 1 到 0的最短路径经过了啥，那么上图的 printPath 函数可能就会输出：</p>
+<pre><code>&lt;1,3&gt; &lt;3,2&gt; &lt;2,0&gt;
+</code></pre><p>其核心算法如下：</p>
+<p><img src="http://ww1.sinaimg.cn/mw690/005JrW9Kly1ge1oe29filj32801e00yr.jpg" alt="floyd_core.jpg"></p>
+<p>820 要求你会艹上图中的A 和 path 数组。</p>
+<hr>
+<p>参考：</p>
+<p><a href="https://www.bilibili.com/video/av69308899?from=search&amp;seid=17458840725710118669" target="_blank" rel="noopener">https://www.bilibili.com/video/av69308899?from=search&amp;seid=17458840725710118669</a></p>
+]]></content>
+      <categories>
+        <category>tech</category>
+      </categories>
+      <tags>
+        <tag>algo</tag>
       </tags>
   </entry>
   <entry>
